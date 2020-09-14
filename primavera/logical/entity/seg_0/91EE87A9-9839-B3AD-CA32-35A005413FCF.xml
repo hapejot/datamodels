@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="91EE87A9-9839-B3AD-CA32-35A005413FCF" name="PROJFUND">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:57:33 UTC</createdTime>
+<generatorID>5642EE04-B8E1-E984-4485-56F8504BFCA2</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<engineerTo>
+<item key="F3498740-FDC8-7B45-3226-1B46885514C6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="proj fund id" id="F9DF7ED8-24E9-285A-CA2D-429E06A840CD">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:57:33 UTC</createdTime>
+<generatorID>51707EFB-8648-5C9A-1608-D564FFFBEECF</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<engineerTo>
+<item key="F3498740-FDC8-7B45-3226-1B46885514C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+</Attribute>
+<Attribute name="fund id" id="A2D1E7C5-9CF4-E080-871D-E1A28DDD5473">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:57:33 UTC</createdTime>
+<generatorID>FD2115AD-524F-DB2E-67FC-A543517B4E06</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<engineerTo>
+<item key="F3498740-FDC8-7B45-3226-1B46885514C6" value="true"/>
+</engineerTo>
+<referedAttribute>D64E719D-5C6B-2224-32C4-7D9D73D9F8FA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+</Attribute>
+<Attribute name="proj id" id="F15AFA37-445F-6A4F-5E28-B9B753407ED4">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:57:33 UTC</createdTime>
+<generatorID>A6B89DF6-BC08-293C-B0B5-A42527457B67</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<engineerTo>
+<item key="F3498740-FDC8-7B45-3226-1B46885514C6" value="true"/>
+</engineerTo>
+<referedAttribute>E6FEA58D-E46F-7661-4F95-8225AE7582B2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+</Attribute>
+<Attribute name="fund cost" id="695090F2-1D66-BC26-CCFB-073071BAC69F">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:57:33 UTC</createdTime>
+<generatorID>460F7300-9094-B8CD-6EBD-2A27AAEA33B1</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<engineerTo>
+<item key="F3498740-FDC8-7B45-3226-1B46885514C6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<dataTypeSize>9</dataTypeSize>
+</Attribute>
+<Attribute name="fund wt" id="4F5E8A56-CE59-29AB-F945-A59A17E84549">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:57:33 UTC</createdTime>
+<generatorID>5C828940-DB49-E40D-FE7C-B8CB116747E1</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<engineerTo>
+<item key="F3498740-FDC8-7B45-3226-1B46885514C6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>9</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="917746E9-E60B-5A3F-CD39-220F7A183416" name="pk projfund">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:57:33 UTC</createdTime>
+<generatorID>A90679BF-A598-A773-FCBF-A6D8D95D1030</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<engineerTo>
+<item key="F3498740-FDC8-7B45-3226-1B46885514C6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F9DF7ED8-24E9-285A-CA2D-429E06A840CD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F4E044B0-9698-E778-44EE-ECA89249A430" name="OBS">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:57:33 UTC</createdTime>
+<generatorID>917ABCCF-CDB7-23C7-63DC-4967AD1E80BD</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<engineerTo>
+<item key="F3498740-FDC8-7B45-3226-1B46885514C6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="obs id" id="F7BCEFD6-55DE-CFE7-18A1-C440E744D943">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:57:33 UTC</createdTime>
+<generatorID>A4AD80C4-2FBB-3534-2BAA-5814081F0E36</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<engineerTo>
+<item key="F3498740-FDC8-7B45-3226-1B46885514C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+</Attribute>
+<Attribute name="seq num" id="7ABF1317-3776-98A9-FB7E-51EA52550714">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:57:33 UTC</createdTime>
+<generatorID>033B9A2F-1115-33DF-40B7-AADDCA596D03</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<engineerTo>
+<item key="F3498740-FDC8-7B45-3226-1B46885514C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+</Attribute>
+<Attribute name="obs name" id="B94F8F81-3D68-A993-797E-160F8FB87C76">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:57:33 UTC</createdTime>
+<generatorID>B2BFD09C-FACA-921B-5894-DA4ECE2CB18B</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<engineerTo>
+<item key="F3498740-FDC8-7B45-3226-1B46885514C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>100</dataTypePrecision>
+<dataTypeSize>100</dataTypeSize>
+</Attribute>
+<Attribute name="parent obs id" id="35D61C9F-0B74-991A-29F9-3B0B5764447F">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:57:33 UTC</createdTime>
+<generatorID>B4E18E9B-F982-F648-68BD-01FBDEA37E2E</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<engineerTo>
+<item key="F3498740-FDC8-7B45-3226-1B46885514C6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+</Attribute>
+<Attribute name="guid" id="8F8773CF-D127-6874-23F6-F66293E4E1D9">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:57:33 UTC</createdTime>
+<generatorID>6D8C2DC0-EFE2-D8E7-293A-43AB2B3C781D</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<engineerTo>
+<item key="F3498740-FDC8-7B45-3226-1B46885514C6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>22</dataTypePrecision>
+<dataTypeSize>22</dataTypeSize>
+</Attribute>
+<Attribute name="obs descr" id="D7341BBE-65F2-7352-95E2-CE12651B34B6">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:57:33 UTC</createdTime>
+<generatorID>379C405C-9C30-B729-84F0-86FAF6C093D3</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<engineerTo>
+<item key="F3498740-FDC8-7B45-3226-1B46885514C6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeSize>16</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="67B6A9F7-4D69-99A4-4489-CF867A8BE84A" name="pk obs">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:57:33 UTC</createdTime>
+<generatorID>CCCFBB46-7B99-73E5-5DA6-DD178B029BB0</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<engineerTo>
+<item key="F3498740-FDC8-7B45-3226-1B46885514C6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F7BCEFD6-55DE-CFE7-18A1-C440E744D943</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

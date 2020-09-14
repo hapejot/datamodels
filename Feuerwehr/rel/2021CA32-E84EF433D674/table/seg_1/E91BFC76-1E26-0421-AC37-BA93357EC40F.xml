@@ -1,0 +1,837 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="E91BFC76-1E26-0421-AC37-BA93357EC40F" name="Funkmeldeempfänger">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>Funkmeldeempfänger</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<schemaObject>A3841CA2-5D29-F787-E277-B1126D74CC84</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Zaehler" id="26513F5C-3AD7-D86A-950D-6D27DB167CA0">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Funkmeldeempfänger</sourceObjSchema>
+<sourceObjName>Zaehler</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ort" id="322C2B12-C30D-25AC-DE81-EECF0F16AC47">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Funkmeldeempfänger</sourceObjSchema>
+<sourceObjName>Ort</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stadt" id="D356B37C-8A93-DE81-3BC0-E673C4C43526">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Funkmeldeempfänger</sourceObjSchema>
+<sourceObjName>Stadt</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HERSTELLER" id="2170ABFB-FFCC-75BF-B835-101890B41E89">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Funkmeldeempfänger</sourceObjSchema>
+<sourceObjName>HERSTELLER</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeSize>15</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYP" id="2B5A7F27-1709-D347-06ED-2887A444BCD6">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Funkmeldeempfänger</sourceObjSchema>
+<sourceObjName>TYP</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeSize>15</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BESCHAFFT" id="D112EE46-2EEC-96AB-956A-A492D2065D09">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Funkmeldeempfänger</sourceObjSchema>
+<sourceObjName>BESCHAFFT</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<dataTypePrecision>23</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SERIEN_NR" id="0286C87D-5E58-2D72-1838-BC8093B88705">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Funkmeldeempfänger</sourceObjSchema>
+<sourceObjName>SERIEN_NR</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Bemerkung" id="437E6D68-1051-EAC9-DF99-FA72A843B990">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Funkmeldeempfänger</sourceObjSchema>
+<sourceObjName>Bemerkung</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT036</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeSize>16</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zahlzumrechnen" id="4B252B8B-846B-C676-9091-0A1E234FD445">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Funkmeldeempfänger</sourceObjSchema>
+<sourceObjName>Zahlzumrechnen</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeSize>2</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Inventarnummer" id="63423EBA-42AE-5F83-7DBC-5FFA31646F7A">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Funkmeldeempfänger</sourceObjSchema>
+<sourceObjName>Inventarnummer</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Preis" id="ECE5BF68-9DE5-740A-9BA6-2BF9079264D7">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Funkmeldeempfänger</sourceObjSchema>
+<sourceObjName>Preis</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="InDienst" id="65428F80-816C-BF69-C132-A697D59868B0">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Funkmeldeempfänger</sourceObjSchema>
+<sourceObjName>InDienst</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<dataTypePrecision>23</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Lieferant" id="F906091C-C7F8-B441-9172-05AF2EF0FAC8">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Funkmeldeempfänger</sourceObjSchema>
+<sourceObjName>Lieferant</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ausgesondert" id="73FC77BD-A27D-1D36-ADC7-631C96A443DC">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Funkmeldeempfänger</sourceObjSchema>
+<sourceObjName>ausgesondert</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zahl" id="8F543BD6-194B-09B6-BA53-4E4D15BA934E">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Funkmeldeempfänger</sourceObjSchema>
+<sourceObjName>Zahl</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeSize>2</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Letztes_Update" id="008A033C-5A23-46F9-96D9-9FF274DB0CD1">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Funkmeldeempfänger</sourceObjSchema>
+<sourceObjName>Letztes_Update</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<dataTypePrecision>23</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Text1" id="A0BF9B63-B8FD-93D0-1580-CB0364490053">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Funkmeldeempfänger</sourceObjSchema>
+<sourceObjName>Text1</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Text2" id="C9B8397B-DA31-3853-3E1B-03A72ADB646F">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Funkmeldeempfänger</sourceObjSchema>
+<sourceObjName>Text2</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zahl1" id="25D07E30-AC8E-7DA8-6BDF-55C319DA65DF">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Funkmeldeempfänger</sourceObjSchema>
+<sourceObjName>Zahl1</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>53</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zahl2" id="A453411A-A66C-6A9D-8412-5C86AD92F479">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Funkmeldeempfänger</sourceObjSchema>
+<sourceObjName>Zahl2</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>53</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum1" id="87CD16A0-AFA0-DAED-E4E4-B355975719CB">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Funkmeldeempfänger</sourceObjSchema>
+<sourceObjName>Datum1</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<dataTypePrecision>23</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JaNein1" id="AB9B770B-49A6-85FD-8F2C-64E87F9975F6">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Funkmeldeempfänger</sourceObjSchema>
+<sourceObjName>JaNein1</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gerätenummer" id="F5058639-F232-A282-F813-78ECB12A62FB">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Funkmeldeempfänger</sourceObjSchema>
+<sourceObjName>Gerätenummer</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Standort" id="DC417F2E-53E3-E0DB-5D82-B45A420658F4">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Funkmeldeempfänger</sourceObjSchema>
+<sourceObjName>Standort</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Text3" id="95D29323-B498-2D00-E2EB-BC9C9FC3457B">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Funkmeldeempfänger</sourceObjSchema>
+<sourceObjName>Text3</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Text4" id="F9EEC0BA-42D7-347C-09EB-452D84A8FA32">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Funkmeldeempfänger</sourceObjSchema>
+<sourceObjName>Text4</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Text5" id="0807724A-376D-9B4E-AF81-19F5BDB6AB22">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Funkmeldeempfänger</sourceObjSchema>
+<sourceObjName>Text5</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Text6" id="09013C09-CF55-9C7F-1EA8-8813E9D7F08B">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Funkmeldeempfänger</sourceObjSchema>
+<sourceObjName>Text6</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Text7" id="F04ECC6E-2F5E-ED1D-E2C7-24AB97077BD1">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Funkmeldeempfänger</sourceObjSchema>
+<sourceObjName>Text7</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Text8" id="AEF9567F-57F7-98B9-DC7D-5F17BFE2F27B">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Funkmeldeempfänger</sourceObjSchema>
+<sourceObjName>Text8</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Text9" id="FB1A5E94-9884-E144-AE80-787BFE5D2183">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Funkmeldeempfänger</sourceObjSchema>
+<sourceObjName>Text9</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Text10" id="FF2B3526-B6FE-5C67-30B8-80911F721565">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Funkmeldeempfänger</sourceObjSchema>
+<sourceObjName>Text10</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zahl3" id="4C849230-4698-2FE6-551C-DC46DFCBAA24">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Funkmeldeempfänger</sourceObjSchema>
+<sourceObjName>Zahl3</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>53</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zahl4" id="D8EB3CEE-CAFA-A0AF-D8FA-B191C264B04A">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Funkmeldeempfänger</sourceObjSchema>
+<sourceObjName>Zahl4</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>53</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zahl5" id="9ED9D9FF-EBF0-7E73-9210-4070929E6299">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Funkmeldeempfänger</sourceObjSchema>
+<sourceObjName>Zahl5</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>53</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zahl6" id="14A74D66-7580-D41C-6C26-947CE84DF4E8">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Funkmeldeempfänger</sourceObjSchema>
+<sourceObjName>Zahl6</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>53</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zahl7" id="6608756A-AAB7-4B5A-F16A-16B3EA635E22">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Funkmeldeempfänger</sourceObjSchema>
+<sourceObjName>Zahl7</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>53</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zahl8" id="38F1B1AB-23BE-4359-0E54-8D78F21CFC4E">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Funkmeldeempfänger</sourceObjSchema>
+<sourceObjName>Zahl8</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>53</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zahl9" id="2B750649-722E-F830-B3B8-532F31B08D2D">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Funkmeldeempfänger</sourceObjSchema>
+<sourceObjName>Zahl9</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>53</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zahl10" id="5B683ED3-140F-9FA3-39EB-55BEFC66DC1A">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Funkmeldeempfänger</sourceObjSchema>
+<sourceObjName>Zahl10</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>53</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum2" id="6FF0EB16-255F-002B-1BFC-D4E67C885F37">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Funkmeldeempfänger</sourceObjSchema>
+<sourceObjName>Datum2</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<dataTypePrecision>23</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JaNein2" id="F282E8E2-904B-28EB-C107-A7DD69F0EBD7">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Funkmeldeempfänger</sourceObjSchema>
+<sourceObjName>JaNein2</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Eigentümer" id="44E7EE35-0FB5-76C5-D412-623E9AB1E1DA">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Funkmeldeempfänger</sourceObjSchema>
+<sourceObjName>Eigentümer</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Katalog_ID" id="987434D4-D4CF-58DE-BAA3-CADFD40F01D5">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Funkmeldeempfänger</sourceObjSchema>
+<sourceObjName>Katalog_ID</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kanal" id="3DBB0E92-8E26-6DC8-A36B-54C41137E0D4">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Funkmeldeempfänger</sourceObjSchema>
+<sourceObjName>Kanal</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aussondern_bis" id="C7B29944-B3F5-4882-32E0-673DD9C14676">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Funkmeldeempfänger</sourceObjSchema>
+<sourceObjName>aussondern_bis</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<dataTypePrecision>23</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="69B76E48-3BA0-9AC6-E8A4-7EDD967EF3BB" name="FunkmeldeempfängerZahl">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>FunkmeldeempfängerZahl</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F543BD6-194B-09B6-BA53-4E4D15BA934E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79DD4B7D-1B55-B97C-621A-0C683EC62160" name="Inventarnummer">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>Inventarnummer</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:50 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63423EBA-42AE-5F83-7DBC-5FFA31646F7A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="25D8B59E-9C0C-EF0E-1BEC-2683301F2B94" name="SERIEN_NR">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>SERIEN_NR</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:50 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0286C87D-5E58-2D72-1838-BC8093B88705"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC5E99A3-B1C4-1BCE-E7B3-275F10944BDF" name="Zaehler">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>Zaehler</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:50 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26513F5C-3AD7-D86A-950D-6D27DB167CA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints>
+<tableCheckConstraint class="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint" name="DF__Funkmelde__ausge__21D7979C" directorySegmentName="seg_6" id="5CDA2232-B2EC-D0CA-6217-3F1F0F1868DB">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>DF__Funkmelde__ausge__21D7979C</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:50 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<rule>(0)</rule>
+</tableCheckConstraint>
+<tableCheckConstraint class="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint" name="DF__Funkmelde__JaNei__22CBBBD5" directorySegmentName="seg_6" id="97D8023D-E0B7-4367-217A-7D30D1AF0835">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>DF__Funkmelde__JaNei__22CBBBD5</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:50 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<rule>(0)</rule>
+</tableCheckConstraint>
+<tableCheckConstraint class="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint" name="DF__Funkmelde__JaNei__23BFE00E" directorySegmentName="seg_6" id="B07C45D4-661B-0F7F-8C84-86CF067A4AE9">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>DF__Funkmelde__JaNei__23BFE00E</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:50 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<rule>(0)</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

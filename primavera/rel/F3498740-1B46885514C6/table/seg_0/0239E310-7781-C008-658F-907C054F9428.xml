@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0239E310-7781-C008-658F-907C054F9428" name="FACTOR">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>FACTOR</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:17 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<schemaObject>91F3E89B-168D-624B-6BAA-117B6452746E</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="fact_id" id="CE6C722F-AD6B-EFC3-22C0-36D3F855EB3B">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>FACTOR</sourceObjSchema>
+<sourceObjName>fact_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:17 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fact_seq_num" id="24A8D783-DA70-1B0E-E076-ADABDC95C435">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>FACTOR</sourceObjSchema>
+<sourceObjName>fact_seq_num</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:17 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fact_type" id="BEBE1E06-7890-DB41-3FED-F9ED4CF77E87">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>FACTOR</sourceObjSchema>
+<sourceObjName>fact_type</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:17 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeSize>20</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fact_name" id="E120AD60-6E44-5134-8CBA-17E7E42A82D8">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>FACTOR</sourceObjSchema>
+<sourceObjName>fact_name</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:17 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>100</dataTypePrecision>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="def_fact_val_id" id="6A705B9C-681C-BE4D-4923-FA8F7A670BAB">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>FACTOR</sourceObjSchema>
+<sourceObjName>def_fact_val_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:17 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fact_descr" id="49EDB888-6115-21C3-712F-4BFD6D5F5C78">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>FACTOR</sourceObjSchema>
+<sourceObjName>fact_descr</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:17 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeSize>16</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7BF92FB3-B7E6-E538-B5E0-C0446BF83A46" name="FACTOR_PK">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>pk_factor</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:17 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE6C722F-AD6B-EFC3-22C0-36D3F855EB3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints>
+<tableCheckConstraint class="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint" name="ck_factor_fact_type" directorySegmentName="seg_0" id="D62AF324-A919-AFB7-CE61-718EEFB2506D">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>ck_factor_fact_type</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:17 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<rule>NOT ([fact_type]=&apos; &apos; OR [fact_type]=&apos;&apos;)</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

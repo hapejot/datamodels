@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D4F8F9CB-9C2C-2EC1-FC59-1206DFC7B663" name="ActivityHasParty">
+<sourceDDLFile>php.sql</sourceDDLFile>
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 06:07:06 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ActivityId" id="0C87C5C4-CFC6-3D64-BB2F-D1A0C8A7FBA4">
+<sourceDDLFile>php.sql</sourceDDLFile>
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 06:07:06 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2CAF58CA-DCDC-240C-99FF-341759DB6075</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PartyId" id="A0EAD24C-BBFA-7EEC-738A-C13D169FA42C">
+<sourceDDLFile>php.sql</sourceDDLFile>
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 06:07:06 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2CAF58CA-DCDC-240C-99FF-341759DB6075</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Role" id="1D9C6E27-E9F0-755B-3802-D22109FEDF58">
+<sourceDDLFile>php.sql</sourceDDLFile>
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 06:07:06 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F32A4242-A138-AE2F-DA8A-0F32B89AE0DA</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KEY" id="BC817F85-B4D1-3E90-3504-CAA073E689AD">
+<sourceDDLFile>php.sql</sourceDDLFile>
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 06:07:06 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KEY1" id="21D5BFDF-0AAA-2851-54E9-6B6F86159CAB">
+<sourceDDLFile>php.sql</sourceDDLFile>
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 06:07:06 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9134D631-CD1D-C564-77EB-915B9F0951C1" name="ActivityHasParty_PK">
+<sourceDDLFile>php.sql</sourceDDLFile>
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 06:07:06 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C87C5C4-CFC6-3D64-BB2F-D1A0C8A7FBA4"/>
+<colUsage columnID="A0EAD24C-BBFA-7EEC-738A-C13D169FA42C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

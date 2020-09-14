@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxySqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.TableProxySqlServerv2k5" name="PROJFUND" directorySegmentName="seg_0" id="5642EE04-B8E1-E984-4485-56F8504BFCA2">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:17 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<database>0F6D9204-2E67-5485-5B0B-44D87AE41992</database>
+<filegroup>4E8C0BFE-619B-5B45-4D00-B37CDAB1A6B9</filegroup>
+<schema>0CB982A8-46F3-E00A-2358-A39DDEB7A82D</schema>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="fund_cost" id="460F7300-9094-B8CD-6EBD-2A27AAEA33B1">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:17 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="proj_fund_id" id="51707EFB-8648-5C9A-1608-D564FFFBEECF">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:17 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="fund_wt" id="5C828940-DB49-E40D-FE7C-B8CB116747E1">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:17 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="proj_id" id="D5A3DCA0-5B3A-A095-FD4A-1EA7C77A33CA">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:17 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="fund_id" id="D9990881-DD33-108B-935B-56C2F195CD13">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:17 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.IndexProxySqlServerv2k5" name="ndx_projfund_1" id="67EB89AE-C87F-1E28-C054-ABB139942D00">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:17 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<fileGroup>4E8C0BFE-619B-5B45-4D00-B37CDAB1A6B9</fileGroup>
+<fillFactor>80</fillFactor>
+<recomputeStatistics>OFF</recomputeStatistics>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.IndexProxySqlServerv2k5" name="ndx_projfund_fundsrc" id="8268679B-D8AC-82B5-9370-B76C17F5DB2C">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:17 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<fileGroup>4E8C0BFE-619B-5B45-4D00-B37CDAB1A6B9</fileGroup>
+<fillFactor>80</fillFactor>
+<recomputeStatistics>OFF</recomputeStatistics>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="fk_projfund_fundsrc" id="5FE9F581-DA70-556E-C710-F1D0095A83BD">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:31 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="fk_projfund_project" id="87C8AB23-3ADE-74DE-E064-5A91651D6E0D">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:31 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.PKProxySqlServerv2k5" name="PROJFUND_PK" id="A90679BF-A598-A773-FCBF-A6D8D95D1030">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:17 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<clustered>true</clustered>
+<fileGroup>4E8C0BFE-619B-5B45-4D00-B37CDAB1A6B9</fileGroup>
+<recomputeStatistics>NO</recomputeStatistics>
+</PrimaryKey>
+</primaryKeys>
+</TableProxySqlServerv2k5>

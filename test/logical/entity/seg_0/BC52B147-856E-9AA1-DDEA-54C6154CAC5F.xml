@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BC52B147-856E-9AA1-DDEA-54C6154CAC5F" name="Feature">
+<createdBy>peja0065</createdBy>
+<createdTime>2013-05-30 21:03:19 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2730163C-FF5D-4C96-2C32-CF2EC30018BC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="688E3161-889F-19F2-2DBC-6A2D5A060836">
+<createdBy>peja0065</createdBy>
+<createdTime>2013-05-30 21:09:05 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2730163C-FF5D-4C96-2C32-CF2EC30018BC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>448DB7AB-CEB0-9FEB-C28B-2A0B70A01351</domain>
+</Attribute>
+<Attribute name="Title" id="EB5BC506-FC92-D87A-78FE-23AD1D97E397">
+<createdBy>peja0065</createdBy>
+<createdTime>2013-05-30 21:09:12 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2730163C-FF5D-4C96-2C32-CF2EC30018BC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>3B511681-8CBA-1775-BE07-8A10880B6B09</domain>
+</Attribute>
+<Attribute name="RealisedInReleaseID" id="BCEC6628-232B-1B26-1551-5941D6B83D1E">
+<createdBy>peja0065</createdBy>
+<createdTime>2013-05-30 21:28:30 UTC</createdTime>
+<generatorID>F83C691F-14AD-689C-043A-F7C4F11DC141</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2730163C-FF5D-4C96-2C32-CF2EC30018BC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>EF4838F1-9D49-7AEA-32D5-052B1450D55A</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>448DB7AB-CEB0-9FEB-C28B-2A0B70A01351</domain>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="332DF3B3-1080-7FD7-F79A-09735DC16482" name="Feature PK">
+<createdBy>peja0065</createdBy>
+<createdTime>2013-05-30 21:09:08 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2730163C-FF5D-4C96-2C32-CF2EC30018BC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>688E3161-889F-19F2-2DBC-6A2D5A060836</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

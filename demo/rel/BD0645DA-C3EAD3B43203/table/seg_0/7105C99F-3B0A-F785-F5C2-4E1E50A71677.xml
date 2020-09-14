@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7105C99F-3B0A-F785-F5C2-4E1E50A71677" name="Parent">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-04 18:01:18 UTC</createdTime>
+<generatorID>9E6D3559-EE05-20C6-386F-C0F534C2D8E6</generatorID>
+<ownerDesignName>demo</ownerDesignName>
+<abbreviation>Parent</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Name" id="53465A63-79E4-A5D7-BDFF-805691AFBF0F">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-04 18:01:18 UTC</createdTime>
+<generatorID>DA1EA1E5-3155-BD8B-A435-41076B534044</generatorID>
+<ownerDesignName>demo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Parent_ID" id="2AE0837D-921D-8F22-AD40-758F8C1A7F53">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-04 18:01:18 UTC</createdTime>
+<ownerDesignName>demo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="33A9E4CE-0A36-91F2-1D81-2AA2CC3E7A99" name="Parent_PK">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-04 18:01:18 UTC</createdTime>
+<ownerDesignName>demo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="2AE0837D-921D-8F22-AD40-758F8C1A7F53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

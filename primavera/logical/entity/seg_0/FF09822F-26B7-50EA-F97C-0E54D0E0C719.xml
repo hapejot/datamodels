@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FF09822F-26B7-50EA-F97C-0E54D0E0C719" name="PCATTYPE">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:57:33 UTC</createdTime>
+<generatorID>D6C766D9-4EF1-4CA7-2BF7-8FCEEFDA9F13</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<engineerTo>
+<item key="F3498740-FDC8-7B45-3226-1B46885514C6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="proj catg type id" id="4F37A453-75DD-DF70-1502-CA75B15261E5">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:57:33 UTC</createdTime>
+<generatorID>F3162A87-964F-0961-8743-21B567DE6338</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<engineerTo>
+<item key="F3498740-FDC8-7B45-3226-1B46885514C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+</Attribute>
+<Attribute name="seq num" id="996A3AF7-7A1C-C957-6106-69123C06D9DB">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:57:33 UTC</createdTime>
+<generatorID>3542E21B-A6BE-AA90-D6EB-EC2838697CA6</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<engineerTo>
+<item key="F3498740-FDC8-7B45-3226-1B46885514C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+</Attribute>
+<Attribute name="proj catg short len" id="DA1552C9-0241-51FC-7258-D2433FBF0955">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:57:33 UTC</createdTime>
+<generatorID>5A969466-80D5-C578-22FB-DC54E330D0AD</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<engineerTo>
+<item key="F3498740-FDC8-7B45-3226-1B46885514C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+</Attribute>
+<Attribute name="proj catg type" id="B3232C32-F14B-A040-8D52-07280C32964B">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:57:33 UTC</createdTime>
+<generatorID>7C97569D-AC9D-474E-CFD5-ED0368B566AE</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<engineerTo>
+<item key="F3498740-FDC8-7B45-3226-1B46885514C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>40</dataTypePrecision>
+<dataTypeSize>40</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="20864EE1-5AB1-F175-BE58-4640548BF3E3" name="pk pcattype">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:57:33 UTC</createdTime>
+<generatorID>CAB3BDED-0420-2D3E-9F07-18A54B4313B3</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<engineerTo>
+<item key="F3498740-FDC8-7B45-3226-1B46885514C6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4F37A453-75DD-DF70-1502-CA75B15261E5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

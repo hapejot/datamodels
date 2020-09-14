@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="53EB8794-2E30-86F8-3471-B1211E76D8EE" name="Contact">
+<sourceDDLFile>php.sql</sourceDDLFile>
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 06:07:06 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="CC6CEE3D-42A4-E589-A3FA-C5D57B9EF0E2">
+<sourceDDLFile>php.sql</sourceDDLFile>
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 06:07:06 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AttachType" id="9E4F6C75-B49A-7B03-171D-04AC34859FB2">
+<sourceDDLFile>php.sql</sourceDDLFile>
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 06:07:06 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0C95665A-4D71-6D9A-1B73-8FDE08DB9E3F</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AttachId" id="9F3213D1-045C-9FDF-2B81-590992B44BAA">
+<sourceDDLFile>php.sql</sourceDDLFile>
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 06:07:06 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TargetType" id="8A386A58-38CF-0435-ED6D-22D23ED857F5">
+<sourceDDLFile>php.sql</sourceDDLFile>
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 06:07:06 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0C95665A-4D71-6D9A-1B73-8FDE08DB9E3F</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TargetId" id="3D684E42-A4E5-C754-F65A-5ABBE1EA082A">
+<sourceDDLFile>php.sql</sourceDDLFile>
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 06:07:06 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Deleted" id="B710194C-44E5-BE3D-0F5A-CA8C1257664B">
+<sourceDDLFile>php.sql</sourceDDLFile>
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 06:07:06 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<nullsAllowed>true</nullsAllowed>
+<defaultValue>&apos;0&apos;</defaultValue>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D721EDA-3079-7D4C-C86D-0AAA81FD77EB" name="Contact_PK">
+<sourceDDLFile>php.sql</sourceDDLFile>
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 06:07:06 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC6CEE3D-42A4-E589-A3FA-C5D57B9EF0E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ECD51AA3-9014-EC1D-5E21-678138CD5876" name="RSRFOLIO">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>RSRFOLIO</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:29 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<schemaObject>91F3E89B-168D-624B-6BAA-117B6452746E</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rfolio_id" id="B472BE77-7D2F-B690-4808-45D25362B058">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>RSRFOLIO</sourceObjSchema>
+<sourceObjName>rfolio_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:29 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<delegate>8B680F50-A5EB-D2E2-73DE-55717F1CAB75</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8326B341-A170-2F93-672E-0B73554DC764" referredColumn="8B680F50-A5EB-D2E2-73DE-55717F1CAB75"/>
+</associations>
+</Column>
+<Column name="rsrc_id" id="928E5A6F-4CC1-7BE0-BD30-148E1CE293AC">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>RSRFOLIO</sourceObjSchema>
+<sourceObjName>rsrc_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:29 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<delegate>6B93A835-E980-E645-3642-231CD2389872</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A714A48E-79EA-EC33-CA1D-7D08708A2C41" referredColumn="6B93A835-E980-E645-3642-231CD2389872"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6F1F006D-3B57-EF70-2DBC-DEA5B45FB7C0" name="RSRFOLIO_PK">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>pk_rsrfolio</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:29 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B472BE77-7D2F-B690-4808-45D25362B058"/>
+<colUsage columnID="928E5A6F-4CC1-7BE0-BD30-148E1CE293AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DB1A3DB2-DFC5-98F7-D85F-59F4ECA4E12B" name="ndx_rsrfolio_rsrc">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>ndx_rsrfolio_rsrc</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:29 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="928E5A6F-4CC1-7BE0-BD30-148E1CE293AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4CBADA9D-51DF-DB25-A37E-A4C2EBA2D4E8" name="fk_rsrfolio_rfolio">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:32 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B472BE77-7D2F-B690-4808-45D25362B058"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="710519AA-BF78-A31E-5203-D48A3FB85F35" name="fk_rsrfolio_rsrc">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:32 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="928E5A6F-4CC1-7BE0-BD30-148E1CE293AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

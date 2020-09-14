@@ -1,0 +1,952 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FD0F650F-3869-C99E-B739-4D763FAE1C45" name="Fahrzeuge">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>Fahrzeuge</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<schemaObject>A3841CA2-5D29-F787-E277-B1126D74CC84</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Zähler" id="B4653173-0019-C5C8-C9A0-ED9E3C4C42B1">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>Zähler</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kennzeichen" id="68070934-1205-C763-A2A6-737DBC7E93AA">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>Kennzeichen</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeSize>15</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FunkrufnameText" id="2DB97DD1-833A-31CB-1BA8-D8A97E67B1DC">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>FunkrufnameText</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeSize>20</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Funkrufname" id="0F7E310F-8BB6-6A77-5456-1875B10E1291">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>Funkrufname</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeSize>20</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fahrzeugart" id="ABF3CF74-2F14-4E97-9926-E2FECA991B07">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>Fahrzeugart</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zusätzliche Bezeichnung" id="0944379F-4CE6-B1B8-4BE8-E36A38B6D8BB">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>zusätzliche Bezeichnung</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Firma" id="2A353813-D254-41CF-51F2-1553EA3CE603">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>Firma</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Typ" id="080616B3-1C39-3484-AC0F-D0BB31096293">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>Typ</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Lieferant" id="99373777-C54C-D5C5-907B-2F4CF77A4DA7">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>Lieferant</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Aufbauhersteller" id="8D1500E5-F5FE-EE7B-8E6C-510DB7027A78">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>Aufbauhersteller</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fahrzeughersteller" id="8DA1DCA8-C763-4384-3E53-F85B98C737AC">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>Fahrzeughersteller</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stadt" id="755EE71D-9508-0976-62B7-197BDF40F8F9">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>Stadt</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Standort" id="199BBFF9-7095-DF2E-C881-E08B78EE1D02">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>Standort</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Identitaet" id="50020A78-8E31-1F7D-A060-F0ABAE4CB98F">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>Identitaet</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Beschafft" id="F041432E-B761-C9D0-2375-4B7D094DE7E7">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>Beschafft</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Preis" id="E603EF56-9C66-4D71-FB3C-57156EE5EF03">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>Preis</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="InDienstGestellt" id="93ECAF33-38C0-EF7E-5A51-F5CEFF7B840E">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>InDienstGestellt</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<dataTypePrecision>23</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ASU" id="A91C1715-2F30-2F36-F548-EFECA708470D">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>ASU</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BSU" id="D3CF911B-9854-A7F1-57FA-214B44CD3F7A">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>BSU</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TUEV" id="3CA0C040-6BE9-43F6-2672-DA13FF615B35">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>TUEV</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SP" id="214A82A8-9FC6-7E36-ADFF-C8AA78FF9849">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>SP</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ausgesondert" id="2EDEC3B7-9F81-C410-6D93-2DC792E4AFD5">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>ausgesondert</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zahl" id="3AC12471-8E2A-F516-ECC7-6E610A8F17B0">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>Zahl</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeSize>2</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Bemerkungen" id="A157D532-475D-06C6-237A-912AEC5E7CFE">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>Bemerkungen</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT036</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeSize>16</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Letztes_Update" id="DE7AAFEE-727D-C96D-17BA-336AA76EA167">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>Letztes_Update</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<dataTypePrecision>23</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Text1" id="34CD8F35-C057-2E01-E2CE-BDB0B17DC45D">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>Text1</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Text2" id="DDDA4D90-37AC-89BA-10CE-4539E710B74E">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>Text2</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zahl1" id="352B98E9-C3CA-C5CB-7BA3-8211D4EF1246">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>Zahl1</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>53</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zahl2" id="69A84925-62CC-B233-4683-D060A2ECEBCE">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>Zahl2</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>53</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum1" id="D94949F0-759B-0D13-4E1E-BB539311CE78">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>Datum1</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<dataTypePrecision>23</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JaNein1" id="F1B8CA69-418B-E93D-9B55-7476E3001E93">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>JaNein1</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Inventarnummer" id="5D4CBBD4-F765-2347-06BB-4A8FE01B9C62">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>Inventarnummer</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Standort2" id="82B7E362-BE66-AD75-5F5D-27E36F837CBD">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>Standort2</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Text3" id="6D45C8D3-8000-4AAA-9175-57D78C18A231">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>Text3</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Text4" id="F99E8574-8645-F8EF-7067-6E3356C1FA02">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>Text4</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Text5" id="F4E235DF-BE4A-077F-3921-D3396E6AC507">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>Text5</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Text6" id="B2B2C8DB-5A97-C602-7002-BDEC72CADD4D">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>Text6</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Text7" id="DB090BE0-6388-DA44-84E9-71BCA5EEE725">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>Text7</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Text8" id="0292E29F-1FE3-318C-89BD-BEE33B0F2317">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>Text8</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Text9" id="2CDE5C6C-8DBF-128F-6F08-1884CE09A1F3">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>Text9</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Text10" id="3AC48374-DFE5-54E2-5C80-0BE04E7F5597">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>Text10</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zahl3" id="3DA5ECE8-9A59-7D8C-F22E-123106FB0714">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>Zahl3</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>53</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zahl4" id="1091C578-9625-1048-45BC-919A80A38CA5">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>Zahl4</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>53</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zahl5" id="5F41F52E-B315-49A0-40CC-69B90A9EE20E">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>Zahl5</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>53</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zahl6" id="29D21966-A3F6-452D-040F-41FB33209BD5">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>Zahl6</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>53</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zahl7" id="A15348C2-E22B-87E8-E39A-9B4F6B3D91BB">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>Zahl7</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>53</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zahl8" id="CECA0B30-8872-829E-CA88-ED55144A5528">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>Zahl8</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>53</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zahl9" id="A86CE2CA-BF24-4EA3-B425-FAB30CDFF1CB">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>Zahl9</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>53</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zahl10" id="C8724DCB-3304-D310-52A0-39831ADBAD94">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>Zahl10</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>53</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum2" id="35BC3A88-6A80-D55E-A1A3-DBF4BA161295">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>Datum2</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<dataTypePrecision>23</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JaNein2" id="729E4C08-469C-E8E8-4B90-DB17E7654B9D">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>JaNein2</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Eigentümer" id="48A4B837-684E-4C3F-E343-894F56F697E9">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>Eigentümer</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Katalog_ID" id="85B0FBF5-C6EE-2863-CB44-C9BE522F82DF">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>Katalog_ID</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aussondern_bis" id="62DC72D3-8EFF-FCF5-8CC3-9E2A43CD8FCC">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Fahrzeuge</sourceObjSchema>
+<sourceObjName>aussondern_bis</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<dataTypePrecision>23</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5BD24B65-08DA-11A6-22D4-644FF3EB427F" name="FahrzeugeZahl">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>FahrzeugeZahl</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3AC12471-8E2A-F516-ECC7-6E610A8F17B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF7D3420-C081-773E-0907-393C52C92EE3" name="Identitaet">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>Identitaet</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50020A78-8E31-1F7D-A060-F0ABAE4CB98F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="332D98CD-A88F-793E-BBDB-7441FF5CCBD7" name="Zähler">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>Zähler</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4653173-0019-C5C8-C9A0-ED9E3C4C42B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints>
+<tableCheckConstraint class="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint" name="DF__Fahrzeuge__ausge__1C1EBE46" directorySegmentName="seg_5" id="FDB24D13-22B8-2718-1759-D7683109955C">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>DF__Fahrzeuge__ausge__1C1EBE46</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<rule>(0)</rule>
+</tableCheckConstraint>
+<tableCheckConstraint class="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint" name="DF__Fahrzeuge__JaNei__1D12E27F" directorySegmentName="seg_5" id="4717C5F4-9D8F-0E02-D8D3-ABDF7748AEDF">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>DF__Fahrzeuge__JaNei__1D12E27F</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<rule>(0)</rule>
+</tableCheckConstraint>
+<tableCheckConstraint class="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint" name="DF__Fahrzeuge__JaNei__1E0706B8" directorySegmentName="seg_5" id="5E72BE42-C705-B197-F7AC-9B53F4BE7070">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>DF__Fahrzeuge__JaNei__1E0706B8</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:48 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<rule>(0)</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerSqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.TriggerSqlServerv2k5" name="T_Sitzungen_TOP_ITrig" directorySegmentName="seg_0" id="79CDE585-4127-7241-DE76-D2D4EB2D97C1">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>T_Sitzungen_TOP_ITrig</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:49:06 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<actions>INSERT</actions>
+<body>CREATE TRIGGER T_Sitzungen_TOP_ITrig ON [Sitzungen TOP] FOR INSERT AS&lt;br&gt;SET NOCOUNT ON&lt;br&gt;/* * KEINE EINFÜGUNG BEI FEHLEN EINES PASSENDEN SCHLÜSSELS IN &apos;Sitzungen&apos; */&lt;br&gt;IF (SELECT COUNT(*) FROM inserted) !=&lt;br&gt;   (SELECT COUNT(*) FROM Sitzungen, inserted WHERE (Sitzungen.&quot;Zähler&quot; = inserted.Zahl))&lt;br&gt;    BEGIN&lt;br&gt;        RAISERROR 44447 &apos;Der Datensatz kann nicht hinzugefügt oder geändert werden. Aufgrund der Regeln für die referenzielle Integrität ist in der Tabelle &apos;&apos;Sitzungen&apos;&apos; ein verknüpfter (verwandter) Datensatz erforderlich.&apos;&lt;br&gt;        ROLLBACK TRANSACTION&lt;br&gt;    END&lt;br&gt;</body>
+<triggerTime>AFTER</triggerTime>
+<schema>612B09AB-F869-F6FA-26A6-9FEC143B09C0</schema>
+<table>B9CF288F-0FB7-725C-E09A-D81708E5C2F0</table>
+</TriggerSqlServerv2k5>

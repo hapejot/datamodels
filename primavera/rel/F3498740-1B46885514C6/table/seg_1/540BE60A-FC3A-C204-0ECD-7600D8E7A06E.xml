@@ -1,0 +1,227 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="540BE60A-FC3A-C204-0ECD-7600D8E7A06E" name="TRSRCSUM">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>TRSRCSUM</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:22 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<schemaObject>91F3E89B-168D-624B-6BAA-117B6452746E</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="taskrsrc_sum_id" id="FEDD1BFC-66E3-CAA2-03AC-E403D66D7A39">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>TRSRCSUM</sourceObjSchema>
+<sourceObjName>taskrsrc_sum_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:22 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="proj_id" id="47B4BFC7-3A35-6D3A-4FB3-8DCDE48479BE">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>TRSRCSUM</sourceObjSchema>
+<sourceObjName>proj_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:22 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<delegate>64D7971B-0A14-9847-B846-139193AF42A3</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5B6AE1D3-E174-4833-8641-CAF4A664B4D5" referredColumn="64D7971B-0A14-9847-B846-139193AF42A3"/>
+</associations>
+</Column>
+<Column name="rsrc_id" id="A0D69D6C-0B21-D27E-0897-E2E956D34504">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>TRSRCSUM</sourceObjSchema>
+<sourceObjName>rsrc_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:22 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<delegate>6B93A835-E980-E645-3642-231CD2389872</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="86FDA3E7-0D9A-94C5-E327-0B6BD9AF40EF" referredColumn="6B93A835-E980-E645-3642-231CD2389872"/>
+</associations>
+</Column>
+<Column name="role_id" id="8DBE3873-9220-ECEA-446B-287E195CA938">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>TRSRCSUM</sourceObjSchema>
+<sourceObjName>role_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:22 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<delegate>9CBCA4CC-740F-B2B2-FE8B-E2849105173D</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="531E77B0-B5C0-1935-602E-E6582000D247" referredColumn="9CBCA4CC-740F-B2B2-FE8B-E2849105173D"/>
+</associations>
+</Column>
+<Column name="skill_level" id="8EEB64E3-B41E-A8B4-6C4F-DF0F1784B7EB">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>TRSRCSUM</sourceObjSchema>
+<sourceObjName>skill_level</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:22 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="overalloc_date" id="D92EE4F7-102A-8304-1225-8990D18964B8">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>TRSRCSUM</sourceObjSchema>
+<sourceObjName>overalloc_date</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:22 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<dataTypePrecision>23</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="spread_data" id="ECFAC28E-7F85-6A08-06D0-1313B023022A">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>TRSRCSUM</sourceObjSchema>
+<sourceObjName>spread_data</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:22 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeSize>16</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="52F940D3-646F-C21B-5E52-FB36D1CE81DD" name="TRSRCSUM_PK">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>pk_trsrcsum</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:22 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FEDD1BFC-66E3-CAA2-03AC-E403D66D7A39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="29CFBF3F-30C9-50FB-7DE2-526B0C912506" name="ndx_trsrcsum_1">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>ndx_trsrcsum_1</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:22 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47B4BFC7-3A35-6D3A-4FB3-8DCDE48479BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D6EFFE1F-C636-363A-3A6D-97765E571006" name="ndx_trsrcsum_roles">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>ndx_trsrcsum_roles</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:22 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DBE3873-9220-ECEA-446B-287E195CA938"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FAC8D21C-910B-2D6D-D5E7-F7E23D2D3080" name="ndx_trsrcsum_rsrc">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>ndx_trsrcsum_rsrc</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:22 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0D69D6C-0B21-D27E-0897-E2E956D34504"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8286DBE7-8BCD-F178-C4D3-A5D4ED710E98" name="fk_trsrcsum_project">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:32 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47B4BFC7-3A35-6D3A-4FB3-8DCDE48479BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="52DF786C-04CC-7780-C86C-D65F6D96F8DD" name="fk_trsrcsum_roles">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:32 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DBE3873-9220-ECEA-446B-287E195CA938"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="788771EF-13EF-6165-EED6-07D2C82980CA" name="fk_trsrcsum_rsrc">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:32 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0D69D6C-0B21-D27E-0897-E2E956D34504"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

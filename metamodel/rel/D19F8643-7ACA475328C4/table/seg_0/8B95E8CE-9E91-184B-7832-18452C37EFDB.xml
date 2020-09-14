@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8B95E8CE-9E91-184B-7832-18452C37EFDB" schemaObject="7ECDC589-AE45-A96C-09AF-3E1BAB310B07" name="APP">
+<createdBy>peter</createdBy>
+<createdTime>2017-09-29 07:17:29 UTC</createdTime>
+<generatorID>3B8EA190-C70D-230F-A05B-C2317EB2B2B6</generatorID>
+<ownerDesignName>metamodel</ownerDesignName>
+<abbreviation>App</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Name" id="52932485-B213-3959-5951-14712A9EE4A3">
+<createdBy>peter</createdBy>
+<createdTime>2017-09-29 07:17:29 UTC</createdTime>
+<generatorID>27FD84F8-EBE9-84BC-A2EC-6DB72BE3BE65</generatorID>
+<ownerDesignName>metamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>CB9B6B32-E750-34C6-ACE2-839B20120EBA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID" id="545CB787-BAFE-4EF5-24B0-C3E28BC73FF1">
+<createdBy>peter</createdBy>
+<createdTime>2017-09-29 07:17:29 UTC</createdTime>
+<ownerDesignName>metamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="00073890-5C7F-C583-7A16-30F98DFA1EF9" name="App_PK">
+<createdBy>peter</createdBy>
+<createdTime>2017-09-29 07:17:29 UTC</createdTime>
+<ownerDesignName>metamodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="545CB787-BAFE-4EF5-24B0-C3E28BC73FF1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

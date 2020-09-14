@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8834FD3F-EB03-BBE2-86BF-81B95AEBDB37" name="pattern">
+<sourceDDLFile>pw.sql</sourceDDLFile>
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 05:43:11 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<importedID>863E2A06-85C5-6802-68D7-2B8F6BE08968</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sitename" id="022DE142-15E9-B457-620F-51220F550859">
+<sourceDDLFile>pw.sql</sourceDDLFile>
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 05:43:11 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<importedID>6E887E64-BA98-2C0D-275A-3A2D0ED9B7B6</importedID>
+<defaultValue>&apos;&apos;</defaultValue>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0C95665A-4D71-6D9A-1B73-8FDE08DB9E3F</domain>
+<usesDefaultValue>true</usesDefaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pattern" id="E6780F49-35C8-5BA9-23F2-DA96B05EE3C4">
+<sourceDDLFile>pw.sql</sourceDDLFile>
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 05:43:11 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<importedID>ABD7A148-0A2F-9064-971B-3CB8746EBD85</importedID>
+<defaultValue>&apos;&apos;</defaultValue>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0C95665A-4D71-6D9A-1B73-8FDE08DB9E3F</domain>
+<usesDefaultValue>true</usesDefaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="siteid" id="A68D09D5-E56E-FF55-3833-019CE3F3DD89">
+<sourceDDLFile>pw.sql</sourceDDLFile>
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 05:43:11 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<importedID>2FA1C785-8C89-2709-606B-5251DF7A6B3B</importedID>
+<defaultValue>&apos;0&apos;</defaultValue>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>80F33B28-B332-F0E6-7FEC-65D7AB8C9763</domain>
+<usesDefaultValue>true</usesDefaultValue>
+<delegate>C3F8C1A5-0184-07F1-0CD2-E969D264C307</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="47E51F06-FCF6-3586-C023-615E64C3034B" referredColumn="C3F8C1A5-0184-07F1-0CD2-E969D264C307"/>
+</associations>
+</Column>
+<Column name="lastused" id="89FCD116-F024-C81A-EF46-FB575DD594CE">
+<sourceDDLFile>pw.sql</sourceDDLFile>
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 05:43:11 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<importedID>7B4172FA-284C-B90C-00D0-52F48F754DAE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>BB00E4DC-712F-DA47-E499-378EF190251E</domain>
+<usesDefaultValue>true</usesDefaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="16C57E31-8BBD-4596-E7E7-267B005E84A5" name="pattern_PK">
+<sourceDDLFile>pw.sql</sourceDDLFile>
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 05:43:11 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<importedID>B5BC0CC3-9465-9B35-B56C-0EB2C3D62595</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6780F49-35C8-5BA9-23F2-DA96B05EE3C4"/>
+<colUsage columnID="A68D09D5-E56E-FF55-3833-019CE3F3DD89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BBE0ACEC-5ADA-1C8C-F9B2-96BD87F01358" name="pattern_site_FK">
+<createdBy>peter</createdBy>
+<createdTime>2013-11-05 15:20:37 UTC</createdTime>
+<generatorID>55BF0726-32FF-14E9-BF32-654D67FAE476</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A68D09D5-E56E-FF55-3833-019CE3F3DD89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

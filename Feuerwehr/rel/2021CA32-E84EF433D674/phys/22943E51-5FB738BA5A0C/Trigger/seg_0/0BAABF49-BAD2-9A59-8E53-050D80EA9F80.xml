@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerSqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.TriggerSqlServerv2k5" name="T_Sitzungen_UTrig" directorySegmentName="seg_0" id="0BAABF49-BAD2-9A59-8E53-050D80EA9F80">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>T_Sitzungen_UTrig</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:49:00 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<actions>UPDATE</actions>
+<body>CREATE TRIGGER T_Sitzungen_UTrig ON [Sitzungen] FOR UPDATE AS&lt;br&gt;SET NOCOUNT ON&lt;br&gt;/* * AKTUALISIERUNGSWEITERGABE AN &apos;Sitzungen Teilnehmer&apos; */&lt;br&gt;IF UPDATE(&quot;Zähler&quot;)&lt;br&gt;    BEGIN&lt;br&gt;       UPDATE &quot;Sitzungen Teilnehmer&quot;&lt;br&gt;       SET &quot;Sitzungen Teilnehmer&quot;.Zahl = inserted.&quot;Zähler&quot;&lt;br&gt;       FROM &quot;Sitzungen Teilnehmer&quot;, deleted, inserted&lt;br&gt;       WHERE deleted.&quot;Zähler&quot; = &quot;Sitzungen Teilnehmer&quot;.Zahl&lt;br&gt;    END&lt;br&gt;&lt;br&gt;/* * AKTUALISIERUNGSWEITERGABE AN &apos;Sitzungen TOP&apos; */&lt;br&gt;IF UPDATE(&quot;Zähler&quot;)&lt;br&gt;    BEGIN&lt;br&gt;       UPDATE &quot;Sitzungen TOP&quot;&lt;br&gt;       SET &quot;Sitzungen TOP&quot;.Zahl = inserted.&quot;Zähler&quot;&lt;br&gt;       FROM &quot;Sitzungen TOP&quot;, deleted, inserted&lt;br&gt;       WHERE deleted.&quot;Zähler&quot; = &quot;Sitzungen TOP&quot;.Zahl&lt;br&gt;    END&lt;br&gt;</body>
+<triggerTime>AFTER</triggerTime>
+<schema>612B09AB-F869-F6FA-26A6-9FEC143B09C0</schema>
+<table>43CBE59C-3FE5-C87F-70A4-EF6C7319C700</table>
+</TriggerSqlServerv2k5>

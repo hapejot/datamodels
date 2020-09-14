@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="37176B5E-4B0B-E914-7965-11022310AB8B" schemaObject="7ECDC589-AE45-A96C-09AF-3E1BAB310B07" name="RLE">
+<createdBy>peter</createdBy>
+<createdTime>2017-09-29 07:17:29 UTC</createdTime>
+<generatorID>4F9BBE76-D4AA-3ECF-4E54-392A3B47FD0A</generatorID>
+<ownerDesignName>metamodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Name" id="39FE450F-576F-B093-06E7-69668CB1A439">
+<createdBy>peter</createdBy>
+<createdTime>2017-09-29 07:17:29 UTC</createdTime>
+<generatorID>8DA176FE-724F-344C-15B6-25AEDA4AC709</generatorID>
+<ownerDesignName>metamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>CB9B6B32-E750-34C6-ACE2-839B20120EBA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID" id="7D4153E6-0037-F1F6-549C-A11816A6EB02">
+<createdBy>peter</createdBy>
+<createdTime>2017-09-29 07:17:29 UTC</createdTime>
+<ownerDesignName>metamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5D54DF71-C9D5-038A-AA72-3075488DAED8" name="RLE_PK">
+<createdBy>peter</createdBy>
+<createdTime>2017-09-29 07:17:29 UTC</createdTime>
+<ownerDesignName>metamodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="7D4153E6-0037-F1F6-549C-A11816A6EB02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

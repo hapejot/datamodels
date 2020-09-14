@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F6E0618F-6820-371C-D9C2-C9ECD2122831" schemaObject="7ECDC589-AE45-A96C-09AF-3E1BAB310B07" name="APP_RLE">
+<createdBy>peter</createdBy>
+<createdTime>2017-09-29 07:17:29 UTC</createdTime>
+<ownerDesignName>metamodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="APP_ID" id="E3C1D549-3BD8-90DF-FFC0-9405FE50BF1D">
+<createdBy>peter</createdBy>
+<createdTime>2017-09-29 07:17:29 UTC</createdTime>
+<ownerDesignName>metamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE7F8E3B-2B73-FAEA-F85F-0F29EB81F0F7" referredColumn="545CB787-BAFE-4EF5-24B0-C3E28BC73FF1"/>
+</associations>
+</Column>
+<Column name="RLE_ID" id="BD1E4BB5-2E1C-55FB-65CE-A72EF17DFCBD">
+<createdBy>peter</createdBy>
+<createdTime>2017-09-29 07:17:29 UTC</createdTime>
+<ownerDesignName>metamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D9587F54-0452-63EC-591B-4AAF18D8E5F4" referredColumn="7D4153E6-0037-F1F6-549C-A11816A6EB02"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CB952AB7-DCBD-8BD5-B1C2-576FC2930A26" name="APP_RLE_PK">
+<createdBy>peter</createdBy>
+<createdTime>2017-09-29 07:17:29 UTC</createdTime>
+<ownerDesignName>metamodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3C1D549-3BD8-90DF-FFC0-9405FE50BF1D"/>
+<colUsage columnID="BD1E4BB5-2E1C-55FB-65CE-A72EF17DFCBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C5A3665-26E7-DC46-4BCC-31E86BBC14A3" name="APP_RLE_APP_FK">
+<createdBy>peter</createdBy>
+<createdTime>2017-09-29 07:17:29 UTC</createdTime>
+<generatorID>6FAA762D-13F5-69B1-B093-E96B5951FC1A</generatorID>
+<ownerDesignName>metamodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3C1D549-3BD8-90DF-FFC0-9405FE50BF1D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE5EA5F1-25A3-A2A4-42AF-D57A6F034B59" name="APP_RLE_RLE_FK">
+<createdBy>peter</createdBy>
+<createdTime>2017-09-29 07:17:29 UTC</createdTime>
+<generatorID>6FAA762D-13F5-69B1-B093-E96B5951FC1A</generatorID>
+<ownerDesignName>metamodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD1E4BB5-2E1C-55FB-65CE-A72EF17DFCBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

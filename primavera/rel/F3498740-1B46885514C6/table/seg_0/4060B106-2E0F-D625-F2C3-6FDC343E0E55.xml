@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4060B106-2E0F-D625-F2C3-6FDC343E0E55" name="SHIFT">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>SHIFT</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:30 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<schemaObject>91F3E89B-168D-624B-6BAA-117B6452746E</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="shift_id" id="0A589845-01A9-2B74-C7C2-BF945DBE46B7">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>SHIFT</sourceObjSchema>
+<sourceObjName>shift_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:30 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="shift_name" id="D1D5C055-C2D3-E8A2-8404-B51D119404C3">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>SHIFT</sourceObjSchema>
+<sourceObjName>shift_name</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:30 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>60</dataTypePrecision>
+<dataTypeSize>60</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B386E7D4-BD42-08E2-E3D8-F3EF2A5DF500" name="SHIFT_PK">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>pk_shift</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:30 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A589845-01A9-2B74-C7C2-BF945DBE46B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

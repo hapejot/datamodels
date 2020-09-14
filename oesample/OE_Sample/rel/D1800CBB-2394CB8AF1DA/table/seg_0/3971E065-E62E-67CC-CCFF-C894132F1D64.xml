@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="3971E065-E62E-67CC-CCFF-C894132F1D64" directorySegmentName="seg_0" name="INVENTORIES">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-20 16:11:38 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2008-11-20 16:11:39 UTC</changedTime>
+   <ownerDesignName>OE_Sample</ownerDesignName>
+   <schemaObject>AB99E18F-10A1-579F-F11A-EFD5EB37B0D7</schemaObject>
+   <pkName>INVENTORY_PK</pkName>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="PRODUCT_ID" id="19474AA4-1AFF-4166-240E-14BDEBBE3D42">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:38 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:38 UTC</changedTime>
+         <commentInRDBMS>Part of concatenated primary key, references product_information.product_id.</commentInRDBMS>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>6</dataTypePrecision>
+         <delegate>0107D555-7835-9007-41C5-0C4BA65E366E</delegate>
+         <associations>
+            <colAssociation fkAssociation="9E8D8D83-2144-C166-E9E8-716BC4748270" referredColumn="0107D555-7835-9007-41C5-0C4BA65E366E"/>
+         </associations>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="WAREHOUSE_ID" id="DE19ADA4-6D35-90A7-BCEF-A3526338F970">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:38 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:38 UTC</changedTime>
+         <commentInRDBMS>Part of concatenated primary key, references warehouses.warehouse_id.</commentInRDBMS>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>3</dataTypePrecision>
+         <delegate>85923096-8B3A-064F-792B-E1628B055CB7</delegate>
+         <associations>
+            <colAssociation fkAssociation="15DC9EF1-C467-AD4E-E645-23B0E8DFF52A" referredColumn="85923096-8B3A-064F-792B-E1628B055CB7"/>
+         </associations>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="QUANTITY_ON_HAND" id="6660220B-E7E7-A881-9260-48FC19E91E23">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:38 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:38 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>8</dataTypePrecision>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="EF39643A-940B-0A87-F064-FACFAE17EE15" name="INVENTORY_PK">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:38 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:38 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <pk>true</pk>
+         <indexState>Primary Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="19474AA4-1AFF-4166-240E-14BDEBBE3D42"/>
+            <colUsage columnID="DE19ADA4-6D35-90A7-BCEF-A3526338F970"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="5BDB8885-F3FB-CDD2-D364-442E7093EBFF" name="INVENTORY_IX">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:38 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:38 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="DE19ADA4-6D35-90A7-BCEF-A3526338F970"/>
+            <colUsage columnID="19474AA4-1AFF-4166-240E-14BDEBBE3D42"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="D2A58026-3777-2C89-74B3-0041E12408B8" name="INV_PRODUCT_IX">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:38 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:38 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="19474AA4-1AFF-4166-240E-14BDEBBE3D42"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="373D98A9-3150-D877-7D04-9F10383099F6" name="INVENTORIES_WAREHOUSES_FK">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:39 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:39 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="DE19ADA4-6D35-90A7-BCEF-A3526338F970"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="5BD1E449-BE89-68D4-F05D-8E5D9CABB494" name="INVENTORIES_PRODUCT_ID_FK">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:39 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:39 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="19474AA4-1AFF-4166-240E-14BDEBBE3D42"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>

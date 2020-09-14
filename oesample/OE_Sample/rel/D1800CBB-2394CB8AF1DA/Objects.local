@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="SchemaObject" objectID="AB99E18F-10A1-579F-F11A-EFD5EB37B0D7" name="OE" seqName="seg_0"/>
+   <object objectType="Table" objectID="3971E065-E62E-67CC-CCFF-C894132F1D64" name="INVENTORIES" seqName="seg_0"/>
+   <object objectType="Table" objectID="3CB96374-0EA4-A360-3C30-EB8415AFC2CE" name="PRODUCT_INFORMATION" seqName="seg_0"/>
+   <object objectType="Table" objectID="401325D6-D30A-4241-B81D-AF54654F75DC" name="ORDER_ITEMS" seqName="seg_0"/>
+   <object objectType="Table" objectID="7817B1D3-0C65-D6F7-A5AC-36C81B75B97E" name="CUSTOMERS" seqName="seg_0"/>
+   <object objectType="Table" objectID="92ECBBC6-6434-00D1-ACB1-F8349E1D6089" name="PROMOTIONS" seqName="seg_0"/>
+   <object objectType="Table" objectID="A70EC580-C328-E52D-CA16-FDB8D77BA7D7" name="ORDERS" seqName="seg_0"/>
+   <object objectType="Table" objectID="A813CABD-6658-B542-73D6-7E4C1F9D5023" name="PURCHASEORDER" seqName="seg_0"/>
+   <object objectType="Table" objectID="C8DDA4E5-0F93-A80F-9BA5-A7E9D80E5FB1" name="WAREHOUSES" seqName="seg_0"/>
+   <object objectType="Table" objectID="D046E9BC-9C65-18F3-4E8C-2DE1A9BEAB47" name="CATEGORIES_TAB" seqName="seg_0"/>
+   <object objectType="Table" objectID="F8CE6256-7AF5-7A05-2621-54E0C1F68382" name="PRODUCT_DESCRIPTIONS" seqName="seg_0"/>
+   <object objectType="View" objectID="02951D5A-58BC-36FD-39B8-E8172173CF97" name="PRODUCT_PRICES" seqName="seg_0"/>
+   <object objectType="View" objectID="2C9752EA-1F9A-DD7B-E42C-58B8FAECF64A" name="OC_PRODUCT_INFORMATION" seqName="seg_0"/>
+   <object objectType="View" objectID="59C396BF-C187-CD6C-64B9-94A7EA8B6A27" name="ACCOUNT_MANAGERS" seqName="seg_0"/>
+   <object objectType="View" objectID="64E9C22A-4F8C-B9E4-2455-55D8B3D2CC7E" name="CUSTOMERS_VIEW" seqName="seg_0"/>
+   <object objectType="View" objectID="65451E80-EA87-373B-9BDD-CE745D9300BF" name="OC_CUSTOMERS" seqName="seg_0"/>
+   <object objectType="View" objectID="8023755B-D539-3A80-BB4F-5FCECDED1194" name="OC_ORDERS" seqName="seg_0"/>
+   <object objectType="View" objectID="81687C7A-4678-3988-0E40-B1B082247AE9" name="TORONTO_INVENTORY" seqName="seg_0"/>
+   <object objectType="View" objectID="CCFB3D9A-1061-316D-B68C-CE9141D78C58" name="OC_CORPORATE_CUSTOMERS" seqName="seg_0"/>
+   <object objectType="View" objectID="D0A2B2D7-486B-3EFA-AB9B-63FBAB6308D8" name="PRODUCTS" seqName="seg_0"/>
+   <object objectType="View" objectID="D7379D87-AD88-F104-00FE-A315805E486F" name="BOMBAY_INVENTORY" seqName="seg_0"/>
+   <object objectType="View" objectID="DF0114EA-9DE0-7809-1F69-C3C37A9675F3" name="OC_INVENTORIES" seqName="seg_0"/>
+   <object objectType="View" objectID="EA2BA9A5-831B-C04C-FCC6-B68E87B8E1BD" name="ORDERS_VIEW" seqName="seg_0"/>
+   <object objectType="View" objectID="F817D4CD-97FA-2ABD-E84E-C725FAEDDFF5" name="SYDNEY_INVENTORY" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="14334A30-FCE2-2859-86A9-DE9A3BC9BD19" name="ORDER_ITEMS_ORDER_ID_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="15DC9EF1-C467-AD4E-E645-23B0E8DFF52A" name="INVENTORIES_WAREHOUSES_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="2827F084-E7D2-4036-3797-010255A11868" name="ORDERS_CUSTOMER_ID_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="453C89CE-584D-36BD-FABB-8646C66944F6" name="ORDER_ITEMS_PRODUCT_ID_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="9E8D8D83-2144-C166-E9E8-716BC4748270" name="INVENTORIES_PRODUCT_ID_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="A456E521-562E-8042-CC0E-0CB62624702A" name="PD_PRODUCT_ID_FK" seqName="seg_0"/>
+   <object objectType="Note" objectID="75084721-E07C-7C62-1A48-BE6BF9EB9992" name="Note_1" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

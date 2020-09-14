@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="75CB5835-8231-7B47-FC95-6A0B88331143" name="RLFOLIO">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>RLFOLIO</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:24 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<schemaObject>91F3E89B-168D-624B-6BAA-117B6452746E</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rlfolio_id" id="ABBED0DE-78E1-21FE-8397-BAF625CB759B">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>RLFOLIO</sourceObjSchema>
+<sourceObjName>rlfolio_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:24 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="user_id" id="4E617F26-43F7-4931-434A-4EB72AC850D3">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>RLFOLIO</sourceObjSchema>
+<sourceObjName>user_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:24 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<delegate>30B6CBF5-45E2-FFD7-8F01-62149D33115A</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="36A26C86-08F1-2B4B-821B-198F0B82EE78" referredColumn="30B6CBF5-45E2-FFD7-8F01-62149D33115A"/>
+</associations>
+</Column>
+<Column name="rlfolio_name" id="AA401304-2937-7BAC-C476-16F4031A0B34">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>RLFOLIO</sourceObjSchema>
+<sourceObjName>rlfolio_name</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:24 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>40</dataTypePrecision>
+<dataTypeSize>40</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rlfolio_type" id="40F720ED-0287-A482-A2BF-A6962A9CBBB4">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>RLFOLIO</sourceObjSchema>
+<sourceObjName>rlfolio_type</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:24 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeSize>20</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rlfolio_descr" id="81FA130A-957C-12B2-C24D-231240A7BC70">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>RLFOLIO</sourceObjSchema>
+<sourceObjName>rlfolio_descr</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:24 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>255</dataTypePrecision>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rlfolio_data" id="B8EFD930-3C34-C5D1-321E-5C7DB5B4FA80">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>RLFOLIO</sourceObjSchema>
+<sourceObjName>rlfolio_data</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:24 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeSize>16</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7EF59974-60B7-8251-63F0-760727426E24" name="RLFOLIO_PK">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>pk_rlfolio_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:24 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABBED0DE-78E1-21FE-8397-BAF625CB759B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C260D620-7581-760B-EEEB-DE877AC748CF" name="ndx_rlfolio_user">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>ndx_rlfolio_user</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:24 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E617F26-43F7-4931-434A-4EB72AC850D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="556108FA-9AAB-E6A8-6DC7-518547B21EFF" name="fk_rlfolio_user">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:32 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E617F26-43F7-4931-434A-4EB72AC850D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

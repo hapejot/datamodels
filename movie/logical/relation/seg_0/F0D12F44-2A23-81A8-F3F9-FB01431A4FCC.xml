@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="VIDEO_FILE" directorySegmentName="seg_0" id="F0D12F44-2A23-81A8-F3F9-FB01431A4FCC">
+<createdBy>peter</createdBy>
+<createdTime>2015-11-13 07:04:05 UTC</createdTime>
+<ownerDesignName>movie</ownerDesignName>
+<engineerTo>
+<item key="8300E058-B8CB-040C-219E-FCD9E6043C88" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B0F82586-26D7-C2C6-9376-D3DEAF1FE71E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>111452E9-4E64-0BE0-5431-65990AEFAB8D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Duration" id="F3B59144-2DC8-9BCE-F24D-C5F9A142E25C">
+<createdBy>peter</createdBy>
+<createdTime>2015-11-13 07:04:30 UTC</createdTime>
+<ownerDesignName>movie</ownerDesignName>
+<engineerTo>
+<item key="8300E058-B8CB-040C-219E-FCD9E6043C88" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</attribute>
+<attribute name="StartTime" id="91B262C3-A0D4-C49D-5D3C-C0B1D656C4C5">
+<createdBy>peter</createdBy>
+<createdTime>2015-11-13 07:04:40 UTC</createdTime>
+<ownerDesignName>movie</ownerDesignName>
+<engineerTo>
+<item key="8300E058-B8CB-040C-219E-FCD9E6043C88" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</attribute>
+<attribute name="Quality" id="D3D42413-94B8-F3A4-E6F9-3AE4B0AFC057">
+<createdBy>peter</createdBy>
+<createdTime>2015-11-13 07:04:45 UTC</createdTime>
+<ownerDesignName>movie</ownerDesignName>
+<engineerTo>
+<item key="8300E058-B8CB-040C-219E-FCD9E6043C88" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</attribute>
+</attributes>
+</Relation>

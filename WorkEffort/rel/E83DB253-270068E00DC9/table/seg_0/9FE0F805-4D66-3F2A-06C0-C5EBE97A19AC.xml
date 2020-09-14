@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9FE0F805-4D66-3F2A-06C0-C5EBE97A19AC" name="RequirementRoleType">
+<createdBy>peter</createdBy>
+<createdTime>2013-11-06 08:44:36 UTC</createdTime>
+<generatorID>EEE7C87A-7B55-F3E3-5813-6B7495DDDD1F</generatorID>
+<ownerDesignName>WorkEffort</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RequirementRoleType_ID" id="1AA8D286-1886-DAD3-95CA-1018A74FF398">
+<createdBy>peter</createdBy>
+<createdTime>2013-11-06 08:44:36 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>WorkEffort</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="ID" id="BBF2E488-3D25-34D8-0E95-A5E581D89F6C">
+<createdBy>peter</createdBy>
+<createdTime>2013-11-06 08:44:36 UTC</createdTime>
+<generatorID>7193BF28-8320-EA7B-EABF-5B06A3B3DE64</generatorID>
+<ownerDesignName>WorkEffort</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>448DB7AB-CEB0-9FEB-C28B-2A0B70A01351</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Title" id="F1CD329C-6FF0-E26B-6A9C-94C1799AA8FF">
+<createdBy>peter</createdBy>
+<createdTime>2013-11-06 08:44:36 UTC</createdTime>
+<generatorID>7C8FF3D0-D385-F927-B136-D3D906380D72</generatorID>
+<ownerDesignName>WorkEffort</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>3B511681-8CBA-1775-BE07-8A10880B6B09</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D08C78D-1D93-0E6B-B27E-94BAED725088" name="RequirementRoleType_PK">
+<createdBy>peter</createdBy>
+<createdTime>2013-11-06 08:44:36 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>WorkEffort</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="1AA8D286-1886-DAD3-95CA-1018A74FF398"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="107734F0-695D-51FC-87DC-0AFC9FF3A171" name="RequirementRoleType__UN">
+<createdBy>peter</createdBy>
+<createdTime>2013-11-06 08:44:36 UTC</createdTime>
+<generatorID>CF5F958C-F323-2A29-0665-1CC3A0C949A9</generatorID>
+<ownerDesignName>WorkEffort</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" id="D3B649AA-EFC2-4179-967A-F73CE8397F0F" directorySegmentName="seg_0" name="PROMOTIONS">
+   <createdBy>meyoung</createdBy>
+   <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+   <changedBy>meyoung</changedBy>
+   <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+   <generatorID>92ECBBC6-6434-00D1-ACB1-F8349E1D6089</generatorID>
+   <ownerDesignName>OE_Sample</ownerDesignName>
+   <pkName>PROMO_ID_PK</pkName>
+   <adequatelyNormalized>NO</adequatelyNormalized>
+   <expectedVolumes>0</expectedVolumes>
+   <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+   <growthPercent>0</growthPercent>
+   <growthType>Year</growthType>
+   <maxVolumes>9999999</maxVolumes>
+   <minVolumes>0</minVolumes>
+   <normalForm>Third</normalForm>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <attributes>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="PROMO_ID" id="8541C1F8-5507-B3E0-5FE3-65816E6AFC01">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <generatorID>83ABFA02-5ADB-8F83-B5E5-92892484C5D9</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>6</dataTypePrecision>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="PROMO_NAME" id="8656B661-A33C-6100-86B3-CFF76F22FAA0">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <generatorID>FAF0283D-F4AA-C144-68FB-FC111964AB8D</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>20 BYTE</dataTypeSize>
+      </Attribute>
+   </attributes>
+   <identifiers>
+      <identifier class="oracle.dbtools.crest.model.design.logical.CandidateKey" id="95CC4B5B-0334-EF2D-A2DF-06968D3F2725" name="PROMO_ID_PK">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <generatorID>D888217A-44BB-1D8D-031E-981A23E606C8</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <pk>true</pk>
+         <usedAttributes>
+            <attributeRef>8541C1F8-5507-B3E0-5FE3-65816E6AFC01</attributeRef>
+         </usedAttributes>
+      </identifier>
+   </identifiers>
+</Entity>

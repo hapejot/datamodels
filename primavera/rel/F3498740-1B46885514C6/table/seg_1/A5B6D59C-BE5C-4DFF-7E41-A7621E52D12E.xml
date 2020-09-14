@@ -1,0 +1,184 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="A5B6D59C-BE5C-4DFF-7E41-A7621E52D12E" name="TRAKVIEW">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>TRAKVIEW</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:21 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<schemaObject>91F3E89B-168D-624B-6BAA-117B6452746E</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="track_view_id" id="18614F45-BE22-B931-6F5E-D44B9B9BA5D1">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>TRAKVIEW</sourceObjSchema>
+<sourceObjName>track_view_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:21 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="display_type" id="2F222533-5A88-0BE3-FA1C-EC579D75641C">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>TRAKVIEW</sourceObjSchema>
+<sourceObjName>display_type</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:21 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeSize>12</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="track_view_name" id="7290343D-5FCC-6AD2-93BE-6E0C80B26219">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>TRAKVIEW</sourceObjSchema>
+<sourceObjName>track_view_name</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:21 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>80</dataTypePrecision>
+<dataTypeSize>80</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="web_view_flag" id="C4F2E615-B640-B581-9AED-79887E1B217B">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>TRAKVIEW</sourceObjSchema>
+<sourceObjName>web_view_flag</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:21 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="user_id" id="A27D8119-6621-77A2-04E1-09F69983C5CE">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>TRAKVIEW</sourceObjSchema>
+<sourceObjName>user_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:21 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<delegate>30B6CBF5-45E2-FFD7-8F01-62149D33115A</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AFED9317-097D-971D-8B83-A1CC7FE784CF" referredColumn="30B6CBF5-45E2-FFD7-8F01-62149D33115A"/>
+</associations>
+</Column>
+<Column name="track_view_data" id="9F2F6798-A2D0-60D2-EA5F-618A80C5EA79">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>TRAKVIEW</sourceObjSchema>
+<sourceObjName>track_view_data</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:21 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeSize>16</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2E3E051B-DE12-E1AB-32FC-8733DD9BC25D" name="TRAKVIEW_PK">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>pk_trakview</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:21 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18614F45-BE22-B931-6F5E-D44B9B9BA5D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D81F7F59-842F-259D-31BD-41621EAA04CD" name="ndx_trakview_1">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>ndx_trakview_1</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:21 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A27D8119-6621-77A2-04E1-09F69983C5CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28610124-D556-6C3C-D8CD-EA5EC633C014" name="fk_trakview_users">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:32 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A27D8119-6621-77A2-04E1-09F69983C5CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints>
+<tableCheckConstraint class="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint" name="ck_trakview_display_type" directorySegmentName="seg_2" id="0E6F0A47-FC79-99FC-8B35-483F5E42798F">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>ck_trakview_display_type</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:21 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<rule>NOT ([display_type]=&apos; &apos; OR [display_type]=&apos;&apos;)</rule>
+</tableCheckConstraint>
+<tableCheckConstraint class="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint" name="ck_trakview_web_view_flag" directorySegmentName="seg_2" id="6F216443-2EF3-60BB-34B1-378FB631EAD0">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>ck_trakview_web_view_flag</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:21 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<rule>[web_view_flag]=&apos;N&apos; OR [web_view_flag]=&apos;Y&apos;</rule>
+</tableCheckConstraint>
+<tableCheckConstraint class="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint" name="DF__TRAKVIEW__web_vi__40C49C62" directorySegmentName="seg_2" id="EA82CFA8-6376-7FE2-1365-E3A3AC171D4E">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>DF__TRAKVIEW__web_vi__40C49C62</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:21 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<rule>&apos;N&apos;</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

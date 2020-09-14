@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0DF8C10D-07D9-AB47-8630-B46D5D21002C" name="ISSUHIST">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:57:33 UTC</createdTime>
+<generatorID>E30FE139-58BC-E15B-B312-4B402FF566CD</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<engineerTo>
+<item key="F3498740-FDC8-7B45-3226-1B46885514C6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="issue id" id="934CC546-6A5B-F46A-B4BA-F5D3421AE3EA">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:57:33 UTC</createdTime>
+<generatorID>0DD16293-8AAC-58CB-AD54-F2815B4B277A</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<engineerTo>
+<item key="F3498740-FDC8-7B45-3226-1B46885514C6" value="true"/>
+</engineerTo>
+<referedAttribute>42B05B93-D5E2-DF6E-0E63-7508C700C4EE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+</Attribute>
+<Attribute name="proj id" id="CFA2DD4D-EBC3-3203-AB7B-42DD90918F71">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:57:33 UTC</createdTime>
+<generatorID>00D0FD04-88C1-B8B7-CB26-1C64E6D4EB34</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<engineerTo>
+<item key="F3498740-FDC8-7B45-3226-1B46885514C6" value="true"/>
+</engineerTo>
+<referedAttribute>E6FEA58D-E46F-7661-4F95-8225AE7582B2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+</Attribute>
+<Attribute name="issue history" id="7B9530EA-8858-E929-A21B-7DD578BE0F05">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:57:33 UTC</createdTime>
+<generatorID>D300D227-6ADB-2C76-9CD0-BD4E5882829F</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<engineerTo>
+<item key="F3498740-FDC8-7B45-3226-1B46885514C6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeSize>16</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4767DF5B-6667-1EC3-0DC5-F489F2C3250B" name="pk issuhist">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:57:33 UTC</createdTime>
+<generatorID>03C29B53-8122-9FA8-E884-D399DF6F91FD</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<engineerTo>
+<item key="F3498740-FDC8-7B45-3226-1B46885514C6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>934CC546-6A5B-F46A-B4BA-F5D3421AE3EA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

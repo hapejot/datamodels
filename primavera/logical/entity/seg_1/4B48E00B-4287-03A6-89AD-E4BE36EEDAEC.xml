@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_1" id="4B48E00B-4287-03A6-89AD-E4BE36EEDAEC" name="RSRCCURV">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:57:33 UTC</createdTime>
+<generatorID>80779C02-0519-BA9E-9DB6-F48F0543C393</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<engineerTo>
+<item key="F3498740-FDC8-7B45-3226-1B46885514C6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="curv id" id="BF5FB92B-3C05-1281-3F8F-E5B9EA548E72">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:57:33 UTC</createdTime>
+<generatorID>F007DDE5-CE2A-0BBF-430A-FE3F93460F88</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<engineerTo>
+<item key="F3498740-FDC8-7B45-3226-1B46885514C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+</Attribute>
+<Attribute name="curv name" id="B231CE02-B066-97D4-141C-C4E135B4478E">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:57:33 UTC</createdTime>
+<generatorID>5AD48E86-4541-4A29-CF53-B92025D022E9</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<engineerTo>
+<item key="F3498740-FDC8-7B45-3226-1B46885514C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>60</dataTypePrecision>
+<dataTypeSize>60</dataTypeSize>
+</Attribute>
+<Attribute name="default flag" id="8747C82B-F186-31E1-F301-4774B40B9AB8">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:57:33 UTC</createdTime>
+<generatorID>3B10C8CE-2846-21B2-CC40-AFD42A42E8DA</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<engineerTo>
+<item key="F3498740-FDC8-7B45-3226-1B46885514C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+<Attribute name="curv data" id="E733F3A4-6D95-07CD-1C8D-A5DB227EDBF8">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:57:33 UTC</createdTime>
+<generatorID>E360DB3B-4C0C-EEBC-6F8D-C53C5CC9FE07</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<engineerTo>
+<item key="F3498740-FDC8-7B45-3226-1B46885514C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeSize>16</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C9F4B69D-DDE5-87D8-9017-1CD5AEFB7511" name="pk rsrccurv">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:57:33 UTC</createdTime>
+<generatorID>BEAC4C4A-9724-B2EF-2901-4F57B8672BA4</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<engineerTo>
+<item key="F3498740-FDC8-7B45-3226-1B46885514C6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BF5FB92B-3C05-1281-3F8F-E5B9EA548E72</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,604 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_2" id="39FA020D-957F-E7ED-2837-F90A559E2020" name="Schlüssel">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 21:32:13 UTC</createdTime>
+<generatorID>4098A000-21A5-983E-414F-6BFB2CCD21EC</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<engineerTo>
+<item key="2021CA32-568E-BB7B-FA9D-E84EF433D674" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Zähler" id="B5ED2AD7-C4E9-7BEC-A1C0-623038913246">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 21:32:13 UTC</createdTime>
+<generatorID>C7C6BA98-DA84-4748-F774-67BB76B1BA97</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<engineerTo>
+<item key="2021CA32-568E-BB7B-FA9D-E84EF433D674" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+</Attribute>
+<Attribute name="Schliessanlage" id="EAEF23DD-ED21-654F-5890-8413B31F2EA3">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 21:32:13 UTC</createdTime>
+<generatorID>7E26DC72-E1FB-B637-D530-0541DC4BFCE2</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<engineerTo>
+<item key="2021CA32-568E-BB7B-FA9D-E84EF433D674" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+</Attribute>
+<Attribute name="Gruppe" id="C57091FE-EB2E-6C26-FB2F-63EA9EE73252">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 21:32:13 UTC</createdTime>
+<generatorID>46C79286-93D5-ECBC-1734-5387489AB64A</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<engineerTo>
+<item key="2021CA32-568E-BB7B-FA9D-E84EF433D674" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+</Attribute>
+<Attribute name="Anzahl" id="0350DDDB-73E6-DA2E-701F-BDE07EDDE2C5">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 21:32:13 UTC</createdTime>
+<generatorID>965BB100-935B-CE5B-6087-B05008211CD3</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<engineerTo>
+<item key="2021CA32-568E-BB7B-FA9D-E84EF433D674" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+</Attribute>
+<Attribute name="Nummer" id="4E2B97AC-3E80-D6CA-6705-5AB6DF83C358">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 21:32:13 UTC</createdTime>
+<generatorID>CBD5ADC1-1F43-F457-CFB3-65D23F0EE4B0</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<engineerTo>
+<item key="2021CA32-568E-BB7B-FA9D-E84EF433D674" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+</Attribute>
+<Attribute name="Letztes Update" id="A0741C72-78C7-6687-6735-B9AAFAE1D4AF">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 21:32:13 UTC</createdTime>
+<generatorID>1BF03BD5-6285-D4F3-80D5-BA8719803954</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<engineerTo>
+<item key="2021CA32-568E-BB7B-FA9D-E84EF433D674" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<dataTypePrecision>23</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+</Attribute>
+<Attribute name="Änderer" id="7CA93FE7-594E-1E53-B26A-249137627DDA">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 21:32:13 UTC</createdTime>
+<generatorID>92681A90-8347-1E68-866D-D57672DAA954</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<engineerTo>
+<item key="2021CA32-568E-BB7B-FA9D-E84EF433D674" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+</Attribute>
+<Attribute name="Bemerkung" id="8CABD618-31F6-EA24-1488-26F05DF1D0C1">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 21:32:13 UTC</createdTime>
+<generatorID>622E134B-5A75-E97E-55DC-3CF709313505</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<engineerTo>
+<item key="2021CA32-568E-BB7B-FA9D-E84EF433D674" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>255</dataTypePrecision>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="Text1" id="1585422F-8B9B-13BE-B186-C509A9261187">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 21:32:13 UTC</createdTime>
+<generatorID>630B4935-A74B-D49E-5043-474CD2573A60</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<engineerTo>
+<item key="2021CA32-568E-BB7B-FA9D-E84EF433D674" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+</Attribute>
+<Attribute name="Text2" id="8ADF0514-2E3C-2575-05A9-9AC6DCAB343F">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 21:32:13 UTC</createdTime>
+<generatorID>879CCFA9-6E22-19E6-4DF5-3C716D6379B7</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<engineerTo>
+<item key="2021CA32-568E-BB7B-FA9D-E84EF433D674" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+</Attribute>
+<Attribute name="Text3" id="06EBE7C6-1811-F4F2-FCAF-87AD099EEE76">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 21:32:13 UTC</createdTime>
+<generatorID>A83E28D1-F34C-1D09-7247-28A2964D2A83</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<engineerTo>
+<item key="2021CA32-568E-BB7B-FA9D-E84EF433D674" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+</Attribute>
+<Attribute name="Text4" id="A6811093-A23E-F2B8-C54F-66554EB54500">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 21:32:13 UTC</createdTime>
+<generatorID>D86CCFFE-1D37-F562-24CE-6E71EE98F186</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<engineerTo>
+<item key="2021CA32-568E-BB7B-FA9D-E84EF433D674" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+</Attribute>
+<Attribute name="Text5" id="02CD3A7D-5067-DD03-86D2-0218456C9020">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 21:32:13 UTC</createdTime>
+<generatorID>A47804F0-17CA-F92A-98B5-ECBABEA15257</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<engineerTo>
+<item key="2021CA32-568E-BB7B-FA9D-E84EF433D674" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+</Attribute>
+<Attribute name="Text6" id="38BED1DE-2BA9-8663-E10B-F83B48C934AD">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 21:32:13 UTC</createdTime>
+<generatorID>374EF21A-7DB9-D5B9-AFE1-99795953E858</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<engineerTo>
+<item key="2021CA32-568E-BB7B-FA9D-E84EF433D674" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+</Attribute>
+<Attribute name="Text7" id="095494BD-0EAA-DA60-CC69-41C25D2DB692">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 21:32:13 UTC</createdTime>
+<generatorID>20023E8F-9D2B-B2C4-85CB-E471B046D521</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<engineerTo>
+<item key="2021CA32-568E-BB7B-FA9D-E84EF433D674" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+</Attribute>
+<Attribute name="Text8" id="7C966B91-3EBA-F879-3955-4D5D52BE61D7">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 21:32:13 UTC</createdTime>
+<generatorID>0D27AAD8-0D65-6001-DE3F-7A93BE83055B</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<engineerTo>
+<item key="2021CA32-568E-BB7B-FA9D-E84EF433D674" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+</Attribute>
+<Attribute name="Text9" id="BA620EF4-9B28-04AC-B709-8EFE96535226">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 21:32:13 UTC</createdTime>
+<generatorID>87CAB8A3-95F3-1F16-14E9-BB6B1C4B8629</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<engineerTo>
+<item key="2021CA32-568E-BB7B-FA9D-E84EF433D674" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+</Attribute>
+<Attribute name="Text10" id="36F07A2D-3BA4-5575-5361-5E2EEB617BF5">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 21:32:13 UTC</createdTime>
+<generatorID>0C776EAD-4F6D-A864-9EA6-BA1DF4F13294</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<engineerTo>
+<item key="2021CA32-568E-BB7B-FA9D-E84EF433D674" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+</Attribute>
+<Attribute name="Zahl1" id="65A63F04-8577-3D25-AFFC-0B95B10938D6">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 21:32:13 UTC</createdTime>
+<generatorID>94F503EB-96ED-22E1-7DD2-088FC2C3E6E4</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<engineerTo>
+<item key="2021CA32-568E-BB7B-FA9D-E84EF433D674" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>53</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+</Attribute>
+<Attribute name="Zahl2" id="279B7735-0181-2AFB-CD6E-E031BA608F37">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 21:32:13 UTC</createdTime>
+<generatorID>64AF6D9A-086B-CBF1-082A-EB46FE3E7D22</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<engineerTo>
+<item key="2021CA32-568E-BB7B-FA9D-E84EF433D674" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>53</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+</Attribute>
+<Attribute name="Zahl3" id="403DFD7D-25BD-A4D1-9323-A328B867967E">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 21:32:13 UTC</createdTime>
+<generatorID>C07D7A58-2BE5-A2C9-B4FB-C096652846E2</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<engineerTo>
+<item key="2021CA32-568E-BB7B-FA9D-E84EF433D674" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>53</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+</Attribute>
+<Attribute name="Zahl4" id="951C577A-5110-D4EC-1339-91CF1597755D">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 21:32:13 UTC</createdTime>
+<generatorID>084C94CA-0E98-2A31-418A-985D4D373CA1</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<engineerTo>
+<item key="2021CA32-568E-BB7B-FA9D-E84EF433D674" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>53</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+</Attribute>
+<Attribute name="Zahl5" id="062D77B8-B5FF-E765-9755-A82A2DD79D18">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 21:32:13 UTC</createdTime>
+<generatorID>032AFDEB-8A00-F5F8-96E5-12BFF9203FD7</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<engineerTo>
+<item key="2021CA32-568E-BB7B-FA9D-E84EF433D674" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>53</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+</Attribute>
+<Attribute name="Zahl6" id="876954D0-FDA4-CD3B-6514-F752F81BC7C6">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 21:32:13 UTC</createdTime>
+<generatorID>32061C1B-523C-9B63-AD27-80C878303564</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<engineerTo>
+<item key="2021CA32-568E-BB7B-FA9D-E84EF433D674" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>53</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+</Attribute>
+<Attribute name="Zahl7" id="AF0DED57-9BB0-FD00-D7EB-ADEB07FBD24D">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 21:32:13 UTC</createdTime>
+<generatorID>73A39491-9B7F-3D6C-4E1B-BA2EBB7131EC</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<engineerTo>
+<item key="2021CA32-568E-BB7B-FA9D-E84EF433D674" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>53</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+</Attribute>
+<Attribute name="Zahl8" id="AA82AB9F-9BC9-D000-5F64-03009AB0A7FF">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 21:32:13 UTC</createdTime>
+<generatorID>9C94627C-9D54-B33B-4920-169702FB91B3</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<engineerTo>
+<item key="2021CA32-568E-BB7B-FA9D-E84EF433D674" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>53</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+</Attribute>
+<Attribute name="Zahl9" id="EFFD4348-9512-B815-7849-CC22601B66B4">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 21:32:13 UTC</createdTime>
+<generatorID>4F2B11D2-5C52-2F9B-8445-B94900D11FFB</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<engineerTo>
+<item key="2021CA32-568E-BB7B-FA9D-E84EF433D674" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>53</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+</Attribute>
+<Attribute name="Zahl10" id="60487501-0219-C7AA-748B-1210CDA95DA5">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 21:32:13 UTC</createdTime>
+<generatorID>0E7C2B4C-D26C-9702-23A8-BEE1157C4904</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<engineerTo>
+<item key="2021CA32-568E-BB7B-FA9D-E84EF433D674" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>53</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+</Attribute>
+<Attribute name="Datum1" id="34178D41-E5DD-2AA5-CF24-ECD51EE72378">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 21:32:13 UTC</createdTime>
+<generatorID>4B39DD8D-B973-76EF-AA35-876CB86DC9FB</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<engineerTo>
+<item key="2021CA32-568E-BB7B-FA9D-E84EF433D674" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<dataTypePrecision>23</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+</Attribute>
+<Attribute name="Datum2" id="078D4D7F-5FAE-9687-1164-E7B20038B6BF">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 21:32:13 UTC</createdTime>
+<generatorID>C416845D-90B9-EE84-CBB9-4BB94E87A391</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<engineerTo>
+<item key="2021CA32-568E-BB7B-FA9D-E84EF433D674" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<dataTypePrecision>23</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+</Attribute>
+<Attribute name="Datum3" id="B654B3E1-9464-9911-3CD6-1E7E72FE6C66">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 21:32:13 UTC</createdTime>
+<generatorID>E0414BC0-0663-0DAD-98B9-7174DE2DEE92</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<engineerTo>
+<item key="2021CA32-568E-BB7B-FA9D-E84EF433D674" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<dataTypePrecision>23</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+</Attribute>
+<Attribute name="Datum4" id="B99C9B60-57EE-AABF-B98F-1D69784ABB08">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 21:32:13 UTC</createdTime>
+<generatorID>90BDF004-A7A4-EC32-F873-B38EAC102857</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<engineerTo>
+<item key="2021CA32-568E-BB7B-FA9D-E84EF433D674" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<dataTypePrecision>23</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+</Attribute>
+<Attribute name="Datum5" id="410F10B5-3617-DA69-902F-947DB26FFE7C">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 21:32:13 UTC</createdTime>
+<generatorID>CA56AB53-E084-F88F-8923-6FF3379E222C</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<engineerTo>
+<item key="2021CA32-568E-BB7B-FA9D-E84EF433D674" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<dataTypePrecision>23</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+</Attribute>
+<Attribute name="JaNein1" id="C7E8F876-E156-DA0D-09F3-B259F0FE2ECE">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 21:32:13 UTC</createdTime>
+<generatorID>2568D3C0-D6F1-FF7C-AA09-E17F7043F075</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<engineerTo>
+<item key="2021CA32-568E-BB7B-FA9D-E84EF433D674" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+<Attribute name="JaNein2" id="62852EF7-9844-22C1-044D-B070ECB102A1">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 21:32:13 UTC</createdTime>
+<generatorID>C51CBD9E-D0DA-8185-814D-CCF7BE70FBFA</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<engineerTo>
+<item key="2021CA32-568E-BB7B-FA9D-E84EF433D674" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+<Attribute name="JaNein3" id="9C00704D-6A2B-9B1B-671E-1D7141222543">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 21:32:13 UTC</createdTime>
+<generatorID>135B4C4E-6166-D0C6-BA0F-92232077AA15</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<engineerTo>
+<item key="2021CA32-568E-BB7B-FA9D-E84EF433D674" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+<Attribute name="JaNein4" id="47BC9953-2811-8309-8FAC-6F29DCEAF6E2">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 21:32:13 UTC</createdTime>
+<generatorID>7F4FD7E2-09B3-3B01-76BC-681B40546DAB</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<engineerTo>
+<item key="2021CA32-568E-BB7B-FA9D-E84EF433D674" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+<Attribute name="JaNein5" id="A690F24B-A7E6-A5B2-8DE8-C1397657B668">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 21:32:13 UTC</createdTime>
+<generatorID>69C2AB3C-9CC1-C0A7-BD7F-00F5F126AD71</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<engineerTo>
+<item key="2021CA32-568E-BB7B-FA9D-E84EF433D674" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E754B4C5-BE5C-D04F-D6AF-600B340653B9" name="aaaaaSchlüssel1 PK">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 21:32:13 UTC</createdTime>
+<generatorID>A5881040-7811-864D-0142-25886CBFA96E</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<engineerTo>
+<item key="2021CA32-568E-BB7B-FA9D-E84EF433D674" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B5ED2AD7-C4E9-7BEC-A1C0-623038913246</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

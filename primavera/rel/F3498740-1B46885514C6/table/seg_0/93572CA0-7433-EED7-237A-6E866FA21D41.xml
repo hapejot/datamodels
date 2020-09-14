@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="93572CA0-7433-EED7-237A-6E866FA21D41" name="PUBUSER">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>PUBUSER</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:29 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<schemaObject>91F3E89B-168D-624B-6BAA-117B6452746E</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="public_group_id" id="820F0ECB-BEF8-E0EA-2B7F-2836E2403232">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>PUBUSER</sourceObjSchema>
+<sourceObjName>public_group_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:29 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="private_db_user_name" id="7678DDF3-21D3-6B40-9B22-B8FE8FB56440">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>PUBUSER</sourceObjSchema>
+<sourceObjName>private_db_user_name</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:29 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>40</dataTypePrecision>
+<dataTypeSize>40</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="private_db_passwd" id="5472B09E-7803-ED87-6085-C1F37FF0D127">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>PUBUSER</sourceObjSchema>
+<sourceObjName>private_db_passwd</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:29 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>255</dataTypePrecision>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FEAA91A5-932E-95AB-D41A-F803C3A11093" name="PUBUSER_PK">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>pk_pubuser</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:29 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="820F0ECB-BEF8-E0EA-2B7F-2836E2403232"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

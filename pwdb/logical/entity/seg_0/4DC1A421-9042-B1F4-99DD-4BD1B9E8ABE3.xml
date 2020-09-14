@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4DC1A421-9042-B1F4-99DD-4BD1B9E8ABE3" name="site equiv">
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 05:44:32 UTC</createdTime>
+<generatorID>837C2870-F469-BDC1-976F-DB4DD26FCBC0</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<engineerTo>
+<item key="2C17E1C6-13C4-D73A-CCDF-015922042815" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="siteid" id="6151C4DA-138D-E60E-184A-7FB3F0B32906">
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 05:44:32 UTC</createdTime>
+<generatorID>8DDB6259-CD9F-2508-ED0D-B53032D7B4EE</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<engineerTo>
+<item key="2C17E1C6-13C4-D73A-CCDF-015922042815" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2E13C2E7-1EC7-6BF1-9C87-02AFC21F882D</domain>
+</Attribute>
+<Attribute name="pattern" id="FD1AAA6E-AB6D-5707-873A-29734A341D4A">
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 05:44:32 UTC</createdTime>
+<generatorID>2D2467D9-27A3-AC84-E153-FCCF07454B79</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<engineerTo>
+<item key="2C17E1C6-13C4-D73A-CCDF-015922042815" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F13C5B38-5656-754E-DFD5-BD67E9741A84</domain>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6DB3351F-AE8D-6877-9926-883E7E412B58" name="site equiv PK">
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 05:44:32 UTC</createdTime>
+<generatorID>D3AAA5A8-CBC5-A835-AA59-5435048F7891</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<engineerTo>
+<item key="2C17E1C6-13C4-D73A-CCDF-015922042815" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6151C4DA-138D-E60E-184A-7FB3F0B32906</attributeRef>
+<attributeRef>FD1AAA6E-AB6D-5707-873A-29734A341D4A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

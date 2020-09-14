@@ -1,0 +1,184 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" id="F3323D63-5DC1-6A1D-4284-1777A84A9E9B" directorySegmentName="seg_0" name="ORDERS">
+   <createdBy>meyoung</createdBy>
+   <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+   <changedBy>meyoung</changedBy>
+   <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+   <generatorID>A70EC580-C328-E52D-CA16-FDB8D77BA7D7</generatorID>
+   <ownerDesignName>OE_Sample</ownerDesignName>
+   <pkName>ORDER_PK</pkName>
+   <adequatelyNormalized>NO</adequatelyNormalized>
+   <expectedVolumes>0</expectedVolumes>
+   <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+   <growthPercent>0</growthPercent>
+   <growthType>Year</growthType>
+   <maxVolumes>9999999</maxVolumes>
+   <minVolumes>0</minVolumes>
+   <normalForm>Third</normalForm>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <attributes>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="ORDER_ID" id="0E9F9A4A-231F-93BF-7A1C-A820149AAD3C">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <commentInRDBMS>PRIMARY KEY column.</commentInRDBMS>
+         <generatorID>C30CA638-3056-F9CA-D348-59DC517E8CAB</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>12</dataTypePrecision>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="ORDER_DATE" id="042FC41A-4314-339E-8FEB-9A4D41AC5684">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <commentInRDBMS>TIMESTAMP WITH LOCAL TIME ZONE column, NOT NULL constraint.</commentInRDBMS>
+         <generatorID>9CE5E811-008A-F5D7-3380-D5264EA0AEA9</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT047</logicalDatatype>
+         <dataTypePrecision>6</dataTypePrecision>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="ORDER_MODE" id="F865262A-6D67-160A-D105-4B86E3895193">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <commentInRDBMS>CHECK constraint.</commentInRDBMS>
+         <generatorID>FC8D22B9-80A7-B3E3-7FE9-BB916B65F28C</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <constraintName>ORDER_MODE_LOV</constraintName>
+         <nullsAllowed>true</nullsAllowed>
+         <useDomainConstraints>false</useDomainConstraints>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>8 BYTE</dataTypeSize>
+         <checkConstraint>
+            <implementationDef dbType="Oracle Database 10g" definition="order_mode in ('direct','online')"/>
+         </checkConstraint>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="CUSTOMER_ID" id="A6461618-CCFE-D814-F808-0D3CB27DDE75">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <generatorID>E239A828-074D-C98A-FD13-2E2C79D00977</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <referedAttribute>A1DE33CE-FF28-4706-DD4E-E725C4EF896D</referedAttribute>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>6</dataTypePrecision>
+         <propertyMap>
+            <property name="refers.attribute" value="A1DE33CE-FF28-4706-DD4E-E725C4EF896D"/>
+         </propertyMap>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="ORDER_STATUS" id="DFE2F7FF-0951-F340-E0A9-E52697F556DC">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <commentInRDBMS>0: Not fully entered, 1: Entered, 2: Canceled - bad credit, -&amp;lt;br&amp;gt;3: Canceled - by customer, 4: Shipped - whole order, -&amp;lt;br&amp;gt;5: Shipped - replacement items, 6: Shipped - backlog on items, -&amp;lt;br&amp;gt;7: Shipped - special delivery, 8: Shipped - billed, 9: Shipped - payment plan,-&amp;lt;br&amp;gt;10: Shipped - paid</commentInRDBMS>
+         <generatorID>CECE4DD7-804E-6680-DB0B-59DD194CAF1D</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>2</dataTypePrecision>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="ORDER_TOTAL" id="03E87EDB-8C3B-AAC1-BBC4-6CCAF9BA2967">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <commentInRDBMS>CHECK constraint.</commentInRDBMS>
+         <generatorID>C28F6EB4-FCD3-CC78-9D14-20C8AA36B0C3</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <constraintName>ORDER_TOTAL_MIN</constraintName>
+         <nullsAllowed>true</nullsAllowed>
+         <useDomainConstraints>false</useDomainConstraints>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>8</dataTypePrecision>
+         <dataTypeScale>2</dataTypeScale>
+         <checkConstraint>
+            <implementationDef dbType="Oracle Database 10g" definition="order_total >= 0"/>
+         </checkConstraint>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="SALES_REP_ID" id="DECC6B73-A91A-1EF5-7AF8-C471ACAFC695">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <commentInRDBMS>References hr.employees.employee_id.</commentInRDBMS>
+         <generatorID>6BC6E713-11AB-584D-4DBD-84F7C283B7B5</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>6</dataTypePrecision>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="PROMOTION_ID" id="733375F4-3BCA-DDE3-BD63-95A156823AF2">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <commentInRDBMS>Sales promotion ID. Used in SH schema</commentInRDBMS>
+         <generatorID>859DE9B6-F24A-ABA0-464F-D107B25332F8</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>6</dataTypePrecision>
+      </Attribute>
+   </attributes>
+   <identifiers>
+      <identifier class="oracle.dbtools.crest.model.design.logical.CandidateKey" id="64D79A0D-AEBA-4C8B-E35A-E95C09562335" name="ORDER_PK">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <generatorID>C682B4F5-AC9C-E9BE-BAD8-9F8501176DB8</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <pk>true</pk>
+         <usedAttributes>
+            <attributeRef>0E9F9A4A-231F-93BF-7A1C-A820149AAD3C</attributeRef>
+         </usedAttributes>
+      </identifier>
+   </identifiers>
+</Entity>

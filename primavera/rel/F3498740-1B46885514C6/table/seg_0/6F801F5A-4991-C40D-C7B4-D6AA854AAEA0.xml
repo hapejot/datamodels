@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6F801F5A-4991-C40D-C7B4-D6AA854AAEA0" name="RSRCRCAT">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>RSRCRCAT</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:29 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<schemaObject>91F3E89B-168D-624B-6BAA-117B6452746E</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rsrc_id" id="6D7BA8FC-C05E-02E8-6794-1E72E6963AF6">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>RSRCRCAT</sourceObjSchema>
+<sourceObjName>rsrc_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:29 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<delegate>6B93A835-E980-E645-3642-231CD2389872</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1AE2DD73-EFA0-C6CD-5947-F2736EBE7D79" referredColumn="6B93A835-E980-E645-3642-231CD2389872"/>
+</associations>
+</Column>
+<Column name="rsrc_catg_type_id" id="B3AD110C-1A3D-D426-2EEF-F6CA277307CD">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>RSRCRCAT</sourceObjSchema>
+<sourceObjName>rsrc_catg_type_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:29 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<delegate>73BA65AA-ACEF-F99A-31F8-61688C122719</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="43941B25-84B0-AE4F-4C1B-6E4C8BEDD0A7" referredColumn="73BA65AA-ACEF-F99A-31F8-61688C122719"/>
+</associations>
+</Column>
+<Column name="rsrc_catg_id" id="2225C4B3-C275-0367-15C3-5043579E5F81">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>RSRCRCAT</sourceObjSchema>
+<sourceObjName>rsrc_catg_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:29 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<delegate>62D0790D-0222-EC35-D345-5FC484CC41E1</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="935DFC8B-5C56-CEBE-D922-B76D385B4CCA" referredColumn="62D0790D-0222-EC35-D345-5FC484CC41E1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1D361080-C112-5003-B486-08F7B7E097E0" name="RSRCRCAT_PK">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>pk_rsrcrcat</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:29 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D7BA8FC-C05E-02E8-6794-1E72E6963AF6"/>
+<colUsage columnID="B3AD110C-1A3D-D426-2EEF-F6CA277307CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="654DE4AF-F398-E8B7-9695-37FA713040FA" name="ndx_rsrcrcat_rcattype">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>ndx_rsrcrcat_rcattype</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:29 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3AD110C-1A3D-D426-2EEF-F6CA277307CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F7274C0-43E7-C08F-A32E-A6CD50BB18C1" name="ndx_rsrcrcat_rcatval">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>ndx_rsrcrcat_rcatval</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:29 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2225C4B3-C275-0367-15C3-5043579E5F81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="19BCA030-8054-521E-1FA6-A6EADAE65A7D" name="fk_rsrcrcat_rcattype">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:32 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3AD110C-1A3D-D426-2EEF-F6CA277307CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D3CBB3E8-95A3-8BA2-A218-BE12A254AA0F" name="fk_rsrcrcat_rcatval">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:32 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2225C4B3-C275-0367-15C3-5043579E5F81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C183F97F-FAD0-D241-0CA3-382A28400B9F" name="fk_rsrcrcat_rsrc">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:32 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D7BA8FC-C05E-02E8-6794-1E72E6963AF6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

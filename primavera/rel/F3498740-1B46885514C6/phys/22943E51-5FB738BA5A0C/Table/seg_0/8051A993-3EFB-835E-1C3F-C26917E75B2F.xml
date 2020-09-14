@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxySqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.TableProxySqlServerv2k5" name="RSRCROLE" directorySegmentName="seg_0" id="8051A993-3EFB-835E-1C3F-C26917E75B2F">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:29 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<database>0F6D9204-2E67-5485-5B0B-44D87AE41992</database>
+<filegroup>4E8C0BFE-619B-5B45-4D00-B37CDAB1A6B9</filegroup>
+<schema>0CB982A8-46F3-E00A-2358-A39DDEB7A82D</schema>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="role_id" id="43E819D3-16AC-43DC-E51F-A9D6C3B86D0D">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:29 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="rsrc_id" id="63340422-EDBD-9056-0844-70D8E0147DE8">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:29 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="skill_level" id="F53B59EB-86BD-7DCC-862F-E27DD95DEBDC">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:29 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.IndexProxySqlServerv2k5" name="ndx_rsrcrole_roles" id="A5899840-C1B8-7CCE-0059-6759F3B227C2">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:29 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<fileGroup>4E8C0BFE-619B-5B45-4D00-B37CDAB1A6B9</fileGroup>
+<fillFactor>80</fillFactor>
+<recomputeStatistics>OFF</recomputeStatistics>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="fk_rsrcrole_rsrc" id="09F7E9A4-9B8E-8A4B-33FB-944C8B8B207F">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:32 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="fk_rsrcrole_roles" id="9C30718C-DB71-977E-9D98-855A93D0EED8">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:32 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.PKProxySqlServerv2k5" name="RSRCROLE_PK" id="62E8C049-F473-E3CF-325A-C57A5759A635">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:29 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<clustered>true</clustered>
+<fileGroup>4E8C0BFE-619B-5B45-4D00-B37CDAB1A6B9</fileGroup>
+<recomputeStatistics>NO</recomputeStatistics>
+</PrimaryKey>
+</primaryKeys>
+</TableProxySqlServerv2k5>

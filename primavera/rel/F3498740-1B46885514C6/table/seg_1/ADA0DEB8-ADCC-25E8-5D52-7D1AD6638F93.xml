@@ -1,0 +1,180 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="ADA0DEB8-ADCC-25E8-5D52-7D1AD6638F93" name="WBSBUDG">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>WBSBUDG</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:27 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<schemaObject>91F3E89B-168D-624B-6BAA-117B6452746E</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="wbs_budg_id" id="75005508-CABD-21C9-E0BE-D555CCFE214A">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>WBSBUDG</sourceObjSchema>
+<sourceObjName>wbs_budg_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:27 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="proj_id" id="AE9B8903-F245-372F-2D59-130E1FDE0500">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>WBSBUDG</sourceObjSchema>
+<sourceObjName>proj_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:27 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<delegate>64D7971B-0A14-9847-B846-139193AF42A3</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B48D87F-8BE5-E3A7-0356-58D645AAAADA" referredColumn="64D7971B-0A14-9847-B846-139193AF42A3"/>
+</associations>
+</Column>
+<Column name="wbs_id" id="8096DC97-4620-4F22-420C-658477EA835A">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>WBSBUDG</sourceObjSchema>
+<sourceObjName>wbs_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:27 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<delegate>D9124DC0-89E6-5AC1-2127-F06DAF424297</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14D0FB26-A2BF-CA5F-5B9F-A7D5D3C49635" referredColumn="D9124DC0-89E6-5AC1-2127-F06DAF424297"/>
+</associations>
+</Column>
+<Column name="start_date" id="4E3B3789-9419-118F-C2E6-1E75E1D6956D">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>WBSBUDG</sourceObjSchema>
+<sourceObjName>start_date</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:27 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<dataTypePrecision>23</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="spend_cost" id="B7400593-22A7-DC99-DC4D-DCAD36E17651">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>WBSBUDG</sourceObjSchema>
+<sourceObjName>spend_cost</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:27 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<dataTypeSize>9</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="benefit_cost" id="3CC68C9A-E267-CB00-2342-28FF3BE8A7A3">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>WBSBUDG</sourceObjSchema>
+<sourceObjName>benefit_cost</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:27 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<dataTypeSize>9</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AC61BF73-89FE-C58C-EE28-818D296FD37E" name="WBSBUDG_PK">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>pk_wbsbudg</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:27 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75005508-CABD-21C9-E0BE-D555CCFE214A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CFDF9BE7-9DE2-7FDB-B18A-592F05459779" name="ndx_wbsbudg_1">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>ndx_wbsbudg_1</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:27 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE9B8903-F245-372F-2D59-130E1FDE0500"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="18972216-E5D3-6B0A-4D46-149B34C6CC6E" name="ndx_wbsbudg_2">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>ndx_wbsbudg_2</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:27 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8096DC97-4620-4F22-420C-658477EA835A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B0BC1FA1-2A54-C718-C05F-7D8161D7CA99" name="fk_wbsbudg_projwbs">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:32 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8096DC97-4620-4F22-420C-658477EA835A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF3252B2-AAC2-FCFE-C4F2-4B9517F82803" name="fk_wbsbudg_project">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:32 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE9B8903-F245-372F-2D59-130E1FDE0500"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

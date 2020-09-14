@@ -1,0 +1,949 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="64E1496F-257B-B277-99DE-7B33373543A1" name="Atemschutzgeräte">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>Atemschutzgeräte</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<schemaObject>A3841CA2-5D29-F787-E277-B1126D74CC84</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Zaehler" id="A98F49E3-0263-AE25-4E24-210C59DAD745">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>Zaehler</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Art" id="0674FF85-9816-22EA-4BF9-E238F3F9F49F">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>Art</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zus_Bezeichnung" id="9408C703-18B4-0327-DDC4-CBEA75682880">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>zus_Bezeichnung</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stadt" id="7329015B-CC10-0DED-809A-D0FDFA2EE44D">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>Stadt</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ort" id="A53CEC54-895F-A184-148E-F5AC03C02D3C">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>Ort</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Geraetenummer" id="FF71EA6B-94B5-CE31-7C4D-61C6A2920E35">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>Geraetenummer</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Standort" id="CE947C50-ACED-A4B8-873D-627AA5A9D476">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>Standort</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Geraeteart" id="A790F72D-65CA-5A9C-E73C-4E0B224DA8A8">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>Geraeteart</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeSize>20</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Herstellungsjahr" id="96C5137E-457F-BDA7-3C63-F7265FACA0FE">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>Herstellungsjahr</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeSize>5</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hersteller" id="BC886D0B-42BD-119F-1EDA-721BD996C11A">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>Hersteller</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Lieferant" id="0B9DF63D-E332-F939-5500-1C1C407F1E01">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>Lieferant</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Preis" id="BA38B0B3-8D92-6ED4-1777-6467E2144E53">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>Preis</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fabriknummer" id="57EEB1CD-BE96-B5A8-738D-392C1C117ACA">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>Fabriknummer</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Inventarnummer" id="98B07996-AAC3-7269-FD01-5597502D7B2E">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>Inventarnummer</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Druckmesser" id="AF704203-B977-B382-1555-6A6FEA1B56C4">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>Druckmesser</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Druckminderer" id="D0DE7545-693B-0353-C8EF-FFBC2B3AB857">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>Druckminderer</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Lungenautomat" id="70E4A97A-640E-D8D7-2D13-86FFDDED7D6A">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>Lungenautomat</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Letzte_Prüfung" id="B99EA8E0-A896-8B0E-3F18-3EB2C9803B21">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>Letzte_Prüfung</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<dataTypePrecision>23</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naechstePruefung" id="3768F36A-839A-9F8B-5745-CF7265CF1D73">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>naechstePruefung</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>10</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Druckminderer_nae_Aust" id="38FFDD46-E0FE-919E-8AEC-9384F765FA2A">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>Druckminderer_nae_Aust</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Membrane_nae_Aust" id="9039D605-3773-935E-3214-9EC413CBA964">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>Membrane_nae_Aust</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ausgesondert" id="2D481CBE-3433-DC4A-CE6A-93DD346E66A1">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>ausgesondert</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Bemerkung" id="CA601769-314E-BC44-223D-9D9967294288">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>Bemerkung</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT036</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeSize>16</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="InDienstGestellt" id="C2D84A10-7127-9958-B1DB-018B760983DF">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>InDienstGestellt</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<dataTypePrecision>23</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zahl_zum_rechnen" id="7DAD5C66-C531-79B4-474C-A085E71BCA89">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>Zahl_zum_rechnen</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeSize>2</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Letztes_Update" id="3FAF61A8-5C02-7084-4171-3E7EE676AE7D">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>Letztes_Update</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<dataTypePrecision>23</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Text1" id="CC7BFAF4-CD01-74AE-5BBF-C40C7230D7C3">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>Text1</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Text2" id="79D53E06-B0C9-CFFE-A725-092989580CC4">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>Text2</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zahl1" id="BBC6EFCF-756D-5B09-B58F-EED481B40A44">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>Zahl1</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>53</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zahl2" id="046A6941-FD01-42B1-CA62-986178C90AD1">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>Zahl2</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>53</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum1" id="9D9FB749-4755-A0B6-E55A-3B74F561E863">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>Datum1</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<dataTypePrecision>23</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JaNein1" id="82001462-1FD0-8FE6-39FA-8967262CAFC6">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>JaNein1</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Text3" id="5E466957-11FC-0931-13DF-51BB7DC85E79">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>Text3</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Text4" id="0EDDBF14-CF71-6BBB-149D-12ED0DC7BB1A">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>Text4</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Text5" id="31195340-2C52-5F28-FFAE-11C9183689C5">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>Text5</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Text6" id="E8030FDA-0B66-013D-274A-2DAAB12E61F0">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>Text6</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Text7" id="047232CB-B970-478F-ABC6-0970CE1CA18A">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>Text7</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Text8" id="FC54E37D-C7FD-7044-B18E-C13E3396198E">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>Text8</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Text9" id="61278DAC-096C-F147-EC43-32449D2332D1">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>Text9</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Text10" id="F1773AFE-65B9-9146-5A22-205D34660BE8">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>Text10</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zahl3" id="11812381-0F9C-A233-98C5-5966079F3A25">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>Zahl3</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>53</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zahl4" id="B07632D8-5A60-69F6-A3D8-05CE07BD3606">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>Zahl4</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>53</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zahl5" id="A0EAD030-EFC8-9727-2A68-AFBB6A414E34">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>Zahl5</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>53</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zahl6" id="5828AAC5-448E-5905-D886-D4A93731682D">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>Zahl6</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>53</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zahl7" id="FBF5B27C-6D17-33CF-9E44-441C9F0902B7">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>Zahl7</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>53</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zahl8" id="B4D9EDF4-58F9-1ADC-2E19-61A0D9A9EEF3">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>Zahl8</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>53</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zahl9" id="D154EE49-A63A-BB04-A394-A51EBA1ABBCD">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>Zahl9</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>53</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zahl10" id="589B33C4-4BAE-E2EF-1105-453BC5F58D4C">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>Zahl10</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>53</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum2" id="F3271154-B883-8D7F-21B1-303773988758">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>Datum2</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<dataTypePrecision>23</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JaNein2" id="DFE4A602-254D-2B47-D24C-F389C560B378">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>JaNein2</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Eigentümer" id="D6E111D0-4F6B-17A7-C431-5BD0989628C2">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>Eigentümer</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Katalog_ID" id="D42D0FB0-7143-12BB-1A4C-B3A98148BFED">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>Katalog_ID</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aussondern_bis" id="2B71BC83-4C09-9BB3-8E3A-A8E4D0810641">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Atemschutzgeräte</sourceObjSchema>
+<sourceObjName>aussondern_bis</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<dataTypePrecision>23</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8F4FEDFF-C4E4-AE95-79D8-E1DDD697AF7A" name="Fabriknummer">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>Fabriknummer</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57EEB1CD-BE96-B5A8-738D-392C1C117ACA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81C3DE0C-E22E-5388-2C2E-E82E4691B966" name="Geraetenummer">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>Geraetenummer</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF71EA6B-94B5-CE31-7C4D-61C6A2920E35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD33F20E-8E74-6321-379B-7C7606406BED" name="Inventarnummer">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>Inventarnummer</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98B07996-AAC3-7269-FD01-5597502D7B2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5BFE37C-2729-B579-B287-DEF7E62F28A3" name="Zaehler">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>Zaehler</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A98F49E3-0263-AE25-4E24-210C59DAD745"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints>
+<tableCheckConstraint class="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint" name="DF__Atemschut__ausge__092BE563" directorySegmentName="seg_4" id="CE694272-A939-2A3F-2BD9-33F6E9837035">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>DF__Atemschut__ausge__092BE563</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<rule>(0)</rule>
+</tableCheckConstraint>
+<tableCheckConstraint class="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint" name="DF__Atemschut__JaNei__0A20099C" directorySegmentName="seg_4" id="957F53E1-FA2B-B7F1-6440-220FF41CF5A9">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>DF__Atemschut__JaNei__0A20099C</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<rule>(0)</rule>
+</tableCheckConstraint>
+<tableCheckConstraint class="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint" name="DF__Atemschut__JaNei__0B142DD5" directorySegmentName="seg_4" id="288E78F5-1CDF-FDC3-962B-3A8A4AF68FF0">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>DF__Atemschut__JaNei__0B142DD5</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:41 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<rule>(0)</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

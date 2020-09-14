@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxySqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.TableProxySqlServerv2k5" name="FILTPROP" directorySegmentName="seg_0" id="576E6D4C-A40F-C27A-E226-68F969245394">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:18 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<database>0F6D9204-2E67-5485-5B0B-44D87AE41992</database>
+<filegroup>4E8C0BFE-619B-5B45-4D00-B37CDAB1A6B9</filegroup>
+<schema>0CB982A8-46F3-E00A-2358-A39DDEB7A82D</schema>
+<textImageFG>4E8C0BFE-619B-5B45-4D00-B37CDAB1A6B9</textImageFG>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="filter_id" id="2C490F88-B081-436B-31F6-4C6303D7C492">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:18 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="filter_data" id="777E89B8-DC73-8C9F-2E6F-6C52546148F0">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:18 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<collation>Latin1_General_CI_AS</collation>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="table_name" id="ACCBC64E-E447-DDC8-A74E-6720512C4010">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:18 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<collation>Latin1_General_CI_AS</collation>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="user_id" id="AD2A816F-8340-6F67-B02E-62D52485F2C0">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:18 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="filter_type" id="D0287451-16A9-7341-EC40-70297A12BA9F">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:18 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<collation>Latin1_General_CI_AS</collation>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="filter_name" id="F1F52C99-7509-B1C4-51B1-983C336F6BCF">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:18 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<collation>Latin1_General_CI_AS</collation>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.IndexProxySqlServerv2k5" name="ndx_filtprop_1" id="3C4144BB-F9FD-0F96-453D-8177BF1A0ED6">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:18 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<fileGroup>4E8C0BFE-619B-5B45-4D00-B37CDAB1A6B9</fileGroup>
+<fillFactor>80</fillFactor>
+<recomputeStatistics>OFF</recomputeStatistics>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="fk_filtprop_users" id="4C6DBE9D-79A4-0AF2-8DE1-4E4D60B06707">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:31 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.PKProxySqlServerv2k5" name="FILTPROP_PK" id="F8B419B2-3A09-24B2-892E-8842FD616637">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:18 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<clustered>true</clustered>
+<fileGroup>4E8C0BFE-619B-5B45-4D00-B37CDAB1A6B9</fileGroup>
+<recomputeStatistics>NO</recomputeStatistics>
+</PrimaryKey>
+</primaryKeys>
+</TableProxySqlServerv2k5>

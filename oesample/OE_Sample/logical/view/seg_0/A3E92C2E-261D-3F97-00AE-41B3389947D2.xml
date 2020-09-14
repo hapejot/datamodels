@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" id="A3E92C2E-261D-3F97-00AE-41B3389947D2" directorySegmentName="seg_0" name="OC_CORPORATE_CUSTOMERS">
+   <createdBy>meyoung</createdBy>
+   <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+   <changedBy>meyoung</changedBy>
+   <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+   <generatorID>CCFB3D9A-1061-316D-B68C-CE9141D78C58</generatorID>
+   <ownerDesignName>OE_Sample</ownerDesignName>
+   <basedOnStructuredType>7CAA6A5F-EEF1-E703-79A6-71DB1429939F</basedOnStructuredType>
+   <userDefined>false</userDefined>
+   <userDefinedSQL>CREATE VIEW OC_CORPORATE_CUSTOMERS&amp;lt;br&amp;gt;  ( CUSTOMER_ID,&amp;lt;br&amp;gt;    CUST_FIRST_NAME,&amp;lt;br&amp;gt;    CUST_LAST_NAME,&amp;lt;br&amp;gt;    CUST_ADDRESS,&amp;lt;br&amp;gt;    PHONE_NUMBERS,&amp;lt;br&amp;gt;    NLS_LANGUAGE,&amp;lt;br&amp;gt;    NLS_TERRITORY,&amp;lt;br&amp;gt;    CREDIT_LIMIT,&amp;lt;br&amp;gt;    CUST_EMAIL,&amp;lt;br&amp;gt;    CUST_ORDERS,&amp;lt;br&amp;gt;    ACCOUNT_MGR_ID )&amp;lt;br&amp;gt; AS SELECT&amp;lt;br&amp;gt;    CUSTOMER_ID CUSTOMER_ID,&amp;lt;br&amp;gt;    CUST_FIRST_NAME CUST_FIRST_NAME,&amp;lt;br&amp;gt;    CUST_LAST_NAME CUST_LAST_NAME,&amp;lt;br&amp;gt;    CUST_ADDRESS CUST_ADDRESS,&amp;lt;br&amp;gt;    PHONE_NUMBERS PHONE_NUMBERS,&amp;lt;br&amp;gt;    NLS_LANGUAGE NLS_LANGUAGE,&amp;lt;br&amp;gt;    NLS_TERRITORY NLS_TERRITORY,&amp;lt;br&amp;gt;    CREDIT_LIMIT CREDIT_LIMIT,&amp;lt;br&amp;gt;    CUST_EMAIL CUST_EMAIL,&amp;lt;br&amp;gt;    CUST_ORDERS CUST_ORDERS,&amp;lt;br&amp;gt;    ACCOUNT_MGR_ID ACCOUNT_MGR_ID;</userDefinedSQL>
+   <viewType>EntityView</viewType>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+   </fonts>
+   <viewElements>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="CUSTOMER_ID" id="E7592F2A-A2E7-9AFF-D0B0-9E60EE234EB6">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <structAttributeID>BB39825A-BCA2-6F97-A1C3-F91C74A599C7</structAttributeID>
+         <dataType>NUMERIC (6)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="CUST_FIRST_NAME" id="212C50B7-C02F-A0DA-E4A8-4D4B134B06BA">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <structAttributeID>E0DB5F44-65F2-16DC-0586-5E123861BA9E</structAttributeID>
+         <dataType>VARCHAR (20)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="CUST_LAST_NAME" id="C2818232-7007-CB4F-7080-A226B831ECCB">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <structAttributeID>20E049A0-9985-4359-FBA0-C83901AC106D</structAttributeID>
+         <dataType>VARCHAR (20)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="CUST_ADDRESS" id="F4411788-F8B2-E8A6-8E0D-3A594AD32132">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <structAttributeID>739C9596-A4B1-18D6-6484-7694E3ED5A2F</structAttributeID>
+         <structuredType>1300B473-479F-D3B1-B2DD-70FB97433BE4</structuredType>
+         <dataType>CUST_ADDRESS_TYP</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="PHONE_NUMBERS" id="DD3B2E73-4EE4-5D91-D379-2533C077DC99">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <structAttributeID>C3F959C4-3A54-6A7A-9B66-6FD361F4C292</structAttributeID>
+         <dataType>PHONE_LIST_TYP</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="NLS_LANGUAGE" id="58988E71-A0B3-FBEC-F171-426C1E1BE8B3">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <structAttributeID>51532250-2D67-66B0-2971-874D84CA485F</structAttributeID>
+         <dataType>VARCHAR (3)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="NLS_TERRITORY" id="B09F5363-88FC-F440-A2F9-29D9A6B59E94">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <structAttributeID>0EE53B73-4750-421F-4FB7-E88EDB183E60</structAttributeID>
+         <dataType>VARCHAR (30)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="CREDIT_LIMIT" id="C12C9FF5-C8CE-1026-5B2D-48C9ED84046E">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <structAttributeID>6F7019C5-368B-947B-F1A0-08834C838974</structAttributeID>
+         <dataType>NUMERIC (9, 2)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="CUST_EMAIL" id="C5629B63-F67A-8670-9319-C5E2F44CB68B">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <structAttributeID>1C2FDEF2-C54C-E802-8583-E3CAF89B1693</structAttributeID>
+         <dataType>VARCHAR (30)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="CUST_ORDERS" id="5DEBBD15-5EAD-B87D-1712-414D9C026927">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <structAttributeID>F5355BBF-7539-CCC2-C0A8-CEB81B02D8FB</structAttributeID>
+         <dataType>ORDER_LIST_TYP</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="ACCOUNT_MGR_ID" id="92A5FE1E-0834-EEF1-D05F-5D7AF6840641">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <structAttributeID>5D45C911-3497-C165-0FE6-765437D521C6</structAttributeID>
+         <dataType>NUMERIC (6)</dataType>
+         <reference>false</reference>
+      </viewElement>
+   </viewElements>
+</EntityView>

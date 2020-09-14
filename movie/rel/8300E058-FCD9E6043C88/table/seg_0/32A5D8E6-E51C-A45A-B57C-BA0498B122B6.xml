@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="32A5D8E6-E51C-A45A-B57C-BA0498B122B6" name="Tag">
+<createdBy>peter</createdBy>
+<createdTime>2015-11-18 09:52:41 UTC</createdTime>
+<generatorID>54BA37B0-DA6C-BE8E-46EF-F1FEC1E7F441</generatorID>
+<ownerDesignName>movie</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Name" id="A8704921-AA42-C6EC-72BC-A3E77B1A8485">
+<createdBy>peter</createdBy>
+<createdTime>2015-11-18 09:52:41 UTC</createdTime>
+<generatorID>10209452-60AA-BF31-80FD-F89C920DD053</generatorID>
+<ownerDesignName>movie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CE09343E-4BA9-1B7C-939F-081BF35032C6</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tag_ID" id="699C5BF6-BFC4-D877-6628-B513B4804629">
+<createdBy>peter</createdBy>
+<createdTime>2015-11-18 09:52:41 UTC</createdTime>
+<ownerDesignName>movie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DEFE19A8-9BDC-7EAD-6540-D3614E7607A5" name="Tag_PK">
+<createdBy>peter</createdBy>
+<createdTime>2015-11-18 09:52:41 UTC</createdTime>
+<ownerDesignName>movie</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="699C5BF6-BFC4-D877-6628-B513B4804629"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

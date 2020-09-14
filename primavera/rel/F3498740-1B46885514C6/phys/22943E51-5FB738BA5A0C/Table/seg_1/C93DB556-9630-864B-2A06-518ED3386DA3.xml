@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxySqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.TableProxySqlServerv2k5" name="PRPFOLIO" directorySegmentName="seg_1" id="C93DB556-9630-864B-2A06-518ED3386DA3">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:21 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<database>0F6D9204-2E67-5485-5B0B-44D87AE41992</database>
+<filegroup>4E8C0BFE-619B-5B45-4D00-B37CDAB1A6B9</filegroup>
+<schema>0CB982A8-46F3-E00A-2358-A39DDEB7A82D</schema>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="pfolio_id" id="8A4110D4-EC31-FD85-6085-42FC344566BB">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:21 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="wbs_id" id="DC7C2416-2881-F37B-BEE9-CC9239F583E0">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:21 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.IndexProxySqlServerv2k5" name="ndx_prpfolio_projwbs" id="F8497DA6-C2EB-AE17-D8D7-A85065B9B438">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:21 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<fileGroup>4E8C0BFE-619B-5B45-4D00-B37CDAB1A6B9</fileGroup>
+<fillFactor>80</fillFactor>
+<recomputeStatistics>OFF</recomputeStatistics>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="fk_prpfolio_projwbs" id="678CC71D-8FC3-7339-E505-D280EEEE5747">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:32 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="fk_prpfolio_pfolio" id="AB311B61-731B-6107-060E-99C7E84C9400">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:32 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.PKProxySqlServerv2k5" name="PRPFOLIO_PK" id="CA6D0E94-2C46-DF9E-644F-942519361CB6">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:21 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<clustered>true</clustered>
+<fileGroup>4E8C0BFE-619B-5B45-4D00-B37CDAB1A6B9</fileGroup>
+<recomputeStatistics>NO</recomputeStatistics>
+</PrimaryKey>
+</primaryKeys>
+</TableProxySqlServerv2k5>

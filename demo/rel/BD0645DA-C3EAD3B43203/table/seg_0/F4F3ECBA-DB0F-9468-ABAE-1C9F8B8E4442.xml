@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F4F3ECBA-DB0F-9468-ABAE-1C9F8B8E4442" name="Relation_5">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-04 18:01:18 UTC</createdTime>
+<ownerDesignName>demo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Merkmal_ID" id="F647643F-D5CF-67B2-70C1-79728751840A">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-04 18:01:18 UTC</createdTime>
+<ownerDesignName>demo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>E54A6B3D-7374-ADED-AEAD-A3C2F8FCFA6D</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA9715C0-77DF-F097-83BD-FDDEC990F7FF" referredColumn="E54A6B3D-7374-ADED-AEAD-A3C2F8FCFA6D"/>
+</associations>
+</Column>
+<Column name="Parent_ID" id="E9FBE6AD-B851-FC03-E603-AD5C7318EFAA">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-04 18:01:18 UTC</createdTime>
+<ownerDesignName>demo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>2AE0837D-921D-8F22-AD40-758F8C1A7F53</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F364D0E-A6D7-13C5-B1CD-C24EE2171090" referredColumn="2AE0837D-921D-8F22-AD40-758F8C1A7F53"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8C5779E7-3DD5-1967-6C12-303C8323E78F" name="Relation_5_PK">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-04 18:01:18 UTC</createdTime>
+<ownerDesignName>demo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F647643F-D5CF-67B2-70C1-79728751840A"/>
+<colUsage columnID="E9FBE6AD-B851-FC03-E603-AD5C7318EFAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FBCEB06C-A93C-B76C-6D75-CF5CB309E06E" name="FK_ASS_9">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-04 18:01:18 UTC</createdTime>
+<generatorID>963A613A-59EE-3B75-EAD5-64A1DC10F019</generatorID>
+<ownerDesignName>demo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F647643F-D5CF-67B2-70C1-79728751840A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="72AF5E2C-44F4-3C82-C26C-BE7184E04E79" name="FK_ASS_10">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-04 18:01:18 UTC</createdTime>
+<generatorID>963A613A-59EE-3B75-EAD5-64A1DC10F019</generatorID>
+<ownerDesignName>demo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9FBE6AD-B851-FC03-E603-AD5C7318EFAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

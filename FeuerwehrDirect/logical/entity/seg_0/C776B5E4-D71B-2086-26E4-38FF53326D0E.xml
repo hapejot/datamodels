@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C776B5E4-D71B-2086-26E4-38FF53326D0E" name="Einsatz Protokoll">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-07 08:27:49 UTC</createdTime>
+<generatorID>8175DACD-915D-CEDB-7521-728DBC9EE65B</generatorID>
+<ownerDesignName>FeuerwehrDirect</ownerDesignName>
+<engineerTo>
+<item key="6B361C0A-7F88-D120-B174-8D87F67A92AA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Zähler" id="D0E5F2B4-348A-7F28-96DF-67A5F46010E4">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-07 08:27:49 UTC</createdTime>
+<generatorID>153A4B96-C5FE-4CC3-FE28-D47281FF895C</generatorID>
+<ownerDesignName>FeuerwehrDirect</ownerDesignName>
+<engineerTo>
+<item key="6B361C0A-7F88-D120-B174-8D87F67A92AA" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>4B69A69C-F83D-96E4-F0A9-907F88BC9687</domain>
+</Attribute>
+<Attribute name="Zahl" id="CD8C838F-F8A1-8875-3189-80D38D1C0361">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-07 08:27:49 UTC</createdTime>
+<generatorID>E846967D-67C0-0E35-B839-A2FD0CD7FAFA</generatorID>
+<ownerDesignName>FeuerwehrDirect</ownerDesignName>
+<engineerTo>
+<item key="6B361C0A-7F88-D120-B174-8D87F67A92AA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>4B69A69C-F83D-96E4-F0A9-907F88BC9687</domain>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>0</defaultValue>
+</Attribute>
+<Attribute name="Datum" id="08D79FE7-42D1-D56D-E9DE-498867BC0E8F">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-07 08:27:49 UTC</createdTime>
+<generatorID>6E1098FF-925A-8E03-9ACB-D46C53916A81</generatorID>
+<ownerDesignName>FeuerwehrDirect</ownerDesignName>
+<engineerTo>
+<item key="6B361C0A-7F88-D120-B174-8D87F67A92AA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>9E9C0370-375C-3995-772A-3F78FAF29585</domain>
+</Attribute>
+<Attribute name="Zeit" id="EE65C77A-51D6-92B0-6503-27DE2EB1F2CA">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-07 08:27:49 UTC</createdTime>
+<generatorID>37239B25-D979-E979-35F3-777032E179CE</generatorID>
+<ownerDesignName>FeuerwehrDirect</ownerDesignName>
+<engineerTo>
+<item key="6B361C0A-7F88-D120-B174-8D87F67A92AA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>9E9C0370-375C-3995-772A-3F78FAF29585</domain>
+</Attribute>
+<Attribute name="Text" id="8E948A92-415F-4A9F-0F19-189557E62285">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-07 08:27:49 UTC</createdTime>
+<generatorID>8895555A-7F82-7EAF-A8BF-3BDA9644F39C</generatorID>
+<ownerDesignName>FeuerwehrDirect</ownerDesignName>
+<engineerTo>
+<item key="6B361C0A-7F88-D120-B174-8D87F67A92AA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>68833CA1-271A-EA10-07BA-A10E3D02B258</domain>
+</Attribute>
+<Attribute name="Einsätze_Zähler" id="8E757F66-602C-D70A-0DB2-C721745250FD">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-11 06:26:40 UTC</createdTime>
+<generatorID>86ED64D3-9BDC-7810-FE26-D87F94F7B917</generatorID>
+<ownerDesignName>FeuerwehrDirect</ownerDesignName>
+<engineerTo>
+<item key="6B361C0A-7F88-D120-B174-8D87F67A92AA" value="true"/>
+</engineerTo>
+<referedAttribute>C63D72AD-63A4-9ED4-11B3-B638497129E7</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>4B69A69C-F83D-96E4-F0A9-907F88BC9687</domain>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0D479196-059A-43FC-3C2F-885AC49808B1" name="{entity} PK">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-07 08:27:49 UTC</createdTime>
+<generatorID>61721521-24E7-9B34-8A20-5021070C3BAE</generatorID>
+<ownerDesignName>FeuerwehrDirect</ownerDesignName>
+<engineerTo>
+<item key="6B361C0A-7F88-D120-B174-8D87F67A92AA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>D0E5F2B4-348A-7F28-96DF-67A5F46010E4</newElementsIDs>
+<usedAttributes>
+<attributeRef>D0E5F2B4-348A-7F28-96DF-67A5F46010E4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

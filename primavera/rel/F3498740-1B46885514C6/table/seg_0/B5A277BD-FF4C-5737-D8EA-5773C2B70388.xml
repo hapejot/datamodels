@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5A277BD-FF4C-5737-D8EA-5773C2B70388" name="FUNDSRC">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>FUNDSRC</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:19 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<schemaObject>91F3E89B-168D-624B-6BAA-117B6452746E</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="fund_id" id="EE60E3A6-E92C-D925-6894-EF79A54D38E2">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>FUNDSRC</sourceObjSchema>
+<sourceObjName>fund_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:19 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="seq_num" id="3D4BFEC9-134C-DE05-E272-DE2ACF992A3E">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>FUNDSRC</sourceObjSchema>
+<sourceObjName>seq_num</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:19 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fund_name" id="9F50D457-796D-71F4-B855-CC8773CEC765">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>FUNDSRC</sourceObjSchema>
+<sourceObjName>fund_name</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:19 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>100</dataTypePrecision>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="parent_fund_id" id="1DAB918D-A86C-3164-5846-273A3F2AE235">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>FUNDSRC</sourceObjSchema>
+<sourceObjName>parent_fund_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:19 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fund_descr" id="BB5E33F5-DF0C-C4FA-3A4E-99405B259CB6">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>FUNDSRC</sourceObjSchema>
+<sourceObjName>fund_descr</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:19 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeSize>16</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="89498815-9ABD-63F3-2239-17139804AD36" name="FUNDSRC_PK">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>pk_fundsrc</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:19 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE60E3A6-E92C-D925-6894-EF79A54D38E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5004D3C5-167F-2448-D761-D5ABD51295A7" name="ndx_fundsrc_parent_fund">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>ndx_fundsrc_parent_fund</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:19 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1DAB918D-A86C-3164-5846-273A3F2AE235"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

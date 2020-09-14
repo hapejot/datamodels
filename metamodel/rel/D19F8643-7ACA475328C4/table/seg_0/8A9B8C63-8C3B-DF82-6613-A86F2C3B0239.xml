@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A9B8C63-8C3B-DF82-6613-A86F2C3B0239" schemaObject="7ECDC589-AE45-A96C-09AF-3E1BAB310B07" name="ORG">
+<createdBy>peter</createdBy>
+<createdTime>2017-09-29 07:17:29 UTC</createdTime>
+<generatorID>E78F7F58-DC99-6B41-1CF8-FCF3BB766978</generatorID>
+<ownerDesignName>metamodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Name" id="B25820D9-6025-C638-961D-1316699B60B3">
+<createdBy>peter</createdBy>
+<createdTime>2017-09-29 07:17:29 UTC</createdTime>
+<generatorID>427575DA-DFE2-C7A0-9BDC-5CB83C1B8E94</generatorID>
+<ownerDesignName>metamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>CB9B6B32-E750-34C6-ACE2-839B20120EBA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID" id="C7F18966-A130-B4C0-01AC-9C622DD54699">
+<createdBy>peter</createdBy>
+<createdTime>2017-09-29 07:17:29 UTC</createdTime>
+<ownerDesignName>metamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="ORG_ID" id="3E5556F2-B2DC-60AF-2A59-9C5DC7F3A5D9">
+<createdBy>peter</createdBy>
+<createdTime>2017-09-29 07:17:29 UTC</createdTime>
+<ownerDesignName>metamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="068CB9A0-44EB-FE7A-5BFC-B02CAE79FB79" referredColumn="C7F18966-A130-B4C0-01AC-9C622DD54699"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CBD20027-72FD-E8DF-E32E-52F02D5FB4DA" name="ORG_PK">
+<createdBy>peter</createdBy>
+<createdTime>2017-09-29 07:17:29 UTC</createdTime>
+<ownerDesignName>metamodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="C7F18966-A130-B4C0-01AC-9C622DD54699"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="224D71CD-259E-DBF5-E74C-F22DD8F7D848" name="ORG_ORG_FK">
+<createdBy>peter</createdBy>
+<createdTime>2017-09-29 07:17:29 UTC</createdTime>
+<generatorID>BA1A78D6-C600-FA42-7384-D5F64506FD51</generatorID>
+<ownerDesignName>metamodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E5556F2-B2DC-60AF-2A59-9C5DC7F3A5D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerSqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.TriggerSqlServerv2k5" name="T_Geräte_sonstige_UTrig" directorySegmentName="seg_0" id="D00294C8-F13E-B295-3E49-52449FBB46D8">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>T_Geräte_sonstige_UTrig</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:49:18 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<actions>UPDATE</actions>
+<body>CREATE TRIGGER T_Geräte_sonstige_UTrig ON [Geräte sonstige] FOR UPDATE AS&lt;br&gt;SET NOCOUNT ON&lt;br&gt;/* * AKTUALISIERUNGSWEITERGABE AN &apos;Geräte Instandsetzung sonstige&apos; */&lt;br&gt;IF UPDATE(&quot;Zähler&quot;)&lt;br&gt;    BEGIN&lt;br&gt;       UPDATE &quot;Geräte Instandsetzung sonstige&quot;&lt;br&gt;       SET &quot;Geräte Instandsetzung sonstige&quot;.Zahl = inserted.&quot;Zähler&quot;&lt;br&gt;       FROM &quot;Geräte Instandsetzung sonstige&quot;, deleted, inserted&lt;br&gt;       WHERE deleted.&quot;Zähler&quot; = &quot;Geräte Instandsetzung sonstige&quot;.Zahl&lt;br&gt;    END&lt;br&gt;&lt;br&gt;/* * AKTUALISIERUNGSWEITERGABE AN &apos;Geräte sonstige Ausgabe an&apos; */&lt;br&gt;IF UPDATE(&quot;Zähler&quot;)&lt;br&gt;    BEGIN&lt;br&gt;       UPDATE &quot;Geräte sonstige Ausgabe an&quot;&lt;br&gt;       SET &quot;Geräte sonstige Ausgabe an&quot;.Zahl = inserted.&quot;Zähler&quot;&lt;br&gt;       FROM &quot;Geräte sonstige Ausgabe an&quot;, deleted, inserted&lt;br&gt;       WHERE deleted.&quot;Zähler&quot; = &quot;Geräte sonstige Ausgabe an&quot;.Zahl&lt;br&gt;    END&lt;br&gt;</body>
+<triggerTime>AFTER</triggerTime>
+<schema>612B09AB-F869-F6FA-26A6-9FEC143B09C0</schema>
+<table>78C8C55B-4D68-33CF-74F8-3B2A640A2D6D</table>
+</TriggerSqlServerv2k5>

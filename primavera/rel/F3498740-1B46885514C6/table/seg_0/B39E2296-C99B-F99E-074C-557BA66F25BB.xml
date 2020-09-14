@@ -1,0 +1,443 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B39E2296-C99B-F99E-074C-557BA66F25BB" name="PROJRISK">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>PROJRISK</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:19 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<schemaObject>91F3E89B-168D-624B-6BAA-117B6452746E</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="risk_id" id="F3A3C6FA-9884-9260-BACE-2D0EB934686C">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>PROJRISK</sourceObjSchema>
+<sourceObjName>risk_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:19 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="proj_id" id="96333DE4-35E1-209A-ABC7-445844DA7058">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>PROJRISK</sourceObjSchema>
+<sourceObjName>proj_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:19 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<delegate>64D7971B-0A14-9847-B846-139193AF42A3</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1CFB07B1-CD5D-58D7-90DA-85164AA1B7BB" referredColumn="64D7971B-0A14-9847-B846-139193AF42A3"/>
+</associations>
+</Column>
+<Column name="wbs_id" id="996D78C2-D9F7-382D-1178-F0EB924879B3">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>PROJRISK</sourceObjSchema>
+<sourceObjName>wbs_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:19 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<delegate>D9124DC0-89E6-5AC1-2127-F06DAF424297</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A74494C-A935-9B84-2B5F-02E46DD3FD7C" referredColumn="D9124DC0-89E6-5AC1-2127-F06DAF424297"/>
+</associations>
+</Column>
+<Column name="add_date" id="84EBA4A8-F252-40B6-D57C-F7B9A0561B7A">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>PROJRISK</sourceObjSchema>
+<sourceObjName>add_date</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:19 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<dataTypePrecision>23</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="priority_type" id="16A0E863-068E-FB7B-B125-A6AA7F8825EF">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>PROJRISK</sourceObjSchema>
+<sourceObjName>priority_type</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:19 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeSize>12</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status_code" id="5E0AEAC2-B39D-DF58-5B93-911D7607DF64">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>PROJRISK</sourceObjSchema>
+<sourceObjName>status_code</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:19 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeSize>12</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="risk_name" id="CF1FE53A-0FE0-4FC7-1DF8-4CC252B27B6C">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>PROJRISK</sourceObjSchema>
+<sourceObjName>risk_name</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:19 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>120</dataTypePrecision>
+<dataTypeSize>120</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="risk_type_id" id="216EC460-DCF6-08F4-63CB-2FB7C74E4787">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>PROJRISK</sourceObjSchema>
+<sourceObjName>risk_type_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:19 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<delegate>823BB74E-36F8-4C8D-741F-2C5BE9B6F69F</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A0E176E6-6D65-FB9F-0830-4F7F884BD344" referredColumn="823BB74E-36F8-4C8D-741F-2C5BE9B6F69F"/>
+</associations>
+</Column>
+<Column name="obs_id" id="84536C9E-1B2E-F04D-3653-08503274B7F0">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>PROJRISK</sourceObjSchema>
+<sourceObjName>obs_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:19 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<delegate>A4AD80C4-2FBB-3534-2BAA-5814081F0E36</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9CC34837-4028-ADDC-36DE-D5259826AD33" referredColumn="A4AD80C4-2FBB-3534-2BAA-5814081F0E36"/>
+</associations>
+</Column>
+<Column name="rsrc_id" id="D043EBE6-26FB-ACC9-5E7C-6D2D24CE4B45">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>PROJRISK</sourceObjSchema>
+<sourceObjName>rsrc_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:19 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<delegate>6B93A835-E980-E645-3642-231CD2389872</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2711B539-8B9B-6E1A-FABE-BD09B3852997" referredColumn="6B93A835-E980-E645-3642-231CD2389872"/>
+</associations>
+</Column>
+<Column name="prbly_pct" id="1015FCAA-3F60-09A3-F803-3A1EC369A24A">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>PROJRISK</sourceObjSchema>
+<sourceObjName>prbly_pct</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:19 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="impact_work_qty" id="E80148F2-80AC-F373-D82F-8AA5F544E16D">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>PROJRISK</sourceObjSchema>
+<sourceObjName>impact_work_qty</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:19 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeSize>9</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="impact_equip_qty" id="F06DCFB9-DC9A-9CBA-1332-34D1664B935B">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>PROJRISK</sourceObjSchema>
+<sourceObjName>impact_equip_qty</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:19 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeSize>9</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="impact_expense_cost" id="6DCF8CEB-FA32-84DA-BB53-8983B6CEE589">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>PROJRISK</sourceObjSchema>
+<sourceObjName>impact_expense_cost</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:19 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<dataTypeSize>9</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="impact_date" id="36A9934A-A026-1BC5-892E-6DC4B6898657">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>PROJRISK</sourceObjSchema>
+<sourceObjName>impact_date</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:19 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<dataTypePrecision>23</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="risk_descr" id="F82DAAAC-7A0B-0C7E-D431-13AAA48B57E1">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>PROJRISK</sourceObjSchema>
+<sourceObjName>risk_descr</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:19 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeSize>16</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1180399A-E2C5-3CBD-13D7-C1296FB77DEE" name="PROJRISK_PK">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>pk_projrisk</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:19 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3A3C6FA-9884-9260-BACE-2D0EB934686C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="84C8B5DA-9E01-73DA-EACC-67A4A7BA2D6A" name="ndx_projrisk_1">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>ndx_projrisk_1</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:19 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96333DE4-35E1-209A-ABC7-445844DA7058"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C421CBB3-166B-918B-DDCB-A388BEA75B14" name="ndx_projrisk_obs">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>ndx_projrisk_obs</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:19 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84536C9E-1B2E-F04D-3653-08503274B7F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D3752E2-8D8E-917A-9C09-9AF6A297EADC" name="ndx_projrisk_projwbs">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>ndx_projrisk_projwbs</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:19 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="996D78C2-D9F7-382D-1178-F0EB924879B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED3190B2-1724-8C5B-F045-4C925B1AAB9F" name="ndx_projrisk_risktype">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>ndx_projrisk_risktype</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:19 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="216EC460-DCF6-08F4-63CB-2FB7C74E4787"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93D9C833-3FC2-3DAB-7F08-1AF45FFC4F55" name="ndx_projrisk_rsrc">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>ndx_projrisk_rsrc</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:19 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D043EBE6-26FB-ACC9-5E7C-6D2D24CE4B45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB8A12AA-E3AC-EB0E-FC71-5104AA786CE9" name="fk_projrisk_obs">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:31 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84536C9E-1B2E-F04D-3653-08503274B7F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05790B8E-A4F4-436D-F960-A33F979617B9" name="fk_projrisk_project">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:31 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96333DE4-35E1-209A-ABC7-445844DA7058"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="37F3C5F2-BDF0-FDFB-7B4D-3950CA76A69D" name="fk_projrisk_risktype">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:31 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="216EC460-DCF6-08F4-63CB-2FB7C74E4787"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="68F6344D-2221-11EA-B707-1CE9239886AA" name="fk_projrisk_rsrc">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:31 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D043EBE6-26FB-ACC9-5E7C-6D2D24CE4B45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A9A08CF-B4A9-B271-DF13-56B2E9C75AD3" name="fk_projrisk_projwbs">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:31 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="996D78C2-D9F7-382D-1178-F0EB924879B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints>
+<tableCheckConstraint class="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint" name="ck_projrisk_priority_type" directorySegmentName="seg_1" id="E7CA968A-86D1-3409-F084-6020B81268F9">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>ck_projrisk_priority_type</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:19 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<rule>NOT ([priority_type]=&apos; &apos; OR [priority_type]=&apos;&apos;)</rule>
+</tableCheckConstraint>
+<tableCheckConstraint class="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint" name="ck_projrisk_status_code" directorySegmentName="seg_1" id="596BCC95-DCE5-2B37-F3B4-CE22F804AA7D">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>ck_projrisk_status_code</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:19 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<rule>NOT ([status_code]=&apos; &apos; OR [status_code]=&apos;&apos;)</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

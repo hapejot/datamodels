@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" id="EA2BA9A5-831B-C04C-FCC6-B68E87B8E1BD" directorySegmentName="seg_0" name="ORDERS_VIEW">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-20 16:11:40 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2008-11-20 16:11:40 UTC</changedTime>
+   <ownerDesignName>OE_Sample</ownerDesignName>
+   <schemaObject>AB99E18F-10A1-579F-F11A-EFD5EB37B0D7</schemaObject>
+   <userDefined>true</userDefined>
+   <userDefinedSQL>CREATE OR REPLACE VIEW ORDERS_VIEW&amp;lt;br&amp;gt;AS &amp;lt;br&amp;gt;SELECT&amp;lt;br&amp;gt;  order_id,&amp;lt;br&amp;gt;  TO_DATE(TO_CHAR(order_date,&amp;apos;DD-MON-YY HH:MI:SS&amp;apos;),&amp;apos;DD-MON-YY HH:MI:SS&amp;apos;) ORDER_DATE,&amp;lt;br&amp;gt;  order_mode,&amp;lt;br&amp;gt;  customer_id,&amp;lt;br&amp;gt;  order_status,&amp;lt;br&amp;gt;  order_total,&amp;lt;br&amp;gt;  sales_rep_id,&amp;lt;br&amp;gt;  promotion_id&amp;lt;br&amp;gt;FROM orders</userDefinedSQL>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+   </fonts>
+   <viewElements>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ORDER_ID" id="AB593F09-8B28-FDB9-A5BB-535122BAF8D9">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:40 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:40 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <alias>ORDER_ID</alias>
+         <dataType>NUMBER (12)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ORDER_DATE" id="394EAD99-150A-DCBE-DF47-5FE84C46AA83">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:40 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:40 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <alias>ORDER_DATE</alias>
+         <dataType>DATE (8)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ORDER_MODE" id="4184E522-D072-1BEB-6FA6-7FC641C5BFA2">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:40 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:40 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <alias>ORDER_MODE</alias>
+         <dataType>VARCHAR2 (8)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="CUSTOMER_ID" id="945751A7-C508-C96F-3A17-E103815DFCF1">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:40 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:40 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <alias>CUSTOMER_ID</alias>
+         <dataType>NUMBER (6)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ORDER_STATUS" id="A04E4D57-21EB-37FA-E612-74FF021FF5C5">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:40 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:40 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <alias>ORDER_STATUS</alias>
+         <dataType>NUMBER (2)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ORDER_TOTAL" id="6C7A37AD-A6FB-F440-59FF-4D13F6482F8F">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:40 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:40 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <alias>ORDER_TOTAL</alias>
+         <dataType>NUMBER (8, 2)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="SALES_REP_ID" id="CCECB501-CAC4-0B7B-8F7B-30D17B66F56B">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:40 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:40 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <alias>SALES_REP_ID</alias>
+         <dataType>NUMBER (6)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="PROMOTION_ID" id="3F476A6F-13DB-1F3A-0E6C-7DC0D345B997">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:40 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:40 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <alias>PROMOTION_ID</alias>
+         <dataType>NUMBER (6)</dataType>
+         <reference>false</reference>
+      </viewElement>
+   </viewElements>
+</TableView>

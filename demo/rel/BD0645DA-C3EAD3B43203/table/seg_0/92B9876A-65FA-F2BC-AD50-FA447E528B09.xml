@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="92B9876A-65FA-F2BC-AD50-FA447E528B09" name="ChildA">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-04 18:01:18 UTC</createdTime>
+<generatorID>E8622B8D-5904-BF60-6630-A5941C75CBCA</generatorID>
+<ownerDesignName>demo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Name" id="2EA9C622-ED54-8465-C2C1-705D18177D93">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-04 18:01:18 UTC</createdTime>
+<generatorID>353D6583-114E-B544-745A-5826800E9461</generatorID>
+<ownerDesignName>demo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ChildA_ID" id="960FBCB5-B453-FB9D-1983-6C9342549B39">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-04 18:01:18 UTC</createdTime>
+<ownerDesignName>demo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Parent_ID" id="0D445F74-29E5-F26D-CB6E-451A0F8BD689">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-04 18:01:18 UTC</createdTime>
+<ownerDesignName>demo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>2AE0837D-921D-8F22-AD40-758F8C1A7F53</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A39BA78-761A-B186-D579-16913C4F60C4" referredColumn="2AE0837D-921D-8F22-AD40-758F8C1A7F53"/>
+</associations>
+</Column>
+<Column name="ChildB_ID" id="FBF6FC12-72DB-9CAB-456E-5B726E5270ED">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-04 18:01:18 UTC</createdTime>
+<ownerDesignName>demo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>13BA6611-6706-9D6A-1137-DF793C42B3B0</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9FA2052A-CCD4-0635-F4D8-181C8578E723" referredColumn="13BA6611-6706-9D6A-1137-DF793C42B3B0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="079F452B-AB63-0CE8-1FC4-0F4246255018" name="ChildA_PK">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-04 18:01:18 UTC</createdTime>
+<ownerDesignName>demo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="960FBCB5-B453-FB9D-1983-6C9342549B39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7855CA44-2723-4EB1-162D-1C99D61B4DC8" name="ChildA_Parent_FK">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-04 18:01:18 UTC</createdTime>
+<generatorID>E8F142B5-ECD5-6163-EEF1-C3D59F619462</generatorID>
+<ownerDesignName>demo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D445F74-29E5-F26D-CB6E-451A0F8BD689"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0601273F-A4F7-9005-2589-491CA0285A29" name="ChildA_ChildB_FK">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-04 18:01:18 UTC</createdTime>
+<generatorID>9ED892BE-1C7B-9FD2-3DEB-7860A7B3F992</generatorID>
+<ownerDesignName>demo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FBF6FC12-72DB-9CAB-456E-5B726E5270ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" id="4B8F0C99-73BC-F31D-3C49-8A534E832017" directorySegmentName="seg_0" name="ACCOUNT_MANAGERS">
+   <createdBy>meyoung</createdBy>
+   <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+   <changedBy>meyoung</changedBy>
+   <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+   <generatorID>59C396BF-C187-CD6C-64B9-94A7EA8B6A27</generatorID>
+   <ownerDesignName>OE_Sample</ownerDesignName>
+   <userDefined>true</userDefined>
+   <userDefinedSQL>CREATE OR REPLACE VIEW ACCOUNT_MANAGERS&amp;lt;br&amp;gt;AS &amp;lt;br&amp;gt;SELECT          c.account_mgr_id                ACCT_MGR,&amp;lt;br&amp;gt;                cr.region_id                    REGION,&amp;lt;br&amp;gt;                c.cust_address.country_id       COUNTRY,&amp;lt;br&amp;gt;                c.cust_address.state_province   PROVINCE,&amp;lt;br&amp;gt;                count(*)                        NUM_CUSTOMERS&amp;lt;br&amp;gt;FROM            customers c, countries cr&amp;lt;br&amp;gt;WHERE           c.cust_address.country_id = cr.country_id&amp;lt;br&amp;gt;GROUP BY ROLLUP (c.account_mgr_id,&amp;lt;br&amp;gt;                 cr.region_id,&amp;lt;br&amp;gt;                 c.cust_address.country_id,&amp;lt;br&amp;gt;                 c.cust_address.state_province)</userDefinedSQL>
+   <viewType>EntityView</viewType>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+   </fonts>
+   <viewElements>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="ACCT_MGR" id="4C039897-EFD6-C8DE-D0C1-B958DF205ECC">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <generatorID>5A9AB430-040B-0BD6-CD6E-BD3AB43B1E95</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>ACCT_MGR</alias>
+         <dataType>NUMBER (6)</dataType>
+         <reference>false</reference>
+         <viewID>4B8F0C99-73BC-F31D-3C49-8A534E832017</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="REGION" id="E711F595-515D-7AAE-A5C6-3A10DF28F819">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <generatorID>513E9C5F-EDFC-88D4-6B2C-C174CCDC23E8</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>REGION</alias>
+         <dataType>NUMBER</dataType>
+         <reference>false</reference>
+         <viewID>4B8F0C99-73BC-F31D-3C49-8A534E832017</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="COUNTRY" id="B16097F5-F97A-CB5B-2DF1-AF465785C356">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <generatorID>9F97E2D1-4BC3-2905-FAD7-84E50BF0D281</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>COUNTRY</alias>
+         <dataType>CHAR (2)</dataType>
+         <reference>false</reference>
+         <viewID>4B8F0C99-73BC-F31D-3C49-8A534E832017</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="PROVINCE" id="D0E753A7-3B07-DC83-29B9-946217D8908F">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <generatorID>3E6D3FB0-2DDB-3508-63EE-584D065C5002</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>PROVINCE</alias>
+         <dataType>VARCHAR2 (10)</dataType>
+         <reference>false</reference>
+         <viewID>4B8F0C99-73BC-F31D-3C49-8A534E832017</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="NUM_CUSTOMERS" id="A2E655B9-6E09-E680-AFC3-EBA29C5EAC8E">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <generatorID>10214860-C44A-C431-5BAC-8B414D87744F</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>NUM_CUSTOMERS</alias>
+         <dataType>NUMBER</dataType>
+         <reference>false</reference>
+         <viewID>4B8F0C99-73BC-F31D-3C49-8A534E832017</viewID>
+      </viewElement>
+   </viewElements>
+</EntityView>

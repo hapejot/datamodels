@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="33F7E992-3ECF-D60A-9872-5CAFF46F7F8C" name="Task">
+<sourceDDLFile>php.sql</sourceDDLFile>
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 06:07:06 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="9E09129D-850C-8959-9FCF-5FC1D53B14DE">
+<sourceDDLFile>php.sql</sourceDDLFile>
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 06:07:06 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2CAF58CA-DCDC-240C-99FF-341759DB6075</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Title" id="01FE1B5E-E2D1-4B14-FB75-9020611FC9E5">
+<sourceDDLFile>php.sql</sourceDDLFile>
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 06:07:06 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F32A4242-A138-AE2F-DA8A-0F32B89AE0DA</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status" id="0F5B29E4-F2CB-685E-11F1-1193AB2CD197">
+<sourceDDLFile>php.sql</sourceDDLFile>
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 06:07:06 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<nullsAllowed>true</nullsAllowed>
+<defaultValue>NULL</defaultValue>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F32A4242-A138-AE2F-DA8A-0F32B89AE0DA</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6E85749D-7E3E-7F30-FAFB-16B8224ECD39" name="Task_PK">
+<sourceDDLFile>php.sql</sourceDDLFile>
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 06:07:06 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E09129D-850C-8959-9FCF-5FC1D53B14DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

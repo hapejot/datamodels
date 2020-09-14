@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D90CBD3C-0213-7618-D440-0EC2A6CDCCDA" schemaObject="7ECDC589-AE45-A96C-09AF-3E1BAB310B07" name="REL">
+<createdBy>peter</createdBy>
+<createdTime>2017-09-29 07:17:29 UTC</createdTime>
+<generatorID>E6D7A295-B776-DCCD-97CD-FA7DA05B1D50</generatorID>
+<ownerDesignName>metamodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="30E69658-89E8-7A54-5C84-0BBC7A865C35">
+<createdBy>peter</createdBy>
+<createdTime>2017-09-29 07:17:29 UTC</createdTime>
+<ownerDesignName>metamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="ATT_ID" id="5F4CEB3F-E2E9-CD99-5BCB-3A487F1607C5">
+<createdBy>peter</createdBy>
+<createdTime>2017-09-29 07:17:29 UTC</createdTime>
+<ownerDesignName>metamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5395449B-0F48-B213-7873-6C9742CEDF46" referredColumn="32880EA9-C5CE-D933-70F1-2C480D43CD78"/>
+</associations>
+</Column>
+<Column name="ATT_ID1" id="BD7B3498-9A69-B12B-ED81-EA3C5A062359">
+<createdBy>peter</createdBy>
+<createdTime>2017-09-29 07:17:29 UTC</createdTime>
+<ownerDesignName>metamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B31778EF-89A0-EAE8-215F-B1E0B6ECC80B" referredColumn="32880EA9-C5CE-D933-70F1-2C480D43CD78"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="92B6DC77-4526-D816-D154-A4C6B31588B3" name="REL_PK">
+<createdBy>peter</createdBy>
+<createdTime>2017-09-29 07:17:29 UTC</createdTime>
+<ownerDesignName>metamodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="30E69658-89E8-7A54-5C84-0BBC7A865C35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="551325AC-47C9-E4F2-3607-1CE20F7C7298" name="REL_ATT_FK">
+<createdBy>peter</createdBy>
+<createdTime>2017-09-29 07:17:29 UTC</createdTime>
+<generatorID>6E899D06-08B7-021D-3179-7574688241E0</generatorID>
+<ownerDesignName>metamodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F4CEB3F-E2E9-CD99-5BCB-3A487F1607C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="933139CA-C9B8-0C56-4178-54EDA1D500A4" name="REL_ATT_FKv1">
+<createdBy>peter</createdBy>
+<createdTime>2017-09-29 07:17:29 UTC</createdTime>
+<generatorID>D3E498BE-5D6E-32D7-080A-271DA58F3346</generatorID>
+<ownerDesignName>metamodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD7B3498-9A69-B12B-ED81-EA3C5A062359"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerSqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.TriggerSqlServerv2k5" name="T_Geräte_sonstige_Ausgabe_UTrig" directorySegmentName="seg_0" id="78965913-C4A3-05C0-9BA9-7706E8C7BFE0">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>T_Geräte_sonstige_Ausgabe_UTrig</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:49:02 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<actions>UPDATE</actions>
+<body>CREATE TRIGGER T_Geräte_sonstige_Ausgabe_UTrig ON [Geräte sonstige Ausgabe an] FOR UPDATE AS&lt;br&gt;SET NOCOUNT ON&lt;br&gt;/* * KEINE AKTUALISIERUNG BEI FEHLEN EINES PASSENDEN SCHLÜSSELS IN &apos;Geräte sonstige&apos; */&lt;br&gt;IF UPDATE(Zahl)&lt;br&gt;    BEGIN&lt;br&gt;        IF (SELECT COUNT(*) FROM inserted) !=&lt;br&gt;           (SELECT COUNT(*) FROM &quot;Geräte sonstige&quot;, inserted WHERE (&quot;Geräte sonstige&quot;.&quot;Zähler&quot; = inserted.Zahl))&lt;br&gt;            BEGIN&lt;br&gt;                RAISERROR 44446 &apos;Der Datensatz kann nicht hinzugefügt oder geändert werden. Aufgrund der Regeln für die referenzielle Integrität ist in der Tabelle &apos;&apos;Geräte sonstige&apos;&apos; ein verknüpfter (verwandter) Datensatz erforderlich.&apos;&lt;br&gt;                ROLLBACK TRANSACTION&lt;br&gt;            END&lt;br&gt;    END&lt;br&gt;</body>
+<triggerTime>AFTER</triggerTime>
+<schema>612B09AB-F869-F6FA-26A6-9FEC143B09C0</schema>
+<table>BF26B658-57E8-4A0A-2E62-D06689B7EAAF</table>
+</TriggerSqlServerv2k5>

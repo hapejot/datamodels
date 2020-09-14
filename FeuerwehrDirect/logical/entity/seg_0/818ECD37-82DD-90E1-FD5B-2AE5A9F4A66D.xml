@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="818ECD37-82DD-90E1-FD5B-2AE5A9F4A66D" name="Einsatz/Hilfe/Protokoll">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-07 08:27:49 UTC</createdTime>
+<generatorID>FDAA8098-2522-1643-8D81-DE8700EA9636</generatorID>
+<ownerDesignName>FeuerwehrDirect</ownerDesignName>
+<engineerTo>
+<item key="6B361C0A-7F88-D120-B174-8D87F67A92AA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Zähler" id="96EBAF42-041C-353F-F2A8-AC9CCBF9FB92">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-07 08:27:49 UTC</createdTime>
+<generatorID>2FDF9E7F-A84D-1748-DF10-D77012A7A98E</generatorID>
+<ownerDesignName>FeuerwehrDirect</ownerDesignName>
+<engineerTo>
+<item key="6B361C0A-7F88-D120-B174-8D87F67A92AA" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>4B69A69C-F83D-96E4-F0A9-907F88BC9687</domain>
+</Attribute>
+<Attribute name="Zahl" id="91EDBED2-0C16-9088-CB0A-1CCD6BAB6D72">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-07 08:27:49 UTC</createdTime>
+<generatorID>4CE7C6FB-45C5-FA46-EC59-916150A40BC5</generatorID>
+<ownerDesignName>FeuerwehrDirect</ownerDesignName>
+<engineerTo>
+<item key="6B361C0A-7F88-D120-B174-8D87F67A92AA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>4B69A69C-F83D-96E4-F0A9-907F88BC9687</domain>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>0</defaultValue>
+</Attribute>
+<Attribute name="Datum" id="39BBB30A-0F8E-8E97-DED9-9CDBA4F39A86">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-07 08:27:49 UTC</createdTime>
+<generatorID>981B2ABA-A5D0-89F7-5EA9-F74F99D6C3A0</generatorID>
+<ownerDesignName>FeuerwehrDirect</ownerDesignName>
+<engineerTo>
+<item key="6B361C0A-7F88-D120-B174-8D87F67A92AA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>9E9C0370-375C-3995-772A-3F78FAF29585</domain>
+</Attribute>
+<Attribute name="Zeit" id="7279F6DC-43D3-60DF-C582-32CC128745DD">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-07 08:27:49 UTC</createdTime>
+<generatorID>485830A8-7464-BA15-AC21-36F483668D66</generatorID>
+<ownerDesignName>FeuerwehrDirect</ownerDesignName>
+<engineerTo>
+<item key="6B361C0A-7F88-D120-B174-8D87F67A92AA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>9E9C0370-375C-3995-772A-3F78FAF29585</domain>
+</Attribute>
+<Attribute name="Text" id="BE0946A3-4024-655F-DC3F-5E7316B5E324">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-07 08:27:49 UTC</createdTime>
+<generatorID>C3E6E2D4-8B14-6C9E-285B-F01F054B58DD</generatorID>
+<ownerDesignName>FeuerwehrDirect</ownerDesignName>
+<engineerTo>
+<item key="6B361C0A-7F88-D120-B174-8D87F67A92AA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>68833CA1-271A-EA10-07BA-A10E3D02B258</domain>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F201AE19-BB60-2738-979F-947817122F3D" name="Einsatz Hilfe Protokoll$Zähler">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-07 08:27:49 UTC</createdTime>
+<generatorID>FA7E2A8D-A5D1-459D-C8BF-7D9D0B19C59D</generatorID>
+<ownerDesignName>FeuerwehrDirect</ownerDesignName>
+<engineerTo>
+<item key="6B361C0A-7F88-D120-B174-8D87F67A92AA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>96EBAF42-041C-353F-F2A8-AC9CCBF9FB92</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

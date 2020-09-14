@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="18D5D3A9-4F77-FB00-2F6E-B6C70BB5CBB7" name="queue">
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 06:12:45 UTC</createdTime>
+<generatorID>0407B952-3768-3B51-D9BB-8A650C474FD1</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<engineerTo>
+<item key="9EC73DE9-4203-FD89-3720-F118D6C80375" value="true"/>
+<item key="2C17E1C6-13C4-D73A-CCDF-015922042815" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="9A3C4FB3-08CD-8E21-26F0-CA9695061EBD">
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 06:12:45 UTC</createdTime>
+<generatorID>80EF98ED-7978-CC90-74BB-53AD68755854</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<engineerTo>
+<item key="9EC73DE9-4203-FD89-3720-F118D6C80375" value="true"/>
+<item key="2C17E1C6-13C4-D73A-CCDF-015922042815" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2CAF58CA-DCDC-240C-99FF-341759DB6075</domain>
+</Attribute>
+<Attribute name="area" id="A901EF41-19A3-DAE6-3912-F110CAF8E2CA">
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 06:12:45 UTC</createdTime>
+<generatorID>C7E8327C-5836-4D05-3052-7CDC45995481</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<engineerTo>
+<item key="9EC73DE9-4203-FD89-3720-F118D6C80375" value="true"/>
+<item key="2C17E1C6-13C4-D73A-CCDF-015922042815" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<defaultValue>NULL</defaultValue>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F13C5B38-5656-754E-DFD5-BD67E9741A84</domain>
+</Attribute>
+<Attribute name="data" id="EC057871-E01A-A62F-923F-6A76A376D76D">
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 06:12:45 UTC</createdTime>
+<generatorID>76DBEBFE-13AD-0BBE-124A-A870D84D9B9D</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<engineerTo>
+<item key="9EC73DE9-4203-FD89-3720-F118D6C80375" value="true"/>
+<item key="2C17E1C6-13C4-D73A-CCDF-015922042815" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="state" id="F59BC843-2F1B-D5A2-699A-9D348A75259B">
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 06:12:45 UTC</createdTime>
+<generatorID>E6974278-AE56-E903-70D7-C93B4679B823</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<engineerTo>
+<item key="9EC73DE9-4203-FD89-3720-F118D6C80375" value="true"/>
+<item key="2C17E1C6-13C4-D73A-CCDF-015922042815" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<defaultValue>&apos;0&apos;</defaultValue>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2CAF58CA-DCDC-240C-99FF-341759DB6075</domain>
+</Attribute>
+<Attribute name="createdon" id="C7F64848-6408-C563-ABFC-1DD73256C141">
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 06:12:45 UTC</createdTime>
+<generatorID>E472EC6D-8755-1B06-981A-5B1FFED49422</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<engineerTo>
+<item key="9EC73DE9-4203-FD89-3720-F118D6C80375" value="true"/>
+<item key="2C17E1C6-13C4-D73A-CCDF-015922042815" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<defaultValue>CURRENT_TIMESTAMP</defaultValue>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>41C55087-70E4-06CC-3641-879F3EB74427</domain>
+</Attribute>
+<Attribute name="name" id="5D30AC52-5F22-70B0-CD6C-C78DD9A07EF0">
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 06:12:45 UTC</createdTime>
+<generatorID>C1700960-EEA9-1C94-AD7D-EEA635353025</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<engineerTo>
+<item key="9EC73DE9-4203-FD89-3720-F118D6C80375" value="true"/>
+<item key="2C17E1C6-13C4-D73A-CCDF-015922042815" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<defaultValue>NULL</defaultValue>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0B4C8EB4-AC62-FA29-4B3B-E892D0CC210D</domain>
+</Attribute>
+<Attribute name="progress" id="369B52A2-1AF9-4E4B-22A8-F30E8AEDC566">
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 06:12:45 UTC</createdTime>
+<generatorID>A8BD992A-8DEF-3E57-C772-5EFE28AFA96A</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<engineerTo>
+<item key="9EC73DE9-4203-FD89-3720-F118D6C80375" value="true"/>
+<item key="2C17E1C6-13C4-D73A-CCDF-015922042815" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0B4C8EB4-AC62-FA29-4B3B-E892D0CC210D</domain>
+</Attribute>
+<Attribute name="KEY" id="3DA8D0BF-75DA-39BA-B73F-FC2DAD9022CD">
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 06:12:45 UTC</createdTime>
+<generatorID>DC60CE51-95E4-7E44-9FB0-62E4050320EC</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<engineerTo>
+<item key="9EC73DE9-4203-FD89-3720-F118D6C80375" value="true"/>
+<item key="2C17E1C6-13C4-D73A-CCDF-015922042815" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4C8B2EEE-AA9F-634A-FDF0-F15053072AD0" name="queue PK">
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 06:12:45 UTC</createdTime>
+<generatorID>556CFAF3-3D3E-4867-A55A-45C413EE53BD</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<engineerTo>
+<item key="9EC73DE9-4203-FD89-3720-F118D6C80375" value="true"/>
+<item key="2C17E1C6-13C4-D73A-CCDF-015922042815" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9A3C4FB3-08CD-8E21-26F0-CA9695061EBD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

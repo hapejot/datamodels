@@ -1,0 +1,301 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CDC2D078-6704-7429-1DF8-08BD4852FEB3" name="Beförderungen">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-07 08:27:49 UTC</createdTime>
+<generatorID>677B7733-9CB0-16CB-B7B6-6BEC588968D1</generatorID>
+<ownerDesignName>FeuerwehrDirect</ownerDesignName>
+<engineerTo>
+<item key="6B361C0A-7F88-D120-B174-8D87F67A92AA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Zähler" id="0AE3D4B6-933F-411C-0C4A-7D1AC38A4283">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-07 08:27:49 UTC</createdTime>
+<generatorID>74B72B28-C276-D69B-3E1A-D57A63DDAE43</generatorID>
+<ownerDesignName>FeuerwehrDirect</ownerDesignName>
+<engineerTo>
+<item key="6B361C0A-7F88-D120-B174-8D87F67A92AA" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>4B69A69C-F83D-96E4-F0A9-907F88BC9687</domain>
+</Attribute>
+<Attribute name="Zahl" id="FF1C302B-EA2B-2E85-44EF-82197AF7B793">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-07 08:27:49 UTC</createdTime>
+<generatorID>CB69DFD5-4A1F-EF08-7AC1-9D9274E781E3</generatorID>
+<ownerDesignName>FeuerwehrDirect</ownerDesignName>
+<engineerTo>
+<item key="6B361C0A-7F88-D120-B174-8D87F67A92AA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>4B69A69C-F83D-96E4-F0A9-907F88BC9687</domain>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>0</defaultValue>
+</Attribute>
+<Attribute name="Datum" id="C860C8DA-F497-6EDE-0F9C-7C40AFE71C23">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-07 08:27:49 UTC</createdTime>
+<generatorID>D8532CF3-05FF-39E2-B705-CBB2E0BC65DC</generatorID>
+<ownerDesignName>FeuerwehrDirect</ownerDesignName>
+<engineerTo>
+<item key="6B361C0A-7F88-D120-B174-8D87F67A92AA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>9E9C0370-375C-3995-772A-3F78FAF29585</domain>
+</Attribute>
+<Attribute name="Dienstgrad" id="F3E18638-BF72-4602-4AA5-87920F33EDE8">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-07 08:27:49 UTC</createdTime>
+<generatorID>E4BC7E37-E2C5-D939-55A1-D1AE36ED04EC</generatorID>
+<ownerDesignName>FeuerwehrDirect</ownerDesignName>
+<engineerTo>
+<item key="6B361C0A-7F88-D120-B174-8D87F67A92AA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>68833CA1-271A-EA10-07BA-A10E3D02B258</domain>
+</Attribute>
+<Attribute name="Duplikate" id="E5234FDC-4154-F38D-8681-F5F342B58C57">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-07 08:27:49 UTC</createdTime>
+<generatorID>B70410CB-4F2B-3452-068E-F97B5D2E8ED9</generatorID>
+<ownerDesignName>FeuerwehrDirect</ownerDesignName>
+<engineerTo>
+<item key="6B361C0A-7F88-D120-B174-8D87F67A92AA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>68833CA1-271A-EA10-07BA-A10E3D02B258</domain>
+</Attribute>
+<Attribute name="Letztes Update" id="41F26DD4-0A05-2A22-1E7A-ECBACBE78B4F">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-07 08:27:49 UTC</createdTime>
+<generatorID>0DAB919E-272B-0EFB-8CAD-4E97FE9E704E</generatorID>
+<ownerDesignName>FeuerwehrDirect</ownerDesignName>
+<engineerTo>
+<item key="6B361C0A-7F88-D120-B174-8D87F67A92AA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>9E9C0370-375C-3995-772A-3F78FAF29585</domain>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>=Now</defaultValue>
+</Attribute>
+<Attribute name="Text1" id="62EC96D1-C002-96CB-215B-3201770F3CB8">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-07 08:27:49 UTC</createdTime>
+<generatorID>08AD0B27-F3DC-338A-0D04-402425794894</generatorID>
+<ownerDesignName>FeuerwehrDirect</ownerDesignName>
+<engineerTo>
+<item key="6B361C0A-7F88-D120-B174-8D87F67A92AA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>68833CA1-271A-EA10-07BA-A10E3D02B258</domain>
+</Attribute>
+<Attribute name="Text2" id="9D9D65A2-B752-7549-1DA6-D10201C8A3C4">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-07 08:27:49 UTC</createdTime>
+<generatorID>4DEA0CB9-D07A-5F13-B864-AF78C8E6E3EB</generatorID>
+<ownerDesignName>FeuerwehrDirect</ownerDesignName>
+<engineerTo>
+<item key="6B361C0A-7F88-D120-B174-8D87F67A92AA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>68833CA1-271A-EA10-07BA-A10E3D02B258</domain>
+</Attribute>
+<Attribute name="Zahl1" id="D2619D77-1E42-E452-6C0A-38DA52AFA680">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-07 08:27:49 UTC</createdTime>
+<generatorID>86F54691-A0FC-7B96-AFF5-4E60F450EA51</generatorID>
+<ownerDesignName>FeuerwehrDirect</ownerDesignName>
+<engineerTo>
+<item key="6B361C0A-7F88-D120-B174-8D87F67A92AA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<domain>46040BBA-1447-A01E-5F6A-1869E80356DA</domain>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>0</defaultValue>
+</Attribute>
+<Attribute name="Zahl2" id="FAA179D7-25AB-A027-760F-A8663E4789C4">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-07 08:27:49 UTC</createdTime>
+<generatorID>8E55F265-7B1F-EF3E-6733-2AEA813F00C5</generatorID>
+<ownerDesignName>FeuerwehrDirect</ownerDesignName>
+<engineerTo>
+<item key="6B361C0A-7F88-D120-B174-8D87F67A92AA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<domain>46040BBA-1447-A01E-5F6A-1869E80356DA</domain>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>0</defaultValue>
+</Attribute>
+<Attribute name="Datum1" id="D53F9E6B-DB1B-7C76-B21A-D5BDC8229F3F">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-07 08:27:49 UTC</createdTime>
+<generatorID>33A487B0-A1E6-A464-CD87-76FA9EE80F94</generatorID>
+<ownerDesignName>FeuerwehrDirect</ownerDesignName>
+<engineerTo>
+<item key="6B361C0A-7F88-D120-B174-8D87F67A92AA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>9E9C0370-375C-3995-772A-3F78FAF29585</domain>
+</Attribute>
+<Attribute name="JaNein1" id="54A58A6D-F1FD-A5B3-50CF-936A8EFF8C26">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-07 08:27:49 UTC</createdTime>
+<generatorID>637BDDB2-4B39-E15D-E5AE-FBB39345390D</generatorID>
+<ownerDesignName>FeuerwehrDirect</ownerDesignName>
+<engineerTo>
+<item key="6B361C0A-7F88-D120-B174-8D87F67A92AA" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<domain>17F90A0F-0180-AA09-0D76-B0E3EDF6D130</domain>
+</Attribute>
+<Attribute name="Text3" id="50FA07E3-38D5-CD67-6C54-82A5A82337DB">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-07 08:27:49 UTC</createdTime>
+<generatorID>5C35D793-2D09-A9BC-70C5-2447DD4F3785</generatorID>
+<ownerDesignName>FeuerwehrDirect</ownerDesignName>
+<engineerTo>
+<item key="6B361C0A-7F88-D120-B174-8D87F67A92AA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>68833CA1-271A-EA10-07BA-A10E3D02B258</domain>
+</Attribute>
+<Attribute name="Text4" id="3C6DD0FC-BB12-A0D9-4FEF-39EBEF781F11">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-07 08:27:49 UTC</createdTime>
+<generatorID>DB8296F0-A9A7-459F-BBA1-BFB0CE8C16D3</generatorID>
+<ownerDesignName>FeuerwehrDirect</ownerDesignName>
+<engineerTo>
+<item key="6B361C0A-7F88-D120-B174-8D87F67A92AA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>68833CA1-271A-EA10-07BA-A10E3D02B258</domain>
+</Attribute>
+<Attribute name="Text5" id="1083B2C1-D944-B46A-2E22-91AA9478F6E7">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-07 08:27:49 UTC</createdTime>
+<generatorID>BCAD38BE-6234-ED2D-9B6F-0771A4990777</generatorID>
+<ownerDesignName>FeuerwehrDirect</ownerDesignName>
+<engineerTo>
+<item key="6B361C0A-7F88-D120-B174-8D87F67A92AA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>68833CA1-271A-EA10-07BA-A10E3D02B258</domain>
+</Attribute>
+<Attribute name="Zahl3" id="126A222C-3BB4-77C9-8BBF-A0CEEAC4D89B">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-07 08:27:49 UTC</createdTime>
+<generatorID>5C659292-87B6-32CC-D827-07377380BE81</generatorID>
+<ownerDesignName>FeuerwehrDirect</ownerDesignName>
+<engineerTo>
+<item key="6B361C0A-7F88-D120-B174-8D87F67A92AA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<domain>46040BBA-1447-A01E-5F6A-1869E80356DA</domain>
+</Attribute>
+<Attribute name="Zahl4" id="9D2D4B82-CFE8-A372-6FCA-E33F957EC96F">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-07 08:27:49 UTC</createdTime>
+<generatorID>7182E97F-8CE0-6607-BF6A-157F018F7166</generatorID>
+<ownerDesignName>FeuerwehrDirect</ownerDesignName>
+<engineerTo>
+<item key="6B361C0A-7F88-D120-B174-8D87F67A92AA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<domain>46040BBA-1447-A01E-5F6A-1869E80356DA</domain>
+</Attribute>
+<Attribute name="Zahl5" id="E4B4380E-B9C4-44B4-DEAF-DEB457859E46">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-07 08:27:49 UTC</createdTime>
+<generatorID>1CF414E8-06BE-DE79-F912-738D6BA75723</generatorID>
+<ownerDesignName>FeuerwehrDirect</ownerDesignName>
+<engineerTo>
+<item key="6B361C0A-7F88-D120-B174-8D87F67A92AA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<domain>46040BBA-1447-A01E-5F6A-1869E80356DA</domain>
+</Attribute>
+<Attribute name="Datum2" id="43D2F1BA-67D7-C982-D6F8-4E40921EF681">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-07 08:27:49 UTC</createdTime>
+<generatorID>E612AC3F-AEF9-C829-30F9-8D54E31AE876</generatorID>
+<ownerDesignName>FeuerwehrDirect</ownerDesignName>
+<engineerTo>
+<item key="6B361C0A-7F88-D120-B174-8D87F67A92AA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>9E9C0370-375C-3995-772A-3F78FAF29585</domain>
+</Attribute>
+<Attribute name="JaNein2" id="6AD3F339-87D3-5CFD-A5FF-12C1CB38FAE3">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-07 08:27:49 UTC</createdTime>
+<generatorID>332D23D9-189F-04FB-DF09-0FC591F9C189</generatorID>
+<ownerDesignName>FeuerwehrDirect</ownerDesignName>
+<engineerTo>
+<item key="6B361C0A-7F88-D120-B174-8D87F67A92AA" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<domain>17F90A0F-0180-AA09-0D76-B0E3EDF6D130</domain>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F397816A-5810-26FD-0912-53209943EAE3" name="Beförderungen$Duplikate">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-07 08:27:49 UTC</createdTime>
+<generatorID>ABC143A1-6F02-7C13-D8AC-91BF63858FE0</generatorID>
+<ownerDesignName>FeuerwehrDirect</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6B361C0A-7F88-D120-B174-8D87F67A92AA" value="false"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>E5234FDC-4154-F38D-8681-F5F342B58C57</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

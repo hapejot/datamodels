@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="C8DDA4E5-0F93-A80F-9BA5-A7E9D80E5FB1" directorySegmentName="seg_0" name="WAREHOUSES">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-20 16:11:38 UTC</createdTime>
+   <changedBy>meyoung</changedBy>
+   <changedTime>2011-08-11 16:22:06 UTC</changedTime>
+   <ownerDesignName>OE_Sample</ownerDesignName>
+   <schemaObject>AB99E18F-10A1-579F-F11A-EFD5EB37B0D7</schemaObject>
+   <pkName>WAREHOUSES_PK</pkName>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="WAREHOUSE_ID" id="85923096-8B3A-064F-792B-E1628B055CB7">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:38 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:38 UTC</changedTime>
+         <commentInRDBMS>Primary key column.</commentInRDBMS>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>3</dataTypePrecision>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="WAREHOUSE_SPEC" id="83C32836-A2B0-0DF9-DBC6-764DB8E77E2B">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:38 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:38 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT050</logicalDatatype>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="WAREHOUSE_NAME" id="F42DCBC9-3DB3-7C35-EE04-A5AB47FCFD0E">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:38 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:38 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>35 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="LOCATION_ID" id="7170B07B-1708-2A7E-830A-1CAD419C7B61">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:38 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:38 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>4</dataTypePrecision>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="WH_GEO_LOCATION" id="BCB16BBE-621D-724A-3738-9BE2787F91F6">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:38 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-08-11 16:22:06 UTC</changedTime>
+         <commentInRDBMS>Primary key column, references hr.locations.location_id.</commentInRDBMS>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="C54216B7-83BA-ED06-5AA9-42154EFE2127" name="WAREHOUSES_PK">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:38 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:39 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <pk>true</pk>
+         <indexState>Primary Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="85923096-8B3A-064F-792B-E1628B055CB7"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="F03F0C3A-D50A-4C36-AE61-EAAE6E3EFD64" name="WHS_LOCATION_IX">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:38 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:38 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="7170B07B-1708-2A7E-830A-1CAD419C7B61"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>

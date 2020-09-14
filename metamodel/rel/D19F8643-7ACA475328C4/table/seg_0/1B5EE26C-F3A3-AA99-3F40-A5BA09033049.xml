@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1B5EE26C-F3A3-AA99-3F40-A5BA09033049" schemaObject="7ECDC589-AE45-A96C-09AF-3E1BAB310B07" name="FDN">
+<createdBy>peter</createdBy>
+<createdTime>2017-09-29 07:17:29 UTC</createdTime>
+<generatorID>0E930C17-8FE6-5E4F-7FC3-742A39A378B4</generatorID>
+<ownerDesignName>metamodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DMN_ID" id="8B495BE4-5BDD-6099-119D-32EEC0F9E1F5">
+<createdBy>peter</createdBy>
+<createdTime>2017-09-29 07:17:29 UTC</createdTime>
+<ownerDesignName>metamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB6CEE0A-3924-204B-0907-A6A7C0D0D870" referredColumn="FAFA2932-105F-4A03-E665-07996BB02B34"/>
+</associations>
+</Column>
+<Column name="Name" id="FD41E708-F11B-E971-A227-FE950AE3E5D7">
+<createdBy>peter</createdBy>
+<createdTime>2017-09-29 07:17:29 UTC</createdTime>
+<generatorID>5029747A-0BCE-30BD-AA1B-91AC89BE8582</generatorID>
+<ownerDesignName>metamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>CB9B6B32-E750-34C6-ACE2-839B20120EBA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AE34556A-D7D9-FFC3-6C4F-A4E67714D547" name="FDN_PK">
+<createdBy>peter</createdBy>
+<createdTime>2017-09-29 07:17:29 UTC</createdTime>
+<ownerDesignName>metamodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="8B495BE4-5BDD-6099-119D-32EEC0F9E1F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="104EE2A8-DC8A-BB77-CD55-1C09FC64C834" name="FDN_DMN_FK">
+<createdBy>peter</createdBy>
+<createdTime>2017-09-29 07:17:29 UTC</createdTime>
+<generatorID>08646A5E-2905-91F2-B61B-6C9930902F91</generatorID>
+<ownerDesignName>metamodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B495BE4-5BDD-6099-119D-32EEC0F9E1F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

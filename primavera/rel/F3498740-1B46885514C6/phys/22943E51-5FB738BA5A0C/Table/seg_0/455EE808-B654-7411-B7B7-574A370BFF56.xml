@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxySqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.TableProxySqlServerv2k5" name="RISKCTRL" directorySegmentName="seg_0" id="455EE808-B654-7411-B7B7-574A370BFF56">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:23 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<database>0F6D9204-2E67-5485-5B0B-44D87AE41992</database>
+<filegroup>4E8C0BFE-619B-5B45-4D00-B37CDAB1A6B9</filegroup>
+<schema>0CB982A8-46F3-E00A-2358-A39DDEB7A82D</schema>
+<textImageFG>4E8C0BFE-619B-5B45-4D00-B37CDAB1A6B9</textImageFG>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="proj_id" id="2AF27B28-7D32-A2B8-FE81-BFAB48CB0B93">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:23 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="risk_id" id="967716CB-E185-41FE-D2CC-766C4F1D5BE6">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:23 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="risk_control" id="FAFFC0FE-0581-E0FC-D6E2-BEC86A3BAB96">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:23 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<collation>Latin1_General_CI_AS</collation>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.IndexProxySqlServerv2k5" name="ndx_riskctrl_1" id="45955BCF-6283-2182-CA95-4B4CEA018E14">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:23 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<fileGroup>4E8C0BFE-619B-5B45-4D00-B37CDAB1A6B9</fileGroup>
+<fillFactor>80</fillFactor>
+<recomputeStatistics>OFF</recomputeStatistics>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="fk_riskctrl_projrisk" id="6F2052A3-FC97-5479-4A39-0C01802D06A5">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:32 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="fk_riskctrl_project" id="E0B8175A-E3C1-D7C6-D938-D5B43EB1739A">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:32 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.PKProxySqlServerv2k5" name="RISKCTRL_PK" id="473C6221-B888-1E7B-F59D-8752C53B360F">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:23 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<clustered>true</clustered>
+<fileGroup>4E8C0BFE-619B-5B45-4D00-B37CDAB1A6B9</fileGroup>
+<recomputeStatistics>NO</recomputeStatistics>
+</PrimaryKey>
+</primaryKeys>
+</TableProxySqlServerv2k5>

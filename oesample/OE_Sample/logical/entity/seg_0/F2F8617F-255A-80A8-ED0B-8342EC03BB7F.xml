@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" id="F2F8617F-255A-80A8-ED0B-8342EC03BB7F" directorySegmentName="seg_0" name="INVENTORIES">
+   <createdBy>meyoung</createdBy>
+   <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+   <changedBy>meyoung</changedBy>
+   <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+   <generatorID>3971E065-E62E-67CC-CCFF-C894132F1D64</generatorID>
+   <ownerDesignName>OE_Sample</ownerDesignName>
+   <pkName>INVENTORY_PK</pkName>
+   <adequatelyNormalized>NO</adequatelyNormalized>
+   <expectedVolumes>0</expectedVolumes>
+   <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+   <growthPercent>0</growthPercent>
+   <growthType>Year</growthType>
+   <maxVolumes>9999999</maxVolumes>
+   <minVolumes>0</minVolumes>
+   <normalForm>Third</normalForm>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <attributes>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="PRODUCT_ID" id="A6B15047-4362-89DD-42BA-C2DD6CBC7426">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <commentInRDBMS>Part of concatenated primary key, references product_information.product_id.</commentInRDBMS>
+         <generatorID>C1211BAD-2D78-C203-1742-FE310FF3B403</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <referedAttribute>F625C535-7E97-0AC9-014C-A227288EB1AB</referedAttribute>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>6</dataTypePrecision>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="WAREHOUSE_ID" id="EBEB60AA-F127-B6E2-4A1F-585CEB17789B">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <commentInRDBMS>Part of concatenated primary key, references warehouses.warehouse_id.</commentInRDBMS>
+         <generatorID>0760491A-2244-CE74-997A-213AF33B0A3B</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <referedAttribute>1E993265-9281-6B2E-2E84-29F6D63AF387</referedAttribute>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>3</dataTypePrecision>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="QUANTITY_ON_HAND" id="8EE48701-B3F8-FD13-892B-2F9A30BC0672">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <generatorID>6660220B-E7E7-A881-9260-48FC19E91E23</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>8</dataTypePrecision>
+      </Attribute>
+   </attributes>
+   <identifiers>
+      <identifier class="oracle.dbtools.crest.model.design.logical.CandidateKey" id="10A614DC-9683-FED1-7F93-E58DBB563536" name="INVENTORY_PK">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <generatorID>EF39643A-940B-0A87-F064-FACFAE17EE15</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <pk>true</pk>
+         <usedAttributes>
+            <attributeRef>A6B15047-4362-89DD-42BA-C2DD6CBC7426</attributeRef>
+            <attributeRef>EBEB60AA-F127-B6E2-4A1F-585CEB17789B</attributeRef>
+         </usedAttributes>
+      </identifier>
+   </identifiers>
+</Entity>

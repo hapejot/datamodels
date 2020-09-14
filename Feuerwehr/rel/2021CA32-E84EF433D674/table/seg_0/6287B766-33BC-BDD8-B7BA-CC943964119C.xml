@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6287B766-33BC-BDD8-B7BA-CC943964119C" name="Einsatz Hilfe Protokoll">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>Einsatz Hilfe Protokoll</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:51 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<schemaObject>A3841CA2-5D29-F787-E277-B1126D74CC84</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Zähler" id="CD227D57-FBE4-F812-950A-7ED86D7F8EB2">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Einsatz Hilfe Protokoll</sourceObjSchema>
+<sourceObjName>Zähler</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:51 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zahl" id="1466A84D-6E73-02A6-C2DC-A16AE10F4777">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Einsatz Hilfe Protokoll</sourceObjSchema>
+<sourceObjName>Zahl</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:51 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum" id="EB7BC0FA-E7DD-08DF-8F46-4D12FAFA10A4">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Einsatz Hilfe Protokoll</sourceObjSchema>
+<sourceObjName>Datum</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:51 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<dataTypePrecision>23</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zeit" id="EB590B5C-1922-FD91-B28D-CCB6AF86272F">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Einsatz Hilfe Protokoll</sourceObjSchema>
+<sourceObjName>Zeit</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:51 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<dataTypePrecision>23</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Text" id="B1F03715-1C8F-D122-AAFB-CAA2B76D9745">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>Einsatz Hilfe Protokoll</sourceObjSchema>
+<sourceObjName>Text</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:51 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypePrecision>80</dataTypePrecision>
+<dataTypeSize>80</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6842C708-2184-EE33-9EFD-B6674AB058B4" name="aaaaaEinsatz Hilfe Protokoll1_PK">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>aaaaaEinsatz Hilfe Protokoll1_PK</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:51 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD227D57-FBE4-F812-950A-7ED86D7F8EB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1351870A-2B2E-37A7-06E3-1A5E2127AB5F" name="Zahl">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>Zahl</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:51 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1466A84D-6E73-02A6-C2DC-A16AE10F4777"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

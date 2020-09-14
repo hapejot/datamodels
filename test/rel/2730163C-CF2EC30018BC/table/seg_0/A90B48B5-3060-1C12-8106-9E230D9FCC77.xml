@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A90B48B5-3060-1C12-8106-9E230D9FCC77" name="Incident">
+<createdBy>peja0065</createdBy>
+<createdTime>2013-05-31 13:42:36 UTC</createdTime>
+<generatorID>70409424-21DB-412B-4F22-AE7860B38954</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="9095A5A9-67A4-6C03-5A67-F44C8A33AC65">
+<createdBy>peja0065</createdBy>
+<createdTime>2013-05-31 13:42:36 UTC</createdTime>
+<generatorID>EF230820-E218-BD87-4868-DAC29A72D034</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>448DB7AB-CEB0-9FEB-C28B-2A0B70A01351</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Title" id="11199C32-A6AC-947F-2B32-F289B77ACA6A">
+<createdBy>peja0065</createdBy>
+<createdTime>2013-05-31 13:42:36 UTC</createdTime>
+<generatorID>058C9722-1E1C-2E2F-08B2-CFAE48C03A1B</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>3B511681-8CBA-1775-BE07-8A10880B6B09</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ReportedBugID" id="99E954D0-0B0A-E19D-1FDA-1E82D3A15854">
+<createdBy>peja0065</createdBy>
+<createdTime>2013-05-31 13:49:24 UTC</createdTime>
+<generatorID>A5DADAD3-2F0F-C067-1A6A-DD43BC16AB38</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>448DB7AB-CEB0-9FEB-C28B-2A0B70A01351</domain>
+<delegate>E09E0831-0330-AFF0-C9A8-E15D80E71022</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="383E8BF5-01F1-AF24-0214-653F6DB95E3A" referredColumn="E09E0831-0330-AFF0-C9A8-E15D80E71022"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7C256809-79AF-D0D6-30A0-7048553984E2" name="Incident_PK">
+<createdBy>peja0065</createdBy>
+<createdTime>2013-05-31 13:42:36 UTC</createdTime>
+<generatorID>EA57D168-3FF6-A452-FC60-FFF7DEEA411E</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9095A5A9-67A4-6C03-5A67-F44C8A33AC65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D40C54DA-2AAC-AAAC-8D2C-C95BF2D1B659" name="Incident_Bug_FK">
+<createdBy>peja0065</createdBy>
+<createdTime>2013-05-31 13:49:24 UTC</createdTime>
+<generatorID>AD6D1E4E-3115-E053-EBD1-926031DB9AF2</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99E954D0-0B0A-E19D-1FDA-1E82D3A15854"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

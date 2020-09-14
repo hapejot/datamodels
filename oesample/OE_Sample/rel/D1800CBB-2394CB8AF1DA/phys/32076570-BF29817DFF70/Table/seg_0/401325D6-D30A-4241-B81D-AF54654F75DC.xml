@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ORDER_ITEMS" id="401325D6-D30A-4241-B81D-AF54654F75DC" directorySegmentName="seg_0">
+   <createdBy>smharper</createdBy>
+   <createdTime>2011-01-07 13:02:56 UTC</createdTime>
+   <changedBy>meyoung</changedBy>
+   <changedTime>2011-01-07 13:02:56 UTC</changedTime>
+   <ownerDesignName>OE_Sample</ownerDesignName>
+   <logging>YES</logging>
+   <columnProxies>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="PRODUCT_ID" id="38D5F9FD-6B62-AD61-63BD-61CE8EF3FF71">
+         <createdBy>smharper</createdBy>
+         <createdTime>2011-01-07 13:02:56 UTC</createdTime>
+         <changedBy>smharper</changedBy>
+         <changedTime>2011-01-07 13:02:56 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+      </ColumnProxy>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="UNIT_PRICE" id="4E853CE6-FFBD-452E-E656-85A08C74B9B7">
+         <createdBy>smharper</createdBy>
+         <createdTime>2011-01-07 13:02:56 UTC</createdTime>
+         <changedBy>smharper</changedBy>
+         <changedTime>2011-01-07 13:02:56 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+      </ColumnProxy>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="ORDER_ID" id="D2BE46D2-66A9-3906-472A-50FAD7728FDF">
+         <createdBy>smharper</createdBy>
+         <createdTime>2011-01-07 13:02:56 UTC</createdTime>
+         <changedBy>smharper</changedBy>
+         <changedTime>2011-01-07 13:02:56 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+      </ColumnProxy>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="LINE_ITEM_ID" id="D333AD6A-6238-39A0-1775-348FAF3C3B3B">
+         <createdBy>smharper</createdBy>
+         <createdTime>2011-01-07 13:02:56 UTC</createdTime>
+         <changedBy>smharper</changedBy>
+         <changedTime>2011-01-07 13:02:56 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+      </ColumnProxy>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="QUANTITY" id="E444FBA9-6CB9-47B1-757F-062BA3E1C437">
+         <createdBy>smharper</createdBy>
+         <createdTime>2011-01-07 13:02:56 UTC</createdTime>
+         <changedBy>smharper</changedBy>
+         <changedTime>2011-01-07 13:02:56 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+      </ColumnProxy>
+   </columnProxies>
+   <indexProxies>
+      <IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="ITEM_PRODUCT_IX" id="2EAF4379-E34D-6EE7-4D1E-6E905516F8AA">
+         <createdBy>smharper</createdBy>
+         <createdTime>2011-01-07 13:02:56 UTC</createdTime>
+         <changedBy>smharper</changedBy>
+         <changedTime>2011-01-07 13:02:56 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+      </IndexProxy>
+      <IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="ITEM_ORDER_IX" id="DD5C6569-7E58-CFB8-4B3A-CC419CDA0F7D">
+         <createdBy>smharper</createdBy>
+         <createdTime>2011-01-07 13:02:56 UTC</createdTime>
+         <changedBy>smharper</changedBy>
+         <changedTime>2011-01-07 13:02:56 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+      </IndexProxy>
+      <IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="ORDER_ITEMS_UK" id="E62EFBE4-BCB2-1ABB-A617-DDDD46D0CC33">
+         <createdBy>smharper</createdBy>
+         <createdTime>2011-01-07 13:02:56 UTC</createdTime>
+         <changedBy>smharper</changedBy>
+         <changedTime>2011-01-07 13:02:56 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+      </IndexProxy>
+   </indexProxies>
+   <foreignKeys>
+      <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ORDER_ITEMS_ORDER_ID_FK" id="1E86C14F-ADC1-E30F-5208-1005457A902E">
+         <createdBy>smharper</createdBy>
+         <createdTime>2011-01-07 13:02:56 UTC</createdTime>
+         <changedBy>smharper</changedBy>
+         <changedTime>2011-01-07 13:02:56 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+      </ForeignKey>
+      <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ORDER_ITEMS_PRODUCT_ID_FK" id="296629A6-F98C-7938-04F8-8A11ED12B5B8">
+         <createdBy>smharper</createdBy>
+         <createdTime>2011-01-07 13:02:56 UTC</createdTime>
+         <changedBy>smharper</changedBy>
+         <changedTime>2011-01-07 13:02:56 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+      </ForeignKey>
+   </foreignKeys>
+   <primaryKeys>
+      <PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ORDER_ITEMS_PK" id="41DE3422-62F3-1F9C-C236-470FB5E11E45">
+         <createdBy>smharper</createdBy>
+         <createdTime>2011-01-07 13:02:56 UTC</createdTime>
+         <changedBy>smharper</changedBy>
+         <changedTime>2011-01-07 13:02:56 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <indexSort>NO</indexSort>
+      </PrimaryKey>
+   </primaryKeys>
+</TableProxyOraclev11g>

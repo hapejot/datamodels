@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5DE378D8-2F67-76C0-3304-10F2F5405AA0" name="Organization">
+<sourceDDLFile>php.sql</sourceDDLFile>
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 06:07:06 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PartyId" id="FB05910C-53AC-770A-76C8-5FCB86F4B8A5">
+<sourceDDLFile>php.sql</sourceDDLFile>
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 06:07:06 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2CAF58CA-DCDC-240C-99FF-341759DB6075</domain>
+<delegate>2572657B-CF7E-CA79-8843-897578C64FFD</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="78D38D2D-99E5-8FD7-A0F7-04B3EE758595" referredColumn="2572657B-CF7E-CA79-8843-897578C64FFD"/>
+</associations>
+</Column>
+<Column name="Subtype" id="D7C7566D-678A-6F9D-D113-F4741E64CB62">
+<sourceDDLFile>php.sql</sourceDDLFile>
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 06:07:06 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F32A4242-A138-AE2F-DA8A-0F32B89AE0DA</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KEY" id="1D87CBEB-0E48-499C-4F76-D586BA43CAD5">
+<sourceDDLFile>php.sql</sourceDDLFile>
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 06:07:06 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8F403EEF-14C6-134F-285D-CDD9C593539E" name="Organization_PK">
+<sourceDDLFile>php.sql</sourceDDLFile>
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 06:07:06 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB05910C-53AC-770A-76C8-5FCB86F4B8A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D65AB06-92EB-8596-B2BC-782ABDEEC0F5" name="FK_PARTY">
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 06:07:06 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB05910C-53AC-770A-76C8-5FCB86F4B8A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

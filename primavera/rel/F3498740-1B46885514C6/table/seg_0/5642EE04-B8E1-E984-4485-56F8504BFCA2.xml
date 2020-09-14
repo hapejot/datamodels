@@ -1,0 +1,165 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5642EE04-B8E1-E984-4485-56F8504BFCA2" name="PROJFUND">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>PROJFUND</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:17 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<schemaObject>91F3E89B-168D-624B-6BAA-117B6452746E</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="proj_fund_id" id="51707EFB-8648-5C9A-1608-D564FFFBEECF">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>PROJFUND</sourceObjSchema>
+<sourceObjName>proj_fund_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:17 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fund_id" id="D9990881-DD33-108B-935B-56C2F195CD13">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>PROJFUND</sourceObjSchema>
+<sourceObjName>fund_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:17 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<delegate>EE60E3A6-E92C-D925-6894-EF79A54D38E2</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC821A4B-1016-541E-5B4A-8E7DFF7F9AB0" referredColumn="EE60E3A6-E92C-D925-6894-EF79A54D38E2"/>
+</associations>
+</Column>
+<Column name="proj_id" id="D5A3DCA0-5B3A-A095-FD4A-1EA7C77A33CA">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>PROJFUND</sourceObjSchema>
+<sourceObjName>proj_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:17 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<delegate>64D7971B-0A14-9847-B846-139193AF42A3</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D047A31A-A68B-9A16-E3BB-FB7A416225B9" referredColumn="64D7971B-0A14-9847-B846-139193AF42A3"/>
+</associations>
+</Column>
+<Column name="fund_cost" id="460F7300-9094-B8CD-6EBD-2A27AAEA33B1">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>PROJFUND</sourceObjSchema>
+<sourceObjName>fund_cost</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:17 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<dataTypeSize>9</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fund_wt" id="5C828940-DB49-E40D-FE7C-B8CB116747E1">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>PROJFUND</sourceObjSchema>
+<sourceObjName>fund_wt</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:17 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>9</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A90679BF-A598-A773-FCBF-A6D8D95D1030" name="PROJFUND_PK">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>pk_projfund</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:17 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51707EFB-8648-5C9A-1608-D564FFFBEECF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="67EB89AE-C87F-1E28-C054-ABB139942D00" name="ndx_projfund_1">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>ndx_projfund_1</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:17 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5A3DCA0-5B3A-A095-FD4A-1EA7C77A33CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8268679B-D8AC-82B5-9370-B76C17F5DB2C" name="ndx_projfund_fundsrc">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>ndx_projfund_fundsrc</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:17 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9990881-DD33-108B-935B-56C2F195CD13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5FE9F581-DA70-556E-C710-F1D0095A83BD" name="fk_projfund_fundsrc">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:31 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9990881-DD33-108B-935B-56C2F195CD13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="87C8AB23-3ADE-74DE-E064-5A91651D6E0D" name="fk_projfund_project">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:31 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5A3DCA0-5B3A-A095-FD4A-1EA7C77A33CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

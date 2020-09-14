@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7060BDE7-21CA-B4A0-A310-6259424C90BF" name="Product">
+<createdBy>peter</createdBy>
+<createdTime>2013-11-06 08:44:36 UTC</createdTime>
+<generatorID>B2D37C09-E455-8CA0-B4AD-FE8F0808B125</generatorID>
+<ownerDesignName>WorkEffort</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Product_ID" id="FB385FD0-8B8F-48B6-66AF-AF26E5F48D1C">
+<createdBy>peter</createdBy>
+<createdTime>2013-11-06 08:44:36 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>WorkEffort</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="ID" id="612D675A-7621-3FDC-2626-5CBE1359A555">
+<createdBy>peter</createdBy>
+<createdTime>2013-11-06 08:44:36 UTC</createdTime>
+<generatorID>93E0E8DA-10CE-B9F5-9FFF-DE68F8831F76</generatorID>
+<ownerDesignName>WorkEffort</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>448DB7AB-CEB0-9FEB-C28B-2A0B70A01351</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Title" id="AD680243-2CE0-7301-85AA-FD8560382A7F">
+<createdBy>peter</createdBy>
+<createdTime>2013-11-06 08:44:36 UTC</createdTime>
+<generatorID>DA708E41-5283-C967-AE4D-92490E03B881</generatorID>
+<ownerDesignName>WorkEffort</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>3B511681-8CBA-1775-BE07-8A10880B6B09</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IntroductionDate" id="D6C83ADF-1246-3BD1-83F9-9EF58164BD80">
+<createdBy>peter</createdBy>
+<createdTime>2013-11-06 08:44:36 UTC</createdTime>
+<generatorID>A24A1F9F-4CB8-E2D7-C972-99F3E8C3CACF</generatorID>
+<ownerDesignName>WorkEffort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SalesDiscontinuationDate" id="E37DCDB4-78F0-FE85-0F95-3588C4B70D3B">
+<createdBy>peter</createdBy>
+<createdTime>2013-11-06 08:44:36 UTC</createdTime>
+<generatorID>5D2454B5-43D1-E6E4-B43D-F2CD73ADC48C</generatorID>
+<ownerDesignName>WorkEffort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SupportDiscontinuationDate" id="CFD38BA1-5EF9-E13E-94B9-220A1C13E3BE">
+<createdBy>peter</createdBy>
+<createdTime>2013-11-06 08:44:36 UTC</createdTime>
+<generatorID>802BEA0A-1F4D-A1AC-52E4-16187D939B2A</generatorID>
+<ownerDesignName>WorkEffort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Comment" id="5A477C1B-8FC7-0D60-B92C-8016CDD86631">
+<createdBy>peter</createdBy>
+<createdTime>2013-11-06 08:44:36 UTC</createdTime>
+<generatorID>9E3DBC77-894D-9FB0-BA92-7D027B2AD828</generatorID>
+<ownerDesignName>WorkEffort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C5D30FA0-0B9E-F676-43D3-248EF3BA4DC3" name="Product_PK">
+<createdBy>peter</createdBy>
+<createdTime>2013-11-06 08:44:36 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>WorkEffort</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="FB385FD0-8B8F-48B6-66AF-AF26E5F48D1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C9D8EB91-801B-C365-8806-D97B5D61F6C5" name="Product__UN">
+<createdBy>peter</createdBy>
+<createdTime>2013-11-06 08:44:36 UTC</createdTime>
+<generatorID>D10F4C5C-44DC-7792-9B23-75E6A08B299A</generatorID>
+<ownerDesignName>WorkEffort</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

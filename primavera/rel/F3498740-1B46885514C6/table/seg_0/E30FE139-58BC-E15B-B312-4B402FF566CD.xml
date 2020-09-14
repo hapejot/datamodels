@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E30FE139-58BC-E15B-B312-4B402FF566CD" name="ISSUHIST">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>ISSUHIST</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:20 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<schemaObject>91F3E89B-168D-624B-6BAA-117B6452746E</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="issue_id" id="68746467-5088-DFB8-3309-12228DD40A0C">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>ISSUHIST</sourceObjSchema>
+<sourceObjName>issue_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:20 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<delegate>94871320-6266-CF9E-6E51-D80A78BAB963</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5828AC38-2BDC-0D82-6907-866C855C13B1" referredColumn="94871320-6266-CF9E-6E51-D80A78BAB963"/>
+</associations>
+</Column>
+<Column name="proj_id" id="E4B9B82B-1495-7BC3-A3DE-0ED02B45B1B3">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>ISSUHIST</sourceObjSchema>
+<sourceObjName>proj_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:20 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<delegate>64D7971B-0A14-9847-B846-139193AF42A3</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A6B0D972-FDC4-3649-CA6A-1D4041EDEBD9" referredColumn="64D7971B-0A14-9847-B846-139193AF42A3"/>
+</associations>
+</Column>
+<Column name="issue_history" id="D300D227-6ADB-2C76-9CD0-BD4E5882829F">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>ISSUHIST</sourceObjSchema>
+<sourceObjName>issue_history</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:20 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeSize>16</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="03C29B53-8122-9FA8-E884-D399DF6F91FD" name="ISSUHIST_PK">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>pk_issuhist</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:20 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68746467-5088-DFB8-3309-12228DD40A0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45FD675E-7F83-BFA8-F1E4-691CB53EB5B0" name="ndx_issuhist_1">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>ndx_issuhist_1</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:20 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4B9B82B-1495-7BC3-A3DE-0ED02B45B1B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A1F8CD4-82C3-8063-E380-38D83F8EC22A" name="fk_issuhist_projissu">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:31 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68746467-5088-DFB8-3309-12228DD40A0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="12F1BC54-39CB-097A-A0B7-E38E5158337C" name="fk_issuhist_project">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:31 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4B9B82B-1495-7BC3-A3DE-0ED02B45B1B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

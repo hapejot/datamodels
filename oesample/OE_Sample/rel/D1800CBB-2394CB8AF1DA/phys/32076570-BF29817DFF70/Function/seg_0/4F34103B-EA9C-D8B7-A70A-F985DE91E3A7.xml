@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FunctionOracle class="oracle.dbtools.crest.model.design.storage.oracle.FunctionOracle" name="get_phone_number_f" id="4F34103B-EA9C-D8B7-A70A-F985DE91E3A7" directorySegmentName="seg_0">
+   <createdBy>smharper</createdBy>
+   <createdTime>2011-01-07 13:05:27 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2011-01-07 13:05:27 UTC</changedTime>
+   <ownerDesignName>OE_Sample</ownerDesignName>
+   <owner>D6670C27-0286-8380-C2AB-1B6A7FDD2E54</owner>
+   <source>CREATE OR REPLACE FUNCTION OE.get_phone_number_f&amp;lt;br&amp;gt;  (p_in INTEGER, p_phonelist phone_list_typ)&amp;lt;br&amp;gt;RETURN VARCHAR2 AS&amp;lt;br&amp;gt;  TYPE phone_list IS VARRAY(5) OF VARCHAR2(25);&amp;lt;br&amp;gt;  phone_out varchar2(25) := null;&amp;lt;br&amp;gt;  v_size INTEGER;&amp;lt;br&amp;gt;BEGIN&amp;lt;br&amp;gt;    IF p_phonelist.FIRST IS NULL OR&amp;lt;br&amp;gt;       p_in &amp;gt; (p_phonelist.LAST + 1) - p_phonelist.FIRST THEN&amp;lt;br&amp;gt;      RETURN phone_out;&amp;lt;br&amp;gt;    ELSE&amp;lt;br&amp;gt;      phone_out := p_phonelist(p_in);&amp;lt;br&amp;gt;      RETURN phone_out;&amp;lt;br&amp;gt;    END IF;&amp;lt;br&amp;gt;END;</source>
+</FunctionOracle>

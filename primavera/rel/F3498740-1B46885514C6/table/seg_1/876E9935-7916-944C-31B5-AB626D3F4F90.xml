@@ -1,0 +1,192 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="876E9935-7916-944C-31B5-AB626D3F4F90" name="WBSMEMO">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>WBSMEMO</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:27 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<schemaObject>91F3E89B-168D-624B-6BAA-117B6452746E</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="wbs_memo_id" id="51F264E2-9850-FCE3-89F4-0C8CA5EC7589">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>WBSMEMO</sourceObjSchema>
+<sourceObjName>wbs_memo_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:27 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="proj_id" id="FF498D0F-FA39-F458-8B65-05360CC51E88">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>WBSMEMO</sourceObjSchema>
+<sourceObjName>proj_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:27 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<delegate>64D7971B-0A14-9847-B846-139193AF42A3</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="256CFD31-AA49-B45C-BB4D-02A7BE0A01D5" referredColumn="64D7971B-0A14-9847-B846-139193AF42A3"/>
+</associations>
+</Column>
+<Column name="wbs_id" id="BDDC1742-151E-496E-E85D-A6A039902C4E">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>WBSMEMO</sourceObjSchema>
+<sourceObjName>wbs_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:27 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<delegate>D9124DC0-89E6-5AC1-2127-F06DAF424297</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="19311AA7-16ED-668A-8108-587094A7EA48" referredColumn="D9124DC0-89E6-5AC1-2127-F06DAF424297"/>
+</associations>
+</Column>
+<Column name="memo_type_id" id="CEEB112F-CA48-6680-BD9F-77B3E3FB5ED7">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>WBSMEMO</sourceObjSchema>
+<sourceObjName>memo_type_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:27 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<delegate>19EFFEA3-0EB6-427B-D797-FA5A49ABA1A0</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="80DCBDC6-E961-59E8-AB0D-619B6FB03C26" referredColumn="19EFFEA3-0EB6-427B-D797-FA5A49ABA1A0"/>
+</associations>
+</Column>
+<Column name="wbs_memo" id="40CAE361-97F3-1CEA-ED5A-C0AEB285C8E1">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>WBSMEMO</sourceObjSchema>
+<sourceObjName>wbs_memo</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:27 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeSize>16</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7C963412-C66E-D4D4-635E-7869557CC969" name="WBSMEMO_PK">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>pk_wbsmemo</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:27 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51F264E2-9850-FCE3-89F4-0C8CA5EC7589"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B400CCEC-6CBC-E06B-7A99-2A70A8BB3D24" name="ndx_wbsmemo_1">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>ndx_wbsmemo_1</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:27 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF498D0F-FA39-F458-8B65-05360CC51E88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4CBB4060-FEB4-692F-7C24-98D8B39F51E0" name="ndx_wbsmemo_2">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>ndx_wbsmemo_2</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:27 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BDDC1742-151E-496E-E85D-A6A039902C4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="85C3632F-3B77-B7B7-F36E-8AFE5D656D2D" name="ndx_wbsmemo_memotype">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>ndx_wbsmemo_memotype</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:27 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CEEB112F-CA48-6680-BD9F-77B3E3FB5ED7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="191C0182-CDA3-7FC2-C03D-F344DFB9524F" name="fk_wbsmemo_projwbs">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:32 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BDDC1742-151E-496E-E85D-A6A039902C4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33C61B3A-BB36-B206-483A-8F1935C35068" name="fk_wbsmemo_project">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:32 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF498D0F-FA39-F458-8B65-05360CC51E88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="56E22572-1FA7-428E-7FD7-70534B76EB4D" name="fk_wbsmemo_memotype">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:32 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CEEB112F-CA48-6680-BD9F-77B3E3FB5ED7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

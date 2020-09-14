@@ -1,0 +1,244 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="032C0949-6BA8-CECD-3E0F-00A55DE0B813" name="RPT">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>RPT</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:25 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<schemaObject>91F3E89B-168D-624B-6BAA-117B6452746E</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rpt_id" id="98BB7E47-E1E9-BA43-C00D-31A4B99CBDAD">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>RPT</sourceObjSchema>
+<sourceObjName>rpt_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:25 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="global_flag" id="E2FB9C4E-A685-685A-9318-B376C2EE897B">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>RPT</sourceObjSchema>
+<sourceObjName>global_flag</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:25 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rpt_type" id="D45452FD-9E2B-DF0B-668C-AEF038EB1DB8">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>RPT</sourceObjSchema>
+<sourceObjName>rpt_type</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:25 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeSize>12</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rpt_name" id="59270D96-E04B-1810-6F15-B8773D03E5D7">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>RPT</sourceObjSchema>
+<sourceObjName>rpt_name</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:25 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>80</dataTypePrecision>
+<dataTypeSize>80</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rpt_group_id" id="826ACDB3-926B-9AB0-BF97-6983F6FC9364">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>RPT</sourceObjSchema>
+<sourceObjName>rpt_group_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:25 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<delegate>92B3FBE5-CC75-6CA7-009F-9E5B17B76D30</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="74D904E0-63FC-F010-DA51-07D638C5AF05" referredColumn="92B3FBE5-CC75-6CA7-009F-9E5B17B76D30"/>
+</associations>
+</Column>
+<Column name="proj_id" id="83F86521-3B0D-A461-0B09-EF0FD584254A">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>RPT</sourceObjSchema>
+<sourceObjName>proj_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:25 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<delegate>64D7971B-0A14-9847-B846-139193AF42A3</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF09C545-20B7-7BF1-E1A2-B83F2F547704" referredColumn="64D7971B-0A14-9847-B846-139193AF42A3"/>
+</associations>
+</Column>
+<Column name="rpt_state" id="DF67D7E1-E19C-5374-31EA-78E001632290">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>RPT</sourceObjSchema>
+<sourceObjName>rpt_state</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:25 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>10</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rpt_data" id="D6BA2715-73DE-12AE-6309-5FCE5B2856E9">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>RPT</sourceObjSchema>
+<sourceObjName>rpt_data</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:25 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeSize>16</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2565A335-92EB-AA8C-804D-E5D1B6A3D972" name="RPT_PK">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>pk_rpt</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:26 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98BB7E47-E1E9-BA43-C00D-31A4B99CBDAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="82A3AA43-C95D-B55A-E377-4025F44563CF" name="ndx_rpt_1">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>ndx_rpt_1</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:25 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83F86521-3B0D-A461-0B09-EF0FD584254A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E92062B6-479A-B658-F989-0CA858D649E6" name="ndx_rpt_rptgroup">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>ndx_rpt_rptgroup</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:25 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="826ACDB3-926B-9AB0-BF97-6983F6FC9364"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8EB284E2-3123-332E-A21D-2A2DCC81AEA2" name="fk_rpt_project">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:32 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83F86521-3B0D-A461-0B09-EF0FD584254A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="32976A13-95C3-D8F6-C259-229166EB7475" name="fk_rpt_rptgroup">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:32 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="826ACDB3-926B-9AB0-BF97-6983F6FC9364"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints>
+<tableCheckConstraint class="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint" name="ck_rpt_global_flag" directorySegmentName="seg_1" id="EB8AECEA-833C-02CB-D8FA-FFC6C945C574">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>ck_rpt_global_flag</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:26 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<rule>[global_flag]=&apos;N&apos; OR [global_flag]=&apos;Y&apos;</rule>
+</tableCheckConstraint>
+<tableCheckConstraint class="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint" name="ck_rpt_rpt_type" directorySegmentName="seg_1" id="CDD9EE71-BDB4-3B9D-39A8-8CE4573A2ACF">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>ck_rpt_rpt_type</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:26 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<rule>NOT ([rpt_type]=&apos; &apos; OR [rpt_type]=&apos;&apos;)</rule>
+</tableCheckConstraint>
+<tableCheckConstraint class="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint" name="DF__RPT__global_flag__57DD0BE4" directorySegmentName="seg_1" id="5D44FA8F-5E2F-133C-17E1-BD52387DC22E">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>DF__RPT__global_flag__57DD0BE4</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:26 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<rule>&apos;N&apos;</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

@@ -1,0 +1,28 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StructuredTypeProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.StructuredTypeProxyOraclev10g" name="CATALOG_TYP" id="34436472-829B-3357-D14A-238026A9FE6A" directorySegmentName="seg_0">
+   <createdBy>smharper</createdBy>
+   <createdTime>2011-01-07 13:02:56 UTC</createdTime>
+   <changedBy>meyoung</changedBy>
+   <changedTime>2011-01-07 13:02:56 UTC</changedTime>
+   <ownerDesignName>OE_Sample</ownerDesignName>
+   <methods>
+      <Method class="oracle.dbtools.crest.model.design.storage.oracle.v10g.MethodProxyOraclev10g" name="CATEGORY_DESCRIBE" id="2B5D5006-15AE-CEE1-3AF3-41FF846D97EF">
+         <createdBy>smharper</createdBy>
+         <createdTime>2011-01-07 13:02:56 UTC</createdTime>
+         <changedBy>smharper</changedBy>
+         <changedTime>2011-01-07 13:02:56 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <bodyChanged>false</bodyChanged>
+         <plSQLBody>BEGIN&amp;lt;br&amp;gt;    RETURN &amp;apos;catalog_typ&amp;apos;;&amp;lt;br&amp;gt;  END;</plSQLBody>
+      </Method>
+      <Method class="oracle.dbtools.crest.model.design.storage.oracle.v10g.MethodProxyOraclev10g" name="GETCATALOGNAME" id="D5C25503-5827-56AD-0D41-C3BA4D177B6F">
+         <createdBy>smharper</createdBy>
+         <createdTime>2011-01-07 13:02:56 UTC</createdTime>
+         <changedBy>smharper</changedBy>
+         <changedTime>2011-01-07 13:02:56 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <bodyChanged>false</bodyChanged>
+         <plSQLBody>BEGIN&amp;lt;br&amp;gt;    -- Return the category name from the supertype&amp;lt;br&amp;gt;    RETURN self.category_name;&amp;lt;br&amp;gt;  END;</plSQLBody>
+      </Method>
+   </methods>
+</StructuredTypeProxyOraclev10g>

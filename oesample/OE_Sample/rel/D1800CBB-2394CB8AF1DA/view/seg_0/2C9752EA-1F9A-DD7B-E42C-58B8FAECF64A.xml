@@ -1,0 +1,162 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" id="2C9752EA-1F9A-DD7B-E42C-58B8FAECF64A" directorySegmentName="seg_0" name="OC_PRODUCT_INFORMATION">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-20 16:11:40 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2008-11-20 16:11:40 UTC</changedTime>
+   <ownerDesignName>OE_Sample</ownerDesignName>
+   <basedOnStructuredType>3E6BB331-2412-CAF5-FF2A-2AB8E1D8B629</basedOnStructuredType>
+   <schemaObject>AB99E18F-10A1-579F-F11A-EFD5EB37B0D7</schemaObject>
+   <userDefined>false</userDefined>
+   <userDefinedSQL>CREATE VIEW OC_PRODUCT_INFORMATION&amp;lt;br&amp;gt;  ( PRODUCT_ID,&amp;lt;br&amp;gt;    PRODUCT_NAME,&amp;lt;br&amp;gt;    PRODUCT_DESCRIPTION,&amp;lt;br&amp;gt;    CATEGORY_ID,&amp;lt;br&amp;gt;    WEIGHT_CLASS,&amp;lt;br&amp;gt;    WARRANTY_PERIOD,&amp;lt;br&amp;gt;    SUPPLIER_ID,&amp;lt;br&amp;gt;    PRODUCT_STATUS,&amp;lt;br&amp;gt;    LIST_PRICE,&amp;lt;br&amp;gt;    MIN_PRICE,&amp;lt;br&amp;gt;    CATALOG_URL,&amp;lt;br&amp;gt;    INVENTORY_LIST )&amp;lt;br&amp;gt; AS SELECT&amp;lt;br&amp;gt;    PRODUCT_ID PRODUCT_ID,&amp;lt;br&amp;gt;    PRODUCT_NAME PRODUCT_NAME,&amp;lt;br&amp;gt;    PRODUCT_DESCRIPTION PRODUCT_DESCRIPTION,&amp;lt;br&amp;gt;    CATEGORY_ID CATEGORY_ID,&amp;lt;br&amp;gt;    WEIGHT_CLASS WEIGHT_CLASS,&amp;lt;br&amp;gt;    WARRANTY_PERIOD WARRANTY_PERIOD,&amp;lt;br&amp;gt;    SUPPLIER_ID SUPPLIER_ID,&amp;lt;br&amp;gt;    PRODUCT_STATUS PRODUCT_STATUS,&amp;lt;br&amp;gt;    LIST_PRICE LIST_PRICE,&amp;lt;br&amp;gt;    MIN_PRICE MIN_PRICE,&amp;lt;br&amp;gt;    CATALOG_URL CATALOG_URL,&amp;lt;br&amp;gt;    INVENTORY_LIST INVENTORY_LIST;</userDefinedSQL>
+   <oidText>product_id</oidText>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+   </fonts>
+   <viewElements>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="PRODUCT_ID" id="6ECCB543-EBAD-D55B-7420-48309C6E3113">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:40 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:40 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <structAttributeID>63AF9B79-690D-AB59-79E1-BD0334EFBF03</structAttributeID>
+         <alias>PRODUCT_ID</alias>
+         <dataType>NUMERIC (6)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="PRODUCT_NAME" id="87B8ABB3-B326-B9C6-8499-8B370931BA31">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:40 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:40 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <structAttributeID>FDEC703E-8A2B-3EC3-B67A-E80AB6C8F1D2</structAttributeID>
+         <alias>PRODUCT_NAME</alias>
+         <dataType>VARCHAR (50)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="PRODUCT_DESCRIPTION" id="B70EA2FF-9D45-657B-FE5D-A9FF547DDD11">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:40 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:40 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <structAttributeID>2DB92FC1-F84B-66A1-BC22-E3192A94DCD4</structAttributeID>
+         <alias>PRODUCT_DESCRIPTION</alias>
+         <dataType>VARCHAR (2000)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="CATEGORY_ID" id="BB50BC84-8D76-0F2D-5851-4A786836758B">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:40 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:40 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <structAttributeID>A6CAAD41-DA9C-072B-7D61-0490D1E156C8</structAttributeID>
+         <alias>CATEGORY_ID</alias>
+         <dataType>NUMERIC (2)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="WEIGHT_CLASS" id="AB1224A0-7F78-AC93-8868-8C6CB79194AD">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:40 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:40 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <structAttributeID>D03F0F79-9CA3-1320-BAF6-C9D2F9BDD36D</structAttributeID>
+         <alias>WEIGHT_CLASS</alias>
+         <dataType>NUMERIC (1)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="WARRANTY_PERIOD" id="2E06115D-302C-3809-9E2D-058F134B83B9">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:40 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:40 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <structAttributeID>C5896F6C-BC41-335B-9531-DB5745125FF7</structAttributeID>
+         <alias>WARRANTY_PERIOD</alias>
+         <dataType>INTERVAL YEAR TO MONTH (2)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="SUPPLIER_ID" id="F63B1C24-00C5-AD5C-BDDE-3AD50578A01A">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:40 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:40 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <structAttributeID>21F79E27-55BF-8A6F-1273-A30D2DCBEC47</structAttributeID>
+         <alias>SUPPLIER_ID</alias>
+         <dataType>NUMERIC (6)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="PRODUCT_STATUS" id="17296F53-F3C4-6BDB-920E-329026519307">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:40 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:40 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <structAttributeID>6E1A1B23-58B8-7674-0D11-6E27B516A37E</structAttributeID>
+         <alias>PRODUCT_STATUS</alias>
+         <dataType>VARCHAR (20)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="LIST_PRICE" id="8C469F96-4F42-411F-2A84-56AAD781EC6A">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:40 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:40 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <structAttributeID>497259F4-3334-CCC7-B4C4-23902FCD14BD</structAttributeID>
+         <alias>LIST_PRICE</alias>
+         <dataType>NUMERIC (8, 2)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="MIN_PRICE" id="DED485B3-6E6F-45DB-E0E1-40AD2EDBACBF">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:40 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:40 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <structAttributeID>5B68C3AE-14CB-613D-EFB8-4F8B0B452AEA</structAttributeID>
+         <alias>MIN_PRICE</alias>
+         <dataType>NUMERIC (8, 2)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="CATALOG_URL" id="635C0692-A311-83B3-D8AB-44B72F05D08C">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:40 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:40 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <structAttributeID>625F38AD-D95E-AB12-D5D4-E3735A7CD413</structAttributeID>
+         <alias>CATALOG_URL</alias>
+         <dataType>VARCHAR (50)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="INVENTORY_LIST" id="E88A8766-2417-2E3E-EC19-7C75852502E7">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:40 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:40 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <structAttributeID>C8ECE3F5-80A7-957D-AC8C-F3E1EAD51C93</structAttributeID>
+         <alias>INVENTORY_LIST</alias>
+         <dataType>INVENTORY_LIST_TYP</dataType>
+         <reference>false</reference>
+      </viewElement>
+   </viewElements>
+</TableView>

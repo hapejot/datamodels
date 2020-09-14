@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="INVENTORIES" id="3971E065-E62E-67CC-CCFF-C894132F1D64" directorySegmentName="seg_0">
+   <createdBy>smharper</createdBy>
+   <createdTime>2011-01-07 13:02:56 UTC</createdTime>
+   <changedBy>meyoung</changedBy>
+   <changedTime>2011-01-07 13:02:56 UTC</changedTime>
+   <ownerDesignName>OE_Sample</ownerDesignName>
+   <logging>YES</logging>
+   <columnProxies>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="PRODUCT_ID" id="19474AA4-1AFF-4166-240E-14BDEBBE3D42">
+         <createdBy>smharper</createdBy>
+         <createdTime>2011-01-07 13:02:56 UTC</createdTime>
+         <changedBy>smharper</changedBy>
+         <changedTime>2011-01-07 13:02:56 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+      </ColumnProxy>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="QUANTITY_ON_HAND" id="6660220B-E7E7-A881-9260-48FC19E91E23">
+         <createdBy>smharper</createdBy>
+         <createdTime>2011-01-07 13:02:56 UTC</createdTime>
+         <changedBy>smharper</changedBy>
+         <changedTime>2011-01-07 13:02:56 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+      </ColumnProxy>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="WAREHOUSE_ID" id="DE19ADA4-6D35-90A7-BCEF-A3526338F970">
+         <createdBy>smharper</createdBy>
+         <createdTime>2011-01-07 13:02:56 UTC</createdTime>
+         <changedBy>smharper</changedBy>
+         <changedTime>2011-01-07 13:02:56 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+      </ColumnProxy>
+   </columnProxies>
+   <indexProxies>
+      <IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="INVENTORY_IX" id="5BDB8885-F3FB-CDD2-D364-442E7093EBFF">
+         <createdBy>smharper</createdBy>
+         <createdTime>2011-01-07 13:02:56 UTC</createdTime>
+         <changedBy>smharper</changedBy>
+         <changedTime>2011-01-07 13:02:56 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+      </IndexProxy>
+      <IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="INV_PRODUCT_IX" id="D2A58026-3777-2C89-74B3-0041E12408B8">
+         <createdBy>smharper</createdBy>
+         <createdTime>2011-01-07 13:02:56 UTC</createdTime>
+         <changedBy>smharper</changedBy>
+         <changedTime>2011-01-07 13:02:56 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+      </IndexProxy>
+   </indexProxies>
+   <foreignKeys>
+      <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="INVENTORIES_WAREHOUSES_FK" id="373D98A9-3150-D877-7D04-9F10383099F6">
+         <createdBy>smharper</createdBy>
+         <createdTime>2011-01-07 13:02:56 UTC</createdTime>
+         <changedBy>smharper</changedBy>
+         <changedTime>2011-01-07 13:02:56 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+      </ForeignKey>
+      <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="INVENTORIES_PRODUCT_ID_FK" id="5BD1E449-BE89-68D4-F05D-8E5D9CABB494">
+         <createdBy>smharper</createdBy>
+         <createdTime>2011-01-07 13:02:56 UTC</createdTime>
+         <changedBy>smharper</changedBy>
+         <changedTime>2011-01-07 13:02:56 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+      </ForeignKey>
+   </foreignKeys>
+   <primaryKeys>
+      <PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="INVENTORY_PK" id="EF39643A-940B-0A87-F064-FACFAE17EE15">
+         <createdBy>smharper</createdBy>
+         <createdTime>2011-01-07 13:02:56 UTC</createdTime>
+         <changedBy>smharper</changedBy>
+         <changedTime>2011-01-07 13:02:56 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <indexSort>NO</indexSort>
+      </PrimaryKey>
+   </primaryKeys>
+</TableProxyOraclev11g>

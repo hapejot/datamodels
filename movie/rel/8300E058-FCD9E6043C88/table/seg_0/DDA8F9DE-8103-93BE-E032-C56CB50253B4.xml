@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DDA8F9DE-8103-93BE-E032-C56CB50253B4" name="VIDEO_TAG">
+<createdBy>peter</createdBy>
+<createdTime>2015-11-18 09:52:41 UTC</createdTime>
+<ownerDesignName>movie</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Video_Video_ID" id="B8E3EB26-96BC-3952-EA0C-13A2B4239DFB">
+<createdBy>peter</createdBy>
+<createdTime>2015-11-18 09:52:41 UTC</createdTime>
+<ownerDesignName>movie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>78E66BBA-FF33-CF99-48C2-A9C2EEB57B66</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A9A26EA-2D5A-C2C3-9D0E-D3B0428AC38D" referredColumn="78E66BBA-FF33-CF99-48C2-A9C2EEB57B66"/>
+</associations>
+</Column>
+<Column name="Tag_Tag_ID" id="2319A203-1FE6-8476-AA1D-C9C999B4602E">
+<createdBy>peter</createdBy>
+<createdTime>2015-11-18 09:52:41 UTC</createdTime>
+<ownerDesignName>movie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>699C5BF6-BFC4-D877-6628-B513B4804629</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="69A8CFB1-E82B-A840-E704-749A78532E9F" referredColumn="699C5BF6-BFC4-D877-6628-B513B4804629"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FF37AFDD-DF16-4063-6BBD-865C6DFE11C5" name="VIDEO_TAG_PK">
+<createdBy>peter</createdBy>
+<createdTime>2015-11-18 09:52:41 UTC</createdTime>
+<ownerDesignName>movie</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8E3EB26-96BC-3952-EA0C-13A2B4239DFB"/>
+<colUsage columnID="2319A203-1FE6-8476-AA1D-C9C999B4602E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="177A99FF-9FDD-7746-50C4-5C2F81A5BDC3" name="FK_ASS_1">
+<createdBy>peter</createdBy>
+<createdTime>2015-11-18 09:52:41 UTC</createdTime>
+<generatorID>203FB73C-6BE8-B007-AFB0-5CDB2AD48E07</generatorID>
+<ownerDesignName>movie</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8E3EB26-96BC-3952-EA0C-13A2B4239DFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62725820-2658-A353-32E3-ADBF5C650869" name="FK_ASS_2">
+<createdBy>peter</createdBy>
+<createdTime>2015-11-18 09:52:41 UTC</createdTime>
+<generatorID>203FB73C-6BE8-B007-AFB0-5CDB2AD48E07</generatorID>
+<ownerDesignName>movie</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2319A203-1FE6-8476-AA1D-C9C999B4602E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

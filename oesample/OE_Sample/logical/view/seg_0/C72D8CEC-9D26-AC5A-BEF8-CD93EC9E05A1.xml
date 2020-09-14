@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" id="C72D8CEC-9D26-AC5A-BEF8-CD93EC9E05A1" directorySegmentName="seg_0" name="ORDERS_VIEW">
+   <createdBy>meyoung</createdBy>
+   <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+   <changedBy>meyoung</changedBy>
+   <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+   <generatorID>EA2BA9A5-831B-C04C-FCC6-B68E87B8E1BD</generatorID>
+   <ownerDesignName>OE_Sample</ownerDesignName>
+   <userDefined>true</userDefined>
+   <userDefinedSQL>CREATE OR REPLACE VIEW ORDERS_VIEW&amp;lt;br&amp;gt;AS &amp;lt;br&amp;gt;SELECT&amp;lt;br&amp;gt;  order_id,&amp;lt;br&amp;gt;  TO_DATE(TO_CHAR(order_date,&amp;apos;DD-MON-YY HH:MI:SS&amp;apos;),&amp;apos;DD-MON-YY HH:MI:SS&amp;apos;) ORDER_DATE,&amp;lt;br&amp;gt;  order_mode,&amp;lt;br&amp;gt;  customer_id,&amp;lt;br&amp;gt;  order_status,&amp;lt;br&amp;gt;  order_total,&amp;lt;br&amp;gt;  sales_rep_id,&amp;lt;br&amp;gt;  promotion_id&amp;lt;br&amp;gt;FROM orders</userDefinedSQL>
+   <viewType>EntityView</viewType>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+   </fonts>
+   <viewElements>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="ORDER_ID" id="38F32BF9-3483-5EF8-533C-32438C63665C">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <generatorID>AB593F09-8B28-FDB9-A5BB-535122BAF8D9</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>ORDER_ID</alias>
+         <dataType>NUMBER (12)</dataType>
+         <reference>false</reference>
+         <viewID>C72D8CEC-9D26-AC5A-BEF8-CD93EC9E05A1</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="ORDER_DATE" id="D1F143BD-2E84-A835-CBAA-DBE30E3C3572">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <generatorID>394EAD99-150A-DCBE-DF47-5FE84C46AA83</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>ORDER_DATE</alias>
+         <dataType>DATE (8)</dataType>
+         <reference>false</reference>
+         <viewID>C72D8CEC-9D26-AC5A-BEF8-CD93EC9E05A1</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="ORDER_MODE" id="3AA8AF09-DA6C-1848-6558-4FB26D25EDE6">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <generatorID>4184E522-D072-1BEB-6FA6-7FC641C5BFA2</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>ORDER_MODE</alias>
+         <dataType>VARCHAR2 (8)</dataType>
+         <reference>false</reference>
+         <viewID>C72D8CEC-9D26-AC5A-BEF8-CD93EC9E05A1</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="CUSTOMER_ID" id="7BB98B81-EE5F-79DA-6469-F16197B7C754">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <generatorID>945751A7-C508-C96F-3A17-E103815DFCF1</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>CUSTOMER_ID</alias>
+         <dataType>NUMBER (6)</dataType>
+         <reference>false</reference>
+         <viewID>C72D8CEC-9D26-AC5A-BEF8-CD93EC9E05A1</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="ORDER_STATUS" id="0BD22518-6F8F-BEDE-5250-C0836EF625FA">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <generatorID>A04E4D57-21EB-37FA-E612-74FF021FF5C5</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>ORDER_STATUS</alias>
+         <dataType>NUMBER (2)</dataType>
+         <reference>false</reference>
+         <viewID>C72D8CEC-9D26-AC5A-BEF8-CD93EC9E05A1</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="ORDER_TOTAL" id="9E3417FB-214D-AD43-9050-DA6BFDA97ED9">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <generatorID>6C7A37AD-A6FB-F440-59FF-4D13F6482F8F</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>ORDER_TOTAL</alias>
+         <dataType>NUMBER (8, 2)</dataType>
+         <reference>false</reference>
+         <viewID>C72D8CEC-9D26-AC5A-BEF8-CD93EC9E05A1</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="SALES_REP_ID" id="307CD466-ED6B-B7BA-CBE6-E6417C1D0A3F">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <generatorID>CCECB501-CAC4-0B7B-8F7B-30D17B66F56B</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>SALES_REP_ID</alias>
+         <dataType>NUMBER (6)</dataType>
+         <reference>false</reference>
+         <viewID>C72D8CEC-9D26-AC5A-BEF8-CD93EC9E05A1</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="PROMOTION_ID" id="CFF76E18-59CF-21C3-33E6-4B148BAAE883">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <generatorID>3F476A6F-13DB-1F3A-0E6C-7DC0D345B997</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>PROMOTION_ID</alias>
+         <dataType>NUMBER (6)</dataType>
+         <reference>false</reference>
+         <viewID>C72D8CEC-9D26-AC5A-BEF8-CD93EC9E05A1</viewID>
+      </viewElement>
+   </viewElements>
+</EntityView>

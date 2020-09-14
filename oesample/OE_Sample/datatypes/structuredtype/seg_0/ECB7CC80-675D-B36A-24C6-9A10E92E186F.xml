@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StructuredType class="oracle.dbtools.crest.model.design.datatypes.StructuredType" name="COMPOSITE_CATEGORY_TYP" id="ECB7CC80-675D-B36A-24C6-9A10E92E186F" directorySegmentName="seg_0">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-20 16:11:34 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2008-11-20 16:11:35 UTC</changedTime>
+   <ownerDesignName>OE_Sample</ownerDesignName>
+   <predefined>false</predefined>
+   <final>false</final>
+   <inheritanceRelation>3BC588DE-103E-8EAD-BFC3-83CA1E503CD0</inheritanceRelation>
+   <instantiable>true</instantiable>
+   <parentTypeID>474D6FCB-A77F-4356-E491-2C454AD2E444</parentTypeID>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16777056</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Method</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Instantiable</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Mandatory</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+   </fonts>
+   <attributes>
+      <Attribute class="oracle.dbtools.crest.model.design.datatypes.TypeElement" name="SUBCATEGORY_REF_LIST" id="2DEC4B0D-BA5D-69C7-7FC8-E3A591E05A5B">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:35 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:35 UTC</changedTime>
+         <ownerDesignName>525_OE</ownerDesignName>
+         <mandatory>false</mandatory>
+         <precision>0</precision>
+         <reference>false</reference>
+         <scale>0</scale>
+         <size>0</size>
+         <type>1E4EBAD2-FBE1-460E-924A-3ADF1F19509C</type>
+      </Attribute>
+   </attributes>
+   <methods>
+      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="CATEGORY_DESCRIBE" id="2990DDB3-BA3B-DBEA-1334-464F19C2E74A">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:35 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:35 UTC</changedTime>
+         <ownerDesignName>525_OE</ownerDesignName>
+         <body>BEGIN&amp;lt;br&amp;gt;      RETURN &amp;apos;composite_category_typ&amp;apos;;&amp;lt;br&amp;gt;    END;&amp;lt;br&amp;gt;   </body>
+         <number>0</number>
+         <returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CATEGORY_DESCRIBE" id="null">
+            <precision>0</precision>
+            <reference>false</reference>
+            <scale>0</scale>
+            <size>0</size>
+            <typeID>LOGDT024</typeID>
+         </returnValue>
+      </Method>
+   </methods>
+</StructuredType>

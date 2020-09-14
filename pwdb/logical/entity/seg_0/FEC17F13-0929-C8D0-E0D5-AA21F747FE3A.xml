@@ -1,0 +1,171 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FEC17F13-0929-C8D0-E0D5-AA21F747FE3A" name="nejcpass">
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 05:44:32 UTC</createdTime>
+<generatorID>2929FFE5-1720-4696-6492-F40B073EB88B</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<engineerTo>
+<item key="9EC73DE9-4203-FD89-3720-F118D6C80375" value="true"/>
+<item key="2C17E1C6-13C4-D73A-CCDF-015922042815" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="credentials" id="4E9AF224-16A2-41AD-672B-7143CE51DB1E">
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 05:44:32 UTC</createdTime>
+<generatorID>AED87DA7-3AFF-C854-9276-0C3059B97590</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<engineerTo>
+<item key="9EC73DE9-4203-FD89-3720-F118D6C80375" value="true"/>
+<item key="2C17E1C6-13C4-D73A-CCDF-015922042815" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F32A4242-A138-AE2F-DA8A-0F32B89AE0DA</domain>
+</Attribute>
+<Attribute name="host" id="0124853F-58D5-E103-3C9C-6DDE40C11F54">
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 05:44:32 UTC</createdTime>
+<generatorID>6E2BA137-0852-FDE9-33C5-771DD850F9AD</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<engineerTo>
+<item key="9EC73DE9-4203-FD89-3720-F118D6C80375" value="true"/>
+<item key="2C17E1C6-13C4-D73A-CCDF-015922042815" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F13C5B38-5656-754E-DFD5-BD67E9741A84</domain>
+</Attribute>
+<Attribute name="path" id="DE5C2677-E78A-9EA4-4123-3685C74DD37B">
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 05:44:32 UTC</createdTime>
+<generatorID>948DDC78-06CA-1BDF-6EDE-6B205961E856</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<engineerTo>
+<item key="9EC73DE9-4203-FD89-3720-F118D6C80375" value="true"/>
+<item key="2C17E1C6-13C4-D73A-CCDF-015922042815" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1923D671-0008-EA53-7B8D-E0B983E8346A</domain>
+</Attribute>
+<Attribute name="objectid" id="B9633766-5A19-DE40-85B9-4786BF5B93BD">
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 05:44:32 UTC</createdTime>
+<generatorID>A60DF3C8-F37B-E562-256A-17BB349ADFE6</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<engineerTo>
+<item key="9EC73DE9-4203-FD89-3720-F118D6C80375" value="true"/>
+<item key="2C17E1C6-13C4-D73A-CCDF-015922042815" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2E13C2E7-1EC7-6BF1-9C87-02AFC21F882D</domain>
+</Attribute>
+<Attribute name="founddate" id="7E58B9DF-8F0F-300D-26F3-2C0685128FCA">
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 05:44:32 UTC</createdTime>
+<generatorID>AE35D114-949E-5FC2-B2C0-E545EA34E6F9</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<engineerTo>
+<item key="9EC73DE9-4203-FD89-3720-F118D6C80375" value="true"/>
+<item key="2C17E1C6-13C4-D73A-CCDF-015922042815" value="true"/>
+</engineerTo>
+<defaultValue>CURRENT_TIMESTAMP</defaultValue>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>B121114C-C11D-54AC-45CD-B8095A691FC8</domain>
+<usesDefaultValue>true</usesDefaultValue>
+</Attribute>
+<Attribute name="httpcode" id="932AB95E-0E14-0B14-8AF5-2F8E7179A8FF">
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 05:44:32 UTC</createdTime>
+<generatorID>0BF34622-1C5E-87F2-06C3-A88611DBBE1A</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<engineerTo>
+<item key="9EC73DE9-4203-FD89-3720-F118D6C80375" value="true"/>
+<item key="2C17E1C6-13C4-D73A-CCDF-015922042815" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F13C5B38-5656-754E-DFD5-BD67E9741A84</domain>
+<usesDefaultValue>true</usesDefaultValue>
+</Attribute>
+<Attribute name="source" id="FF3E2029-024D-ED32-5C86-34728EBCB6DA">
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 05:44:32 UTC</createdTime>
+<generatorID>9D9004C9-ACE8-2FF8-937C-F63BF70E6861</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<engineerTo>
+<item key="9EC73DE9-4203-FD89-3720-F118D6C80375" value="true"/>
+<item key="2C17E1C6-13C4-D73A-CCDF-015922042815" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A8C7AA9E-92D4-0CE7-DEE5-B11822912068</domain>
+</Attribute>
+<Attribute name="KEY" id="BD6108BA-2154-4771-45AF-F631221124E3">
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 05:44:32 UTC</createdTime>
+<generatorID>3DF89553-5AFD-DE1A-73B0-5FC1F2B5EF6C</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<engineerTo>
+<item key="9EC73DE9-4203-FD89-3720-F118D6C80375" value="true"/>
+<item key="2C17E1C6-13C4-D73A-CCDF-015922042815" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="KEY1" id="83459106-14CB-C4F6-819E-AB38B2D71348">
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 05:44:32 UTC</createdTime>
+<generatorID>BB7387CA-B3F4-37BE-D57F-4372803D0069</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<engineerTo>
+<item key="9EC73DE9-4203-FD89-3720-F118D6C80375" value="true"/>
+<item key="2C17E1C6-13C4-D73A-CCDF-015922042815" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DEE8BC68-6C58-E98D-7E46-59A9A7AF028C" name="nejcpass PK">
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 05:44:32 UTC</createdTime>
+<generatorID>A3F311ED-A7EB-25DF-9363-3FF47C1FFBE4</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<engineerTo>
+<item key="9EC73DE9-4203-FD89-3720-F118D6C80375" value="true"/>
+<item key="2C17E1C6-13C4-D73A-CCDF-015922042815" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B9633766-5A19-DE40-85B9-4786BF5B93BD</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="E2BDE2F5-FBBB-4B65-C3DB-AB855D9E291A" name="nejcpass__UN">
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 05:44:32 UTC</createdTime>
+<generatorID>FBD51C25-7BD8-35E5-54EC-65CB3BCE2F91</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<engineerTo>
+<item key="9EC73DE9-4203-FD89-3720-F118D6C80375" value="true"/>
+<item key="2C17E1C6-13C4-D73A-CCDF-015922042815" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>4E9AF224-16A2-41AD-672B-7143CE51DB1E</attributeRef>
+<attributeRef>0124853F-58D5-E103-3C9C-6DDE40C11F54</attributeRef>
+<attributeRef>DE5C2677-E78A-9EA4-4123-3685C74DD37B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

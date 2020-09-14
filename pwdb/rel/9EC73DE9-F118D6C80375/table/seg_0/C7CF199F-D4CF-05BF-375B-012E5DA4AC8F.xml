@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C7CF199F-D4CF-05BF-375B-012E5DA4AC8F" name="Person">
+<sourceDDLFile>php.sql</sourceDDLFile>
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 06:07:06 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PartyId" id="78157239-4AA3-99F3-FA8C-449540326825">
+<sourceDDLFile>php.sql</sourceDDLFile>
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 06:07:06 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2CAF58CA-DCDC-240C-99FF-341759DB6075</domain>
+<delegate>2572657B-CF7E-CA79-8843-897578C64FFD</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A79B1A4B-0C98-05F4-F1DD-AFFF597B43C8" referredColumn="2572657B-CF7E-CA79-8843-897578C64FFD"/>
+</associations>
+</Column>
+<Column name="BirthDate" id="921A1BFB-ADD3-C27D-6C42-1969C7D72768">
+<sourceDDLFile>php.sql</sourceDDLFile>
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 06:07:06 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<nullsAllowed>true</nullsAllowed>
+<defaultValue>NULL</defaultValue>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>F0083784-AA31-C1A9-F090-28837D49EE99</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KEY" id="EDAB0B19-8C5F-2D7D-9453-A71292FE0A3C">
+<sourceDDLFile>php.sql</sourceDDLFile>
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 06:07:06 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DBECBDC9-C194-66B4-9018-FF15EB68F035" name="Person_PK">
+<sourceDDLFile>php.sql</sourceDDLFile>
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 06:07:06 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78157239-4AA3-99F3-FA8C-449540326825"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD1E9E4E-3670-0C6D-58D6-442CC2482228" name="fk_person_party">
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 06:07:06 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78157239-4AA3-99F3-FA8C-449540326825"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

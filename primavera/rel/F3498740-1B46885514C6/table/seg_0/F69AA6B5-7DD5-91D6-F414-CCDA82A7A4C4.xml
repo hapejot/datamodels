@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F69AA6B5-7DD5-91D6-F414-CCDA82A7A4C4" name="ADMIN_CONFIG">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>ADMIN_CONFIG</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:13 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<schemaObject>91F3E89B-168D-624B-6BAA-117B6452746E</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="config_name" id="0B1911C1-37A5-2A23-124A-1A5BDB6724AB">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>ADMIN_CONFIG</sourceObjSchema>
+<sourceObjName>config_name</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:13 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="config_type" id="B081D75B-C5AB-0030-A0AA-A8C71EA59195">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>ADMIN_CONFIG</sourceObjSchema>
+<sourceObjName>config_type</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:13 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>10</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="factory_version" id="EF8C48C8-D67B-4FF9-843A-6C56367E43A3">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>ADMIN_CONFIG</sourceObjSchema>
+<sourceObjName>factory_version</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:13 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>10</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_change_date" id="70B2D79E-E6F4-5C45-C7C6-7D5588EA5AC8">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>ADMIN_CONFIG</sourceObjSchema>
+<sourceObjName>last_change_date</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:13 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<dataTypePrecision>23</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="config_data" id="5F955566-7169-BD6A-019B-FAB688322185">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>ADMIN_CONFIG</sourceObjSchema>
+<sourceObjName>config_data</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:13 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeSize>16</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DD3E75E6-AC43-EBCA-EE73-D1536ECBD4E0" name="ADMIN_CONFIG_PK">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>pk_admin_config</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:13 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B1911C1-37A5-2A23-124A-1A5BDB6724AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints>
+<tableCheckConstraint class="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint" name="DF__ADMIN_CON__last___07F6335A" directorySegmentName="seg_0" id="5B2C2D7E-2350-9CDA-6052-429299B08067">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>DF__ADMIN_CON__last___07F6335A</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:13 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<rule>getdate()</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

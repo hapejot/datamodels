@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxySqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.TableProxySqlServerv2k5" name="CALENDAR" directorySegmentName="seg_0" id="1A937944-80BF-E17C-2AB0-8959DAAB5606">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:14 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<database>0F6D9204-2E67-5485-5B0B-44D87AE41992</database>
+<filegroup>4E8C0BFE-619B-5B45-4D00-B37CDAB1A6B9</filegroup>
+<schema>0CB982A8-46F3-E00A-2358-A39DDEB7A82D</schema>
+<textImageFG>4E8C0BFE-619B-5B45-4D00-B37CDAB1A6B9</textImageFG>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="default_flag" id="27FBA040-F95E-3E20-74AA-098473EA0849">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:14 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<collation>Latin1_General_CI_AS</collation>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="base_clndr_id" id="4BE15B8C-0EC3-48B2-1126-2984ED9EAD36">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:14 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="clndr_data" id="7488A46B-287F-2A4F-E774-588C55424BBC">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:14 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<collation>Latin1_General_CI_AS</collation>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="clndr_id" id="8086E1B8-B504-8A3B-BDE8-6055B16800C5">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:14 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="clndr_name" id="A9CA1805-9A06-A37E-023A-8E24665B2FD1">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:14 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<collation>Latin1_General_CI_AS</collation>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="last_chng_date" id="B24E35E5-75BA-6879-27BB-AA6CD43CA145">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:14 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="clndr_type" id="BB618E9D-F937-A430-EE5F-512515680F52">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:14 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<collation>Latin1_General_CI_AS</collation>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="proj_id" id="F920B247-EA0B-408D-15BA-DF924684B8E8">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:14 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.IndexProxySqlServerv2k5" name="ndx_calendar_1" id="973BB720-A3F2-E621-C6F6-6935B2525FB9">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:14 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<fileGroup>4E8C0BFE-619B-5B45-4D00-B37CDAB1A6B9</fileGroup>
+<fillFactor>80</fillFactor>
+<recomputeStatistics>OFF</recomputeStatistics>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="fk_calendar_project" id="7F1430F4-3CC9-B225-DF95-2804645141DD">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:30 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.PKProxySqlServerv2k5" name="CALENDAR_PK" id="730E6812-7A2F-BD49-F4AE-F62540493368">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:14 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<clustered>true</clustered>
+<fileGroup>4E8C0BFE-619B-5B45-4D00-B37CDAB1A6B9</fileGroup>
+<recomputeStatistics>NO</recomputeStatistics>
+</PrimaryKey>
+</primaryKeys>
+</TableProxySqlServerv2k5>

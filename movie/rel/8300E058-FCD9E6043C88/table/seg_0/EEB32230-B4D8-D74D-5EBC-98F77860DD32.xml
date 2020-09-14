@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EEB32230-B4D8-D74D-5EBC-98F77860DD32" name="Video">
+<createdBy>peter</createdBy>
+<createdTime>2015-11-13 07:07:48 UTC</createdTime>
+<generatorID>B0F82586-26D7-C2C6-9376-D3DEAF1FE71E</generatorID>
+<ownerDesignName>movie</ownerDesignName>
+<abbreviation>Video</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Name" id="D7916C82-6A5B-5EF9-67CB-97448BFFA69E">
+<createdBy>peter</createdBy>
+<createdTime>2015-11-13 07:07:48 UTC</createdTime>
+<generatorID>C9D54E61-B128-C215-1B7B-F80C6149F33B</generatorID>
+<ownerDesignName>movie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CE09343E-4BA9-1B7C-939F-081BF35032C6</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Video_ID" id="78E66BBA-FF33-CF99-48C2-A9C2EEB57B66">
+<createdBy>peter</createdBy>
+<createdTime>2015-11-13 07:07:48 UTC</createdTime>
+<ownerDesignName>movie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="63932B48-6C0F-88B7-A045-4F205D5FF42B" name="Video_PK">
+<createdBy>peter</createdBy>
+<createdTime>2015-11-13 07:07:48 UTC</createdTime>
+<ownerDesignName>movie</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="78E66BBA-FF33-CF99-48C2-A9C2EEB57B66"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="INSERT_ORD_LINE" id="1F3898B4-A1A7-0A38-8855-01FF1A276342" directorySegmentName="seg_0">
+   <createdBy>smharper</createdBy>
+   <createdTime>2011-01-07 13:05:23 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2011-01-07 13:05:23 UTC</changedTime>
+   <ownerDesignName>OE_Sample</ownerDesignName>
+   <actions>INSERT</actions>
+   <body>DECLARE&amp;lt;br&amp;gt;    new_line number;&amp;lt;br&amp;gt;  BEGIN&amp;lt;br&amp;gt;    SELECT (NVL(MAX(line_item_id),0)+1) INTO new_line&amp;lt;br&amp;gt;      FROM order_items&amp;lt;br&amp;gt;      WHERE order_id = :new.order_id;&amp;lt;br&amp;gt;    :new.line_item_id := new_line;&amp;lt;br&amp;gt;  END;</body>
+   <triggerTime>BEFORE</triggerTime>
+   <owner>D6670C27-0286-8380-C2AB-1B6A7FDD2E54</owner>
+   <table>401325D6-D30A-4241-B81D-AF54654F75DC</table>
+</TriggerOraclev10g>

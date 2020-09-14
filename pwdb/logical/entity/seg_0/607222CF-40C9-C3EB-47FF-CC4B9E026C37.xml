@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="607222CF-40C9-C3EB-47FF-CC4B9E026C37" name="site passwords">
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 05:44:32 UTC</createdTime>
+<generatorID>B91A163F-9DEE-879C-25B5-E3700BC3ADC7</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<engineerTo>
+<item key="9EC73DE9-4203-FD89-3720-F118D6C80375" value="true"/>
+<item key="2C17E1C6-13C4-D73A-CCDF-015922042815" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="siteid" id="7F4CE017-3FA3-8CA7-9672-AB4A8B490792">
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 05:44:32 UTC</createdTime>
+<generatorID>F02B28EC-4133-2B3E-DB87-89E721837174</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<engineerTo>
+<item key="9EC73DE9-4203-FD89-3720-F118D6C80375" value="true"/>
+<item key="2C17E1C6-13C4-D73A-CCDF-015922042815" value="true"/>
+</engineerTo>
+<referedAttribute>BD73E588-3E83-DA04-D1EE-53EF028C93E1</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>80F33B28-B332-F0E6-7FEC-65D7AB8C9763</domain>
+</Attribute>
+<Attribute name="credentials" id="AB96D187-9441-4BA2-3CB4-137AE73387E5">
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 05:44:32 UTC</createdTime>
+<generatorID>469ABD43-0B8A-44A2-98AE-7637199D22C9</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<engineerTo>
+<item key="9EC73DE9-4203-FD89-3720-F118D6C80375" value="true"/>
+<item key="2C17E1C6-13C4-D73A-CCDF-015922042815" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>59BCE8B5-33BB-01EB-6093-C40497D92E60</domain>
+</Attribute>
+<Attribute name="statecode" id="E31CA5E2-AE5B-6F2B-FE7C-E5904E0246BD">
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 05:44:32 UTC</createdTime>
+<generatorID>BFBEA10E-2E2D-8AA9-F4E4-9D48E94DE5B5</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<engineerTo>
+<item key="9EC73DE9-4203-FD89-3720-F118D6C80375" value="true"/>
+<item key="2C17E1C6-13C4-D73A-CCDF-015922042815" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2CAF58CA-DCDC-240C-99FF-341759DB6075</domain>
+</Attribute>
+<Attribute name="check count" id="660A1A0D-1528-8B33-B105-28C8AB5B072A">
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 05:44:32 UTC</createdTime>
+<generatorID>F561AEAB-86BF-F2FF-214A-537A58B6B126</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<engineerTo>
+<item key="9EC73DE9-4203-FD89-3720-F118D6C80375" value="true"/>
+<item key="2C17E1C6-13C4-D73A-CCDF-015922042815" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2CAF58CA-DCDC-240C-99FF-341759DB6075</domain>
+</Attribute>
+<Attribute name="last check" id="59D6C14D-C132-2762-6764-61A99237F1A9">
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 05:44:32 UTC</createdTime>
+<generatorID>E3AE65E9-4AA8-7B6D-BE04-568672F824AB</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<engineerTo>
+<item key="9EC73DE9-4203-FD89-3720-F118D6C80375" value="true"/>
+<item key="2C17E1C6-13C4-D73A-CCDF-015922042815" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>BB00E4DC-712F-DA47-E499-378EF190251E</domain>
+</Attribute>
+<Attribute name="siteid1" id="6B867C01-8271-658C-E334-B3E3DFC5CCE9">
+<createdBy>peter</createdBy>
+<createdTime>2013-11-05 14:36:58 UTC</createdTime>
+<generatorID>F02B28EC-4133-2B3E-DB87-89E721837174</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<engineerTo>
+<item key="9EC73DE9-4203-FD89-3720-F118D6C80375" value="true"/>
+<item key="2C17E1C6-13C4-D73A-CCDF-015922042815" value="false"/>
+</engineerTo>
+<referedAttribute>BD73E588-3E83-DA04-D1EE-53EF028C93E1</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>80F33B28-B332-F0E6-7FEC-65D7AB8C9763</domain>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="38154BCE-764F-1E69-D068-9B4C30CDEACC" name="site_passwords_PK">
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 05:44:32 UTC</createdTime>
+<generatorID>79F59F6D-459F-85DB-BBA2-9EF23FC1A681</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<engineerTo>
+<item key="9EC73DE9-4203-FD89-3720-F118D6C80375" value="true"/>
+<item key="2C17E1C6-13C4-D73A-CCDF-015922042815" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7F4CE017-3FA3-8CA7-9672-AB4A8B490792</attributeRef>
+<attributeRef>AB96D187-9441-4BA2-3CB4-137AE73387E5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

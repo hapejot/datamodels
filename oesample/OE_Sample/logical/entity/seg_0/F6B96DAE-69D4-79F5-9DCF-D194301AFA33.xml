@@ -1,0 +1,256 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" id="F6B96DAE-69D4-79F5-9DCF-D194301AFA33" directorySegmentName="seg_0" name="CUSTOMERS">
+   <createdBy>meyoung</createdBy>
+   <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+   <changedBy>meyoung</changedBy>
+   <changedTime>2011-06-16 15:03:26 UTC</changedTime>
+   <generatorID>7817B1D3-0C65-D6F7-A5AC-36C81B75B97E</generatorID>
+   <ownerDesignName>OE_Sample</ownerDesignName>
+   <pkName>CUSTOMERS_PK</pkName>
+   <adequatelyNormalized>NO</adequatelyNormalized>
+   <expectedVolumes>0</expectedVolumes>
+   <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+   <growthPercent>0</growthPercent>
+   <growthType>Year</growthType>
+   <maxVolumes>9999999</maxVolumes>
+   <minVolumes>0</minVolumes>
+   <normalForm>Third</normalForm>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <attributes>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="CUSTOMER_ID" id="A1DE33CE-FF28-4706-DD4E-E725C4EF896D">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <commentInRDBMS>Primary key column.</commentInRDBMS>
+         <generatorID>AA2D0A34-9C2F-6732-0F15-3CE5097F65D5</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <constraintName>CUSTOMER_ID_MIN</constraintName>
+         <useDomainConstraints>false</useDomainConstraints>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>6</dataTypePrecision>
+         <checkConstraint>
+            <implementationDef dbType="Oracle Database 10g" definition="customer_id > 0"/>
+         </checkConstraint>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="CUST_FIRST_NAME" id="50E37758-68B2-484C-4127-AE6C604C6147">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <commentInRDBMS>NOT NULL constraint.</commentInRDBMS>
+         <generatorID>5FE12C6F-1B20-9838-8346-7DD23E0C56FC</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>20 BYTE</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="CUST_LAST_NAME" id="ABE409EC-0FE2-2C9C-A52D-7CD4D469F652">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <commentInRDBMS>NOT NULL constraint.</commentInRDBMS>
+         <generatorID>BBECBD76-9020-F3F2-2797-71285EC8B822</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>20 BYTE</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="CUST_ADDRESS" id="45D54E5D-083E-FD71-1703-382301BEAA7A">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <commentInRDBMS>Object column of type address_typ.</commentInRDBMS>
+         <generatorID>5B456B67-4C52-13D5-ADB6-B09AF223F8F9</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <structuredType>1300B473-479F-D3B1-B2DD-70FB97433BE4</structuredType>
+         <use>3</use>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="PHONE_NUMBERS" id="F7F26F2C-38FA-FD09-D1D4-3905DC59C894">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <commentInRDBMS>Varray column of type phone_list_typ</commentInRDBMS>
+         <generatorID>D6394E12-4EB3-0DEC-5DAF-52EF8DF52111</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <collectionType>48266FC4-A570-2EE2-13CB-768782D95645</collectionType>
+         <nullsAllowed>true</nullsAllowed>
+         <use>4</use>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="NLS_LANGUAGE" id="BEF46C99-4EF1-DB59-879E-9D5C4DE221CD">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <generatorID>7A5DD6A0-9C8E-CBA8-00CE-5073375118CE</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>3 BYTE</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="NLS_TERRITORY" id="97BAF4C8-180B-2868-DAAF-26A43BEB55B5">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <generatorID>62E288A1-8FFD-0235-D654-D77C34DEE361</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>30 BYTE</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="CREDIT_LIMIT" id="66588C37-F00D-B4C8-732F-CD6E3FA67261">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <commentInRDBMS>Check constraint.</commentInRDBMS>
+         <generatorID>9411C9B2-A483-F190-826B-BE8C9BACAA08</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <constraintName>CUSTOMER_CREDIT_LIMIT_MAX</constraintName>
+         <nullsAllowed>true</nullsAllowed>
+         <useDomainConstraints>false</useDomainConstraints>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>9</dataTypePrecision>
+         <dataTypeScale>2</dataTypeScale>
+         <checkConstraint>
+            <implementationDef dbType="Oracle Database 10g" definition="credit_limit &lt;= 5000"/>
+         </checkConstraint>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="CUST_EMAIL" id="5CDFF7B4-CE19-7CE0-1644-B314569AF5FC">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <generatorID>DA7EC865-9420-9602-9EB0-619D2A2E86ED</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>30 BYTE</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="ACCOUNT_MGR_ID" id="D3A48DA3-55B7-8D9A-3327-033F27AE82EA">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <commentInRDBMS>References hr.employees.employee_id.</commentInRDBMS>
+         <generatorID>E9676AF9-DCC0-912F-08E5-0C47F2EE3DBB</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>6</dataTypePrecision>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="CUST_GEO_LOCATION" id="27856DCF-D7D2-D9BB-0397-DBDC32A7AC38">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <commentInRDBMS>SDO (spatial) column.</commentInRDBMS>
+         <generatorID>EB90BF23-D1F4-047F-ADE5-DC7BDD4740DB</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>3</use>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="DATE_OF_BIRTH" id="EFA6BBBB-443E-AFD0-5BE8-6EFC93D1D567">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <generatorID>9AE345E8-8332-8596-7170-6E2C4129D42F</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="MARITAL_STATUS" id="0DC6B4D3-FB19-E6EB-DC54-28AF53C60563">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 15:03:22 UTC</changedTime>
+         <generatorID>FA96BBA1-1CBC-75DC-BD56-D25B7C2C7DB6</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="GENDER" id="AC3540FB-A058-DBC4-53D7-E1F24B84F621">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 15:03:26 UTC</changedTime>
+         <generatorID>46E00FA1-DF2B-311F-9896-7E4E412ECE2C</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="INCOME_LEVEL" id="3F16CBD8-B98A-551B-E537-F771B63B0DB5">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <generatorID>1CDBE7F3-5A20-A31A-1CCF-FD566F31DBB4</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>20 BYTE</dataTypeSize>
+      </Attribute>
+   </attributes>
+   <identifiers>
+      <identifier class="oracle.dbtools.crest.model.design.logical.CandidateKey" id="92C6167F-33E1-E0E7-CF80-21473EF9D23A" name="CUSTOMERS_PK">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <generatorID>2F5EFDD6-CCA4-9454-0A22-96179B051C4A</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <pk>true</pk>
+         <usedAttributes>
+            <attributeRef>A1DE33CE-FF28-4706-DD4E-E725C4EF896D</attributeRef>
+         </usedAttributes>
+      </identifier>
+   </identifiers>
+</Entity>

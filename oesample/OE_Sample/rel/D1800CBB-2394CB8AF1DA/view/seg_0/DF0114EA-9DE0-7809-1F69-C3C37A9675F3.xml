@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" id="DF0114EA-9DE0-7809-1F69-C3C37A9675F3" directorySegmentName="seg_0" name="OC_INVENTORIES">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-20 16:11:40 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2008-11-20 16:11:40 UTC</changedTime>
+   <ownerDesignName>OE_Sample</ownerDesignName>
+   <basedOnStructuredType>27519C2C-2E01-0FFC-BD98-F301218740C1</basedOnStructuredType>
+   <schemaObject>AB99E18F-10A1-579F-F11A-EFD5EB37B0D7</schemaObject>
+   <userDefined>false</userDefined>
+   <userDefinedSQL>CREATE VIEW OC_INVENTORIES&amp;lt;br&amp;gt;  ( PRODUCT_ID,&amp;lt;br&amp;gt;    WAREHOUSE,&amp;lt;br&amp;gt;    QUANTITY_ON_HAND )&amp;lt;br&amp;gt; AS SELECT&amp;lt;br&amp;gt;    PRODUCT_ID PRODUCT_ID,&amp;lt;br&amp;gt;    WAREHOUSE WAREHOUSE,&amp;lt;br&amp;gt;    QUANTITY_ON_HAND QUANTITY_ON_HAND;</userDefinedSQL>
+   <oidText>product_id</oidText>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+   </fonts>
+   <viewElements>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="PRODUCT_ID" id="F543653D-3709-FB56-11D3-6CEBFB27DC0E">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:40 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:40 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <structAttributeID>D778AB8F-AE42-35A0-868B-8521D3ADF9AE</structAttributeID>
+         <alias>PRODUCT_ID</alias>
+         <dataType>NUMERIC (6)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="WAREHOUSE" id="8FAED38A-DAAC-C1E9-6789-E7CDB247E43F">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:40 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:40 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <structAttributeID>6CC7DA03-1C69-850F-B98F-4A45F935FE61</structAttributeID>
+         <structuredType>CB3D2AF4-66C4-97A9-4D02-2F6757A9E8A0</structuredType>
+         <alias>WAREHOUSE</alias>
+         <dataType>WAREHOUSE_TYP</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="QUANTITY_ON_HAND" id="DB27854D-96D6-A858-7873-6356784FB7C5">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:40 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:40 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <structAttributeID>49586547-C7F2-0C0F-387A-F7DB41FC8A29</structAttributeID>
+         <alias>QUANTITY_ON_HAND</alias>
+         <dataType>NUMERIC (8)</dataType>
+         <reference>false</reference>
+      </viewElement>
+   </viewElements>
+</TableView>

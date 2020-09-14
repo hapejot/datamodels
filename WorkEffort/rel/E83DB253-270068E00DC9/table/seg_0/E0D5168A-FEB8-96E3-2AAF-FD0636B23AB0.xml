@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E0D5168A-FEB8-96E3-2AAF-FD0636B23AB0" name="InternalRequirement">
+<createdBy>peter</createdBy>
+<createdTime>2013-11-06 08:44:36 UTC</createdTime>
+<generatorID>2F2542A1-D70F-784E-8CE7-30D3E7F20F55</generatorID>
+<ownerDesignName>WorkEffort</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Requirement_ID" id="4EBEA98D-3916-8908-EDFB-FB1322C363BC">
+<createdBy>peter</createdBy>
+<createdTime>2013-11-06 08:44:36 UTC</createdTime>
+<generatorID>64DE8B2A-6105-890D-3680-76733B1C2874</generatorID>
+<ownerDesignName>WorkEffort</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>E6C35D06-40EE-22FF-7FEA-0217B1929349</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DBFE0689-02CD-3DCC-5CE0-A0202A3E364A" referredColumn="E6C35D06-40EE-22FF-7FEA-0217B1929349"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="06D6AC92-90E6-6BB3-8FA1-F9AC298480D4" name="InternalRequirement_PK">
+<createdBy>peter</createdBy>
+<createdTime>2013-11-06 08:44:36 UTC</createdTime>
+<generatorID>B74851BD-F35B-E7E6-A731-DA3A816DB978</generatorID>
+<ownerDesignName>WorkEffort</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EBEA98D-3916-8908-EDFB-FB1322C363BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00938BA6-7368-FB39-E5AF-72204BCA092B" name="FK_ASS_2">
+<createdBy>peter</createdBy>
+<createdTime>2013-11-06 08:44:36 UTC</createdTime>
+<generatorID>F3527EB3-2BA6-199D-AC94-54685D8482B6</generatorID>
+<ownerDesignName>WorkEffort</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EBEA98D-3916-8908-EDFB-FB1322C363BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

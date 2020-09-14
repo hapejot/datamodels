@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B91A163F-9DEE-879C-25B5-E3700BC3ADC7" name="site_pass2">
+<sourceDDLFile>pw.sql</sourceDDLFile>
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 05:43:11 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<importedID>049DB971-4B02-051B-873F-A8AB5E9572F4</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="siteid" id="11D58341-2B79-8AF5-91D9-AD7AFE4781E4">
+<sourceDDLFile>pw.sql</sourceDDLFile>
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 05:43:11 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<importedID>FDD5CA01-621E-0CE5-00FC-9E531BE6B4F6</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>80F33B28-B332-F0E6-7FEC-65D7AB8C9763</domain>
+<delegate>C3F8C1A5-0184-07F1-0CD2-E969D264C307</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C746AC57-7988-B0C0-D61F-0595BAF467EB" referredColumn="C3F8C1A5-0184-07F1-0CD2-E969D264C307"/>
+</associations>
+</Column>
+<Column name="credentials" id="469ABD43-0B8A-44A2-98AE-7637199D22C9">
+<sourceDDLFile>pw.sql</sourceDDLFile>
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 05:43:11 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<importedID>6FF75589-41D5-E578-6507-C4E5CC251CA4</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>59BCE8B5-33BB-01EB-6093-C40497D92E60</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="statecode" id="BFBEA10E-2E2D-8AA9-F4E4-9D48E94DE5B5">
+<sourceDDLFile>pw.sql</sourceDDLFile>
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 05:43:11 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<importedID>0AD07FEC-EA8D-3784-FBBA-416A66754CD9</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2CAF58CA-DCDC-240C-99FF-341759DB6075</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="check_count" id="F561AEAB-86BF-F2FF-214A-537A58B6B126">
+<sourceDDLFile>pw.sql</sourceDDLFile>
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 05:43:11 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<importedID>C21E377D-BFCA-BD38-8296-7B404E60EB03</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2CAF58CA-DCDC-240C-99FF-341759DB6075</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_check" id="E3AE65E9-4AA8-7B6D-BE04-568672F824AB">
+<sourceDDLFile>pw.sql</sourceDDLFile>
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 05:43:11 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<importedID>D6F3AF36-A673-4DD3-466D-2D002E53820C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>BB00E4DC-712F-DA47-E499-378EF190251E</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="79F59F6D-459F-85DB-BBA2-9EF23FC1A681" name="site_passwords_PK">
+<sourceDDLFile>pw.sql</sourceDDLFile>
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 05:43:11 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<importedID>4D438B72-EF71-2956-D50B-B6C5176A2B90</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11D58341-2B79-8AF5-91D9-AD7AFE4781E4"/>
+<colUsage columnID="469ABD43-0B8A-44A2-98AE-7637199D22C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="37A08C9F-6ACD-57C8-AB43-DC9C974F2F78" name="site_passwords_site_FK">
+<createdBy>peter</createdBy>
+<createdTime>2013-11-05 14:57:40 UTC</createdTime>
+<generatorID>F02B28EC-4133-2B3E-DB87-89E721837174</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11D58341-2B79-8AF5-91D9-AD7AFE4781E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

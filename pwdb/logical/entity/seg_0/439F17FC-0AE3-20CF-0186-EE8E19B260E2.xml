@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="439F17FC-0AE3-20CF-0186-EE8E19B260E2" name="checkrule">
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 05:44:32 UTC</createdTime>
+<generatorID>6E0B0F8F-BD75-FEB5-58C1-BA25016DAA0C</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<engineerTo>
+<item key="2C17E1C6-13C4-D73A-CCDF-015922042815" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="sitename" id="A7852394-1435-F37A-A246-C9B669FE4FDC">
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 05:44:32 UTC</createdTime>
+<generatorID>27EAC150-4545-F5CF-71D0-D0E4E4D90CEE</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<engineerTo>
+<item key="2C17E1C6-13C4-D73A-CCDF-015922042815" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0C95665A-4D71-6D9A-1B73-8FDE08DB9E3F</domain>
+<usesDefaultValue>true</usesDefaultValue>
+</Attribute>
+<Attribute name="rule" id="090CF228-7198-3C1D-7C3E-4F838A0C5785">
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 05:44:32 UTC</createdTime>
+<generatorID>328C7018-6FC8-AF98-10AF-F23AD7E0D25E</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<engineerTo>
+<item key="2C17E1C6-13C4-D73A-CCDF-015922042815" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0C95665A-4D71-6D9A-1B73-8FDE08DB9E3F</domain>
+<usesDefaultValue>true</usesDefaultValue>
+</Attribute>
+<Attribute name="arg" id="21DD6C84-C583-47B6-8630-71237EF292C7">
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 05:44:32 UTC</createdTime>
+<generatorID>51579D94-347B-79F4-BD17-06669C94BDBC</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<engineerTo>
+<item key="2C17E1C6-13C4-D73A-CCDF-015922042815" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9DFFBB41-E8C3-1900-6A60-A7E7ED862E7E</domain>
+<usesDefaultValue>true</usesDefaultValue>
+</Attribute>
+<Attribute name="id" id="13276B32-3BD9-5671-A3B0-5DE763AC170E">
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 05:44:32 UTC</createdTime>
+<generatorID>99803A5F-98E2-5CAA-B6B1-7D7C68605D8E</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<engineerTo>
+<item key="2C17E1C6-13C4-D73A-CCDF-015922042815" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2E13C2E7-1EC7-6BF1-9C87-02AFC21F882D</domain>
+</Attribute>
+<Attribute name="siteid" id="A4338ECB-0543-1A77-683B-55802B879679">
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 05:44:32 UTC</createdTime>
+<generatorID>B4C97CA7-8D33-BD35-1E9F-7572B5A9BB73</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<engineerTo>
+<item key="2C17E1C6-13C4-D73A-CCDF-015922042815" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2E13C2E7-1EC7-6BF1-9C87-02AFC21F882D</domain>
+<usesDefaultValue>true</usesDefaultValue>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C82397BC-ED41-7EA2-BF6A-F561C49CED87" name="checkrule PK">
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 05:44:32 UTC</createdTime>
+<generatorID>6B8CE6EB-DBEE-ADD4-65B0-511C6379F776</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<engineerTo>
+<item key="2C17E1C6-13C4-D73A-CCDF-015922042815" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>13276B32-3BD9-5671-A3B0-5DE763AC170E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

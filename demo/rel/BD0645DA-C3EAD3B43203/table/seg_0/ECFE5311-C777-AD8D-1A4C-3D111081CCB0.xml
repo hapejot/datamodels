@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ECFE5311-C777-AD8D-1A4C-3D111081CCB0" name="Merkmal">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-04 18:01:18 UTC</createdTime>
+<generatorID>71E63C82-4A21-5A48-F6DE-6CEA0EFE8A60</generatorID>
+<ownerDesignName>demo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Name" id="F2B4FF4F-2ACB-52C4-1A91-1A8E1F65E1B3">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-04 18:01:18 UTC</createdTime>
+<generatorID>9BC2C38C-DA16-5A58-C8EE-121C533B8E4D</generatorID>
+<ownerDesignName>demo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Merkmal_ID" id="E54A6B3D-7374-ADED-AEAD-A3C2F8FCFA6D">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-04 18:01:18 UTC</createdTime>
+<ownerDesignName>demo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AAC75FBC-87F4-3C7C-92F7-3AD741235523" name="Merkmal_PK">
+<createdBy>peter</createdBy>
+<createdTime>2015-04-04 18:01:18 UTC</createdTime>
+<ownerDesignName>demo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="E54A6B3D-7374-ADED-AEAD-A3C2F8FCFA6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

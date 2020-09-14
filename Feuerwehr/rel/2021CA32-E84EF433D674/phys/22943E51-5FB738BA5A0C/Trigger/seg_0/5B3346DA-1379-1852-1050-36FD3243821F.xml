@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerSqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.TriggerSqlServerv2k5" name="T_Sitzungen_DTrig" directorySegmentName="seg_0" id="5B3346DA-1379-1852-1050-36FD3243821F">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>T_Sitzungen_DTrig</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:49:00 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<actions>DELETE</actions>
+<body>CREATE TRIGGER T_Sitzungen_DTrig ON [Sitzungen] FOR DELETE AS&lt;br&gt;SET NOCOUNT ON&lt;br&gt;/* LÖSCHWEITERGABE AN &apos;Sitzungen Teilnehmer&apos; */&lt;br&gt;DELETE &quot;Sitzungen Teilnehmer&quot; FROM deleted, &quot;Sitzungen Teilnehmer&quot; WHERE deleted.&quot;Zähler&quot; = &quot;Sitzungen Teilnehmer&quot;.Zahl&lt;br&gt;&lt;br&gt;/* LÖSCHWEITERGABE AN &apos;Sitzungen TOP&apos; */&lt;br&gt;DELETE &quot;Sitzungen TOP&quot; FROM deleted, &quot;Sitzungen TOP&quot; WHERE deleted.&quot;Zähler&quot; = &quot;Sitzungen TOP&quot;.Zahl&lt;br&gt;</body>
+<triggerTime>AFTER</triggerTime>
+<schema>612B09AB-F869-F6FA-26A6-9FEC143B09C0</schema>
+<table>43CBE59C-3FE5-C87F-70A4-EF6C7319C700</table>
+</TriggerSqlServerv2k5>

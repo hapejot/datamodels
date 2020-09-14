@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3C3E2F03-97D3-D47B-A389-54E60C4D4B18" name="RSRCPROP">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>RSRCPROP</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:28 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<schemaObject>91F3E89B-168D-624B-6BAA-117B6452746E</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rsrc_id" id="E3D05E2F-74AA-E87C-FC2F-F541241F0A7B">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>RSRCPROP</sourceObjSchema>
+<sourceObjName>rsrc_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:28 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<delegate>6B93A835-E980-E645-3642-231CD2389872</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F61D50C4-3424-BEB4-810F-FE9069436AE3" referredColumn="6B93A835-E980-E645-3642-231CD2389872"/>
+</associations>
+</Column>
+<Column name="prop_name" id="EAC3ED22-5CFD-4578-4C2A-35E11DB764A2">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>RSRCPROP</sourceObjSchema>
+<sourceObjName>prop_name</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:28 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeSize>20</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prop_value" id="FD58C702-0699-F132-F721-8542B9F18BA6">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>RSRCPROP</sourceObjSchema>
+<sourceObjName>prop_value</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:28 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>255</dataTypePrecision>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0102350E-23F5-2C81-AFB3-4F258C072CA5" name="RSRCPROP_PK">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>pk_rsrcprop</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:28 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3D05E2F-74AA-E87C-FC2F-F541241F0A7B"/>
+<colUsage columnID="EAC3ED22-5CFD-4578-4C2A-35E11DB764A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8DD6FC27-EC1E-BF6C-3EA4-54BF05D24291" name="fk_rsrcprop_rsrc">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:32 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3D05E2F-74AA-E87C-FC2F-F541241F0A7B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

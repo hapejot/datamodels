@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" id="D7379D87-AD88-F104-00FE-A315805E486F" directorySegmentName="seg_0" name="BOMBAY_INVENTORY">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-20 16:11:40 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2008-11-20 16:11:40 UTC</changedTime>
+   <ownerDesignName>OE_Sample</ownerDesignName>
+   <schemaObject>AB99E18F-10A1-579F-F11A-EFD5EB37B0D7</schemaObject>
+   <userDefined>true</userDefined>
+   <userDefinedSQL>CREATE OR REPLACE VIEW BOMBAY_INVENTORY&amp;lt;br&amp;gt;AS &amp;lt;br&amp;gt;SELECT p.product_id&amp;lt;br&amp;gt;,      p.product_name&amp;lt;br&amp;gt;,      i.quantity_on_hand&amp;lt;br&amp;gt;FROM   inventories i&amp;lt;br&amp;gt;,      warehouses  w&amp;lt;br&amp;gt;,      products    p&amp;lt;br&amp;gt;WHERE  p.product_id = i.product_id&amp;lt;br&amp;gt;AND    i.warehouse_id = w.warehouse_id&amp;lt;br&amp;gt;AND    w.warehouse_name = &amp;apos;Bombay&amp;apos;</userDefinedSQL>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+   </fonts>
+   <viewElements>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="PRODUCT_ID" id="22B61381-2807-07F4-66BB-490990B17A51">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:40 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:40 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <alias>PRODUCT_ID</alias>
+         <dataType>NUMBER (6)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="PRODUCT_NAME" id="6E5AC70F-7663-427B-9652-363EB74DBBD3">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:40 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:40 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <alias>PRODUCT_NAME</alias>
+         <dataType>NVARCHAR2 (250)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="QUANTITY_ON_HAND" id="720A4CCB-21C0-9F6A-A6B9-655728805AD4">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:40 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:40 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <alias>QUANTITY_ON_HAND</alias>
+         <dataType>NUMBER (8)</dataType>
+         <reference>false</reference>
+      </viewElement>
+   </viewElements>
+</TableView>

@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="473B72F0-85F1-DEC2-84AF-59278AFFF36B" name="Bug">
+<createdBy>peja0065</createdBy>
+<createdTime>2013-05-30 22:12:16 UTC</createdTime>
+<generatorID>32FFC27B-BB92-B56A-6C6E-45FE1908747D</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="E09E0831-0330-AFF0-C9A8-E15D80E71022">
+<createdBy>peja0065</createdBy>
+<createdTime>2013-05-30 22:12:16 UTC</createdTime>
+<generatorID>30E8A21B-7F20-BF7E-989D-6500EC339EC2</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>448DB7AB-CEB0-9FEB-C28B-2A0B70A01351</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Title" id="D9F48E3B-FB86-6230-7BC6-20FE5F7BB40C">
+<createdBy>peja0065</createdBy>
+<createdTime>2013-05-30 22:12:16 UTC</createdTime>
+<generatorID>F4095F2A-BD4D-5EDA-772B-1649E64323C5</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>3B511681-8CBA-1775-BE07-8A10880B6B09</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FixedInReleaseID" id="075025BB-363D-A35F-C16A-3C98D26605CF">
+<createdBy>peja0065</createdBy>
+<createdTime>2013-05-30 22:12:16 UTC</createdTime>
+<generatorID>EF33F9B4-A4BB-4674-8A19-38ED19933190</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>448DB7AB-CEB0-9FEB-C28B-2A0B70A01351</domain>
+<delegate>12A52098-7D03-9587-BC7C-00534C8293CB</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99095944-E98F-FADD-168F-99338B1990F2" referredColumn="12A52098-7D03-9587-BC7C-00534C8293CB"/>
+</associations>
+</Column>
+<Column name="FoundInReleaseID" id="2A9AC5EC-E4AA-E485-FD23-0CFBD38E9BFF">
+<createdBy>peja0065</createdBy>
+<createdTime>2013-05-30 22:12:16 UTC</createdTime>
+<generatorID>16C7B03E-5F8E-4786-24E0-81D5D1EBB604</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>448DB7AB-CEB0-9FEB-C28B-2A0B70A01351</domain>
+<delegate>12A52098-7D03-9587-BC7C-00534C8293CB</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B6037759-DCDB-BC46-39A2-E0FEC685EA86" referredColumn="12A52098-7D03-9587-BC7C-00534C8293CB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="86439E2B-E2EC-32E9-9390-354966C56BA6" name="Bug_PK">
+<createdBy>peja0065</createdBy>
+<createdTime>2013-05-30 22:12:16 UTC</createdTime>
+<generatorID>E6364750-4B9D-CCB1-C545-22ABA2CEEEEB</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E09E0831-0330-AFF0-C9A8-E15D80E71022"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4F22F01-CDB4-6144-A79A-508E2F004F2F" name="Bug_Release_FK">
+<createdBy>peja0065</createdBy>
+<createdTime>2013-05-30 22:12:16 UTC</createdTime>
+<generatorID>48713D40-1427-159A-1C1D-2ABA2550EAE5</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="075025BB-363D-A35F-C16A-3C98D26605CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF8F9906-D779-9569-7E0E-AE5313173D39" name="BugFoundInRelease">
+<createdBy>peja0065</createdBy>
+<createdTime>2013-05-30 22:12:16 UTC</createdTime>
+<generatorID>7330E78F-AEB3-2919-E66C-1FAB70F53616</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A9AC5EC-E4AA-E485-FD23-0CFBD38E9BFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

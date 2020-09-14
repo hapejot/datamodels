@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="837C2870-F469-BDC1-976F-DB4DD26FCBC0" name="site_equiv">
+<sourceDDLFile>pw.sql</sourceDDLFile>
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 05:43:11 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<importedID>305AB53C-F439-45CF-D7A1-6DAA14BCAD95</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="siteid" id="8DDB6259-CD9F-2508-ED0D-B53032D7B4EE">
+<sourceDDLFile>pw.sql</sourceDDLFile>
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 05:43:11 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<importedID>E0F0091C-CA6B-B6FF-BBB9-7F37D25CA35F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2E13C2E7-1EC7-6BF1-9C87-02AFC21F882D</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pattern" id="2D2467D9-27A3-AC84-E153-FCCF07454B79">
+<sourceDDLFile>pw.sql</sourceDDLFile>
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 05:43:11 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<importedID>FF4E9255-38CF-85E0-04CE-63E5D4E3DD39</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F13C5B38-5656-754E-DFD5-BD67E9741A84</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D3AAA5A8-CBC5-A835-AA59-5435048F7891" name="site_equiv_PK">
+<sourceDDLFile>pw.sql</sourceDDLFile>
+<createdBy>peter</createdBy>
+<createdTime>2013-10-31 05:43:11 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<importedID>EB4D87DE-58FA-806E-9964-FD5CE33CA0F8</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DDB6259-CD9F-2508-ED0D-B53032D7B4EE"/>
+<colUsage columnID="2D2467D9-27A3-AC84-E153-FCCF07454B79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

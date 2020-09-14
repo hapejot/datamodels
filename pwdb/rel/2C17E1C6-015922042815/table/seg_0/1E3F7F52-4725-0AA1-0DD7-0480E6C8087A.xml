@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E3F7F52-4725-0AA1-0DD7-0480E6C8087A" name="state">
+<createdBy>peter</createdBy>
+<createdTime>2013-11-05 14:19:49 UTC</createdTime>
+<generatorID>73699CC7-2E6E-874E-5254-31FCA6C816AE</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="B694876F-1F9E-BDE1-33A4-BECCF5E5F6CA">
+<createdBy>peter</createdBy>
+<createdTime>2013-11-05 14:19:49 UTC</createdTime>
+<generatorID>40DE8840-B01A-9EE2-463B-E0AD47C45944</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2CAF58CA-DCDC-240C-99FF-341759DB6075</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="state" id="A88C4A1A-249B-76BC-9AF1-8B1A550694C6">
+<createdBy>peter</createdBy>
+<createdTime>2013-11-05 14:19:49 UTC</createdTime>
+<generatorID>1380BE9F-90DE-D731-173F-DB6B46FC3D1D</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2CAF58CA-DCDC-240C-99FF-341759DB6075</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="refid" id="3A778910-1AAD-E53C-F57B-D9BFA06472F3">
+<createdBy>peter</createdBy>
+<createdTime>2013-11-05 14:19:49 UTC</createdTime>
+<generatorID>430C6DBD-3B31-2C59-ACF2-749FB5E93E8C</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2CAF58CA-DCDC-240C-99FF-341759DB6075</domain>
+<delegate>7A0B8416-255F-BA4F-B10D-5F476AFC42D3</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20E1D7C9-4BB5-3BAE-06B7-9E4B5A291F2F" referredColumn="7A0B8416-255F-BA4F-B10D-5F476AFC42D3"/>
+</associations>
+</Column>
+<Column name="data" id="7E3DF244-EB00-CEA2-82BF-2F26288C56E5">
+<createdBy>peter</createdBy>
+<createdTime>2013-11-05 14:19:49 UTC</createdTime>
+<generatorID>259049B8-C1FE-8C1B-4D14-557970FFDF37</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<defaultValue>NULL</defaultValue>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9DFFBB41-E8C3-1900-6A60-A7E7ED862E7E</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="createdon" id="90037F4D-AE74-C257-9F70-28B3825CA92F">
+<createdBy>peter</createdBy>
+<createdTime>2013-11-05 14:19:49 UTC</createdTime>
+<generatorID>B864F149-AB7C-0477-06D1-98E12C435A64</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<defaultValue>CURRENT_TIMESTAMP</defaultValue>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>41C55087-70E4-06CC-3641-879F3EB74427</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KEY" id="34A5B312-98C1-972C-D7E4-5DC9303F2D19">
+<createdBy>peter</createdBy>
+<createdTime>2013-11-05 14:19:49 UTC</createdTime>
+<generatorID>3C5B00D5-8F77-CCCE-23FF-669FE704E364</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DC5AC345-65E0-6D4D-CE69-A06E2FC507CC" name="state_PK">
+<createdBy>peter</createdBy>
+<createdTime>2013-11-05 14:19:49 UTC</createdTime>
+<generatorID>CA52C1E7-47B4-44CE-8C1D-9BE51CAF55F4</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B694876F-1F9E-BDE1-33A4-BECCF5E5F6CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BAB962DD-3591-67B8-0068-B8708B615F37" name="state_queue_FK">
+<createdBy>peter</createdBy>
+<createdTime>2013-11-05 14:19:49 UTC</createdTime>
+<generatorID>A3F1BC44-01A5-DF57-F1EC-8B0BD92D63BB</generatorID>
+<ownerDesignName>pwdb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A778910-1AAD-E53C-F57B-D9BFA06472F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

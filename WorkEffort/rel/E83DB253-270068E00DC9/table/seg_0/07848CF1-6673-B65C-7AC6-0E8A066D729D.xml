@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="07848CF1-6673-B65C-7AC6-0E8A066D729D" name="WorkRequirement">
+<createdBy>peter</createdBy>
+<createdTime>2013-11-06 08:44:36 UTC</createdTime>
+<generatorID>6130173D-0BEB-816D-E2A2-4A744623EBEC</generatorID>
+<ownerDesignName>WorkEffort</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Requirement_ID" id="64BB67E9-4945-5964-2960-C238F9544547">
+<createdBy>peter</createdBy>
+<createdTime>2013-11-06 08:44:36 UTC</createdTime>
+<generatorID>64DE8B2A-6105-890D-3680-76733B1C2874</generatorID>
+<ownerDesignName>WorkEffort</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>E6C35D06-40EE-22FF-7FEA-0217B1929349</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="31FFEB40-C597-E4C2-076F-01E275A7095B" referredColumn="E6C35D06-40EE-22FF-7FEA-0217B1929349"/>
+</associations>
+</Column>
+<Column name="Product_ID" id="CACFFFB3-D0F3-6FBA-38B3-21A9FE5D8A6A">
+<createdBy>peter</createdBy>
+<createdTime>2013-11-06 08:44:36 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>WorkEffort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>FB385FD0-8B8F-48B6-66AF-AF26E5F48D1C</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B3CB61C0-689D-30E8-0E44-61DF8CDB9616" referredColumn="FB385FD0-8B8F-48B6-66AF-AF26E5F48D1C"/>
+</associations>
+</Column>
+<Column name="Deliverable_ID" id="F06533DC-0033-9B76-7749-FBDF24FDD229">
+<createdBy>peter</createdBy>
+<createdTime>2013-11-06 08:44:36 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>WorkEffort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>A93CB0F8-95FC-F755-3CCD-1FBA937CA784</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F6D362D-66E4-15F5-27D6-41510225903D" referredColumn="A93CB0F8-95FC-F755-3CCD-1FBA937CA784"/>
+</associations>
+</Column>
+<Column name="FixedAsset_ID" id="C0B7F08C-D6C0-79D7-1DD1-0DA8263F2EE9">
+<createdBy>peter</createdBy>
+<createdTime>2013-11-06 08:44:36 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>WorkEffort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>44420745-2B72-1E7F-AA6F-48B599834993</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5916504E-E72C-A027-016E-68EBA55A4E3E" referredColumn="44420745-2B72-1E7F-AA6F-48B599834993"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="47D72A2C-E822-20A4-367E-FBA95B9D2A58" name="WorkRequirement_PK">
+<createdBy>peter</createdBy>
+<createdTime>2013-11-06 08:44:36 UTC</createdTime>
+<generatorID>B74851BD-F35B-E7E6-A731-DA3A816DB978</generatorID>
+<ownerDesignName>WorkEffort</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64BB67E9-4945-5964-2960-C238F9544547"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F336CC54-6D5A-0474-19BA-7AF9617A20AD" name="FK_ASS_1">
+<createdBy>peter</createdBy>
+<createdTime>2013-11-06 08:44:36 UTC</createdTime>
+<generatorID>51037364-5CF0-81AE-D7DB-3C0B16F303F0</generatorID>
+<ownerDesignName>WorkEffort</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64BB67E9-4945-5964-2960-C238F9544547"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="213012BC-937F-417E-42C2-882B8F5C3ADA" name="WorkRequirement_Product_FK">
+<createdBy>peter</createdBy>
+<createdTime>2013-11-06 08:44:36 UTC</createdTime>
+<generatorID>B966A5E9-8D45-3AA3-63E0-57FFD6E39D2D</generatorID>
+<ownerDesignName>WorkEffort</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CACFFFB3-D0F3-6FBA-38B3-21A9FE5D8A6A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63F2F8FB-DF27-5DCB-C9B1-32AD33BD6FC4" name="WorkRequirement_Deliverable_FK">
+<createdBy>peter</createdBy>
+<createdTime>2013-11-06 08:44:36 UTC</createdTime>
+<generatorID>3888FE3F-8A81-84EE-61CF-A2913A634AEC</generatorID>
+<ownerDesignName>WorkEffort</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F06533DC-0033-9B76-7749-FBDF24FDD229"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C480A37C-D1F3-9916-865E-2B414B8564C3" name="WorkRequirement_FixedAsset_FK">
+<createdBy>peter</createdBy>
+<createdTime>2013-11-06 08:44:36 UTC</createdTime>
+<generatorID>65C16CD9-6BA0-EA89-72BC-615635EBC8DC</generatorID>
+<ownerDesignName>WorkEffort</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0B7F08C-D6C0-79D7-1DD1-0DA8263F2EE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

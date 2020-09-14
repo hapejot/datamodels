@@ -1,0 +1,205 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="3CB96374-0EA4-A360-3C30-EB8415AFC2CE" directorySegmentName="seg_0" name="PRODUCT_INFORMATION">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-20 16:11:38 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2008-11-20 16:11:39 UTC</changedTime>
+   <ownerDesignName>OE_Sample</ownerDesignName>
+   <schemaObject>AB99E18F-10A1-579F-F11A-EFD5EB37B0D7</schemaObject>
+   <pkName>PRODUCT_INFORMATION_PK</pkName>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="PRODUCT_ID" id="0107D555-7835-9007-41C5-0C4BA65E366E">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:38 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:38 UTC</changedTime>
+         <commentInRDBMS>Primary key column.</commentInRDBMS>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>6</dataTypePrecision>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="PRODUCT_NAME" id="862F26AB-6BE5-A3BA-D253-D9B10A37A570">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:38 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:38 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>50 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="PRODUCT_DESCRIPTION" id="C99779CF-49EE-5CD8-B1B0-020F71DE91E3">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:38 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:38 UTC</changedTime>
+         <commentInRDBMS>Primary language description corresponding to translated_description in&amp;lt;br&amp;gt;oe.product_descriptions, added to provide non-NLS text columns for OC views&amp;lt;br&amp;gt;to accss.</commentInRDBMS>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>2000 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CATEGORY_ID" id="EE444035-D905-D8FA-BACF-AD052F2E861F">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:38 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:38 UTC</changedTime>
+         <commentInRDBMS>Low cardinality column, can be used for bitmap index.&amp;lt;br&amp;gt;Schema SH uses it as foreign key</commentInRDBMS>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>2</dataTypePrecision>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="WEIGHT_CLASS" id="1723EF5B-8CB6-4C1C-CC4C-DBD26589E35C">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:38 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:38 UTC</changedTime>
+         <commentInRDBMS>Low cardinality column, can be used for bitmap index.</commentInRDBMS>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>1</dataTypePrecision>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="WARRANTY_PERIOD" id="27C2FC14-995E-C622-1F5E-513F2936F81F">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:38 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:38 UTC</changedTime>
+         <commentInRDBMS>INTERVAL YEAER TO MONTH column, low cardinality, can be used for bitmap&amp;lt;br&amp;gt;index.</commentInRDBMS>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT048</logicalDatatype>
+         <dataTypePrecision>2</dataTypePrecision>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="SUPPLIER_ID" id="BA594F8C-58D5-F4FE-6929-8E9E265B4CE1">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:38 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:38 UTC</changedTime>
+         <commentInRDBMS>Offers possibility of extensions outside Common Schema.</commentInRDBMS>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>6</dataTypePrecision>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="PRODUCT_STATUS" id="372A66FC-889A-9D5D-C4F5-B71A63770CE9">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:38 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:39 UTC</changedTime>
+         <commentInRDBMS>Check constraint. Appropriate for complex rules, such as &amp;amp;quot;All products in&amp;lt;br&amp;gt;status PRODUCTION must have at least one inventory entry.&amp;amp;quot; Also appropriate&amp;lt;br&amp;gt;for a trigger auditing status change.</commentInRDBMS>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <constraintName>PRODUCT_STATUS_LOV</constraintName>
+         <nullsAllowed>true</nullsAllowed>
+         <useDomainConstraints>false</useDomainConstraints>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>20 BYTE</dataTypeSize>
+         <checkConstraint>
+            <implementationDef dbType="Oracle Database 10g" definition="product_status in ('orderable'&#xD;&#xA;                                                  ,'planned'&#xD;&#xA;                                                  ,'under development'&#xD;&#xA;                                                  ,'obsolete')&#xD;&#xA;                               "/>
+         </checkConstraint>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="LIST_PRICE" id="CCFBA05E-19A7-18F6-6619-B559DC8C140F">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:38 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:38 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>8</dataTypePrecision>
+         <dataTypeScale>2</dataTypeScale>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="MIN_PRICE" id="2EC5FDF3-A9D6-7648-96B3-B2267B2BE388">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:38 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:38 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>8</dataTypePrecision>
+         <dataTypeScale>2</dataTypeScale>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CATALOG_URL" id="B5DFC7A5-B1A6-6DC0-9E1A-65495B677511">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:38 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:38 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>50 BYTE</dataTypeSize>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="3B9194DB-8A03-689A-9565-576735FC5B3B" name="PRODUCT_INFORMATION_PK">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:38 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:39 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <pk>true</pk>
+         <indexState>Primary Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="0107D555-7835-9007-41C5-0C4BA65E366E"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="FE4C9B57-0296-542C-9407-98E756B77105" name="PROD_SUPPLIER_IX">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:38 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:38 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="BA594F8C-58D5-F4FE-6929-8E9E265B4CE1"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>

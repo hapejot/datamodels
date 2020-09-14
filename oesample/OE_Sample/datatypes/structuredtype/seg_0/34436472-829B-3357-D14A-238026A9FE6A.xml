@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StructuredType class="oracle.dbtools.crest.model.design.datatypes.StructuredType" name="CATALOG_TYP" id="34436472-829B-3357-D14A-238026A9FE6A" directorySegmentName="seg_0">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-20 16:11:34 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2008-11-20 16:11:35 UTC</changedTime>
+   <ownerDesignName>OE_Sample</ownerDesignName>
+   <predefined>false</predefined>
+   <final>true</final>
+   <inheritanceRelation>D694354A-FFDA-1826-556D-EB1458EE7F82</inheritanceRelation>
+   <instantiable>true</instantiable>
+   <parentTypeID>ECB7CC80-675D-B36A-24C6-9A10E92E186F</parentTypeID>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16777056</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Method</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Instantiable</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Mandatory</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+   </fonts>
+   <methods>
+      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="GETCATALOGNAME" id="D5C25503-5827-56AD-0D41-C3BA4D177B6F">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:34 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:34 UTC</changedTime>
+         <ownerDesignName>525_OE</ownerDesignName>
+         <body>BEGIN&amp;lt;br&amp;gt;    -- Return the category name from the supertype&amp;lt;br&amp;gt;    RETURN self.category_name;&amp;lt;br&amp;gt;  END;</body>
+         <number>0</number>
+         <returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="GETCATALOGNAME" id="null">
+            <precision>0</precision>
+            <reference>false</reference>
+            <scale>0</scale>
+            <size>0</size>
+            <typeID>LOGDT024</typeID>
+         </returnValue>
+      </Method>
+      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="CATEGORY_DESCRIBE" id="2B5D5006-15AE-CEE1-3AF3-41FF846D97EF">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:35 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:35 UTC</changedTime>
+         <ownerDesignName>525_OE</ownerDesignName>
+         <body>BEGIN&amp;lt;br&amp;gt;    RETURN &amp;apos;catalog_typ&amp;apos;;&amp;lt;br&amp;gt;  END;</body>
+         <number>0</number>
+         <returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CATEGORY_DESCRIBE" id="null">
+            <precision>0</precision>
+            <reference>false</reference>
+            <scale>0</scale>
+            <size>0</size>
+            <typeID>LOGDT024</typeID>
+         </returnValue>
+      </Method>
+   </methods>
+</StructuredType>

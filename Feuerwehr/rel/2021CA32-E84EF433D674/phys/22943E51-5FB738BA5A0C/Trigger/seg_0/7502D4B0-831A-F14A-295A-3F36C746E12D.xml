@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerSqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.TriggerSqlServerv2k5" name="T_Mögliche_Gerätearten_son_DTrig" directorySegmentName="seg_0" id="7502D4B0-831A-F14A-295A-3F36C746E12D">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>T_Mögliche_Gerätearten_son_DTrig</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 20:48:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>Feuerwehr</ownerDesignName>
+<actions>DELETE</actions>
+<body>CREATE TRIGGER T_Mögliche_Gerätearten_son_DTrig ON [Mögliche Gerätearten sonstige] FOR DELETE AS&lt;br&gt;SET NOCOUNT ON&lt;br&gt;/* LÖSCHWEITERGABE AN &apos;Mögliche Geräte sonstige&apos; */&lt;br&gt;DELETE &quot;Mögliche Geräte sonstige&quot; FROM deleted, &quot;Mögliche Geräte sonstige&quot; WHERE deleted.&quot;Zähler&quot; = &quot;Mögliche Geräte sonstige&quot;.Zahl&lt;br&gt;</body>
+<triggerTime>AFTER</triggerTime>
+<schema>612B09AB-F869-F6FA-26A6-9FEC143B09C0</schema>
+<table>72CC3AF5-EB59-1BED-C0BC-504F58224572</table>
+</TriggerSqlServerv2k5>

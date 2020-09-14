@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="engineerTo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="item" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:attribute name="key" type="xs:string" />
+            <xs:attribute name="value" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Entity">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="createdBy" type="xs:string" minOccurs="0" msdata:Ordinal="0" />
+        <xs:element name="createdTime" type="xs:string" minOccurs="0" msdata:Ordinal="1" />
+        <xs:element name="generatorID" type="xs:string" minOccurs="0" msdata:Ordinal="2" />
+        <xs:element name="ownerDesignName" type="xs:string" minOccurs="0" msdata:Ordinal="3" />
+        <xs:element name="adequatelyNormalized" type="xs:string" minOccurs="0" msdata:Ordinal="5" />
+        <xs:element name="expectedVolumes" type="xs:string" minOccurs="0" msdata:Ordinal="6" />
+        <xs:element name="fwdEngineeringStrategyName" type="xs:string" minOccurs="0" msdata:Ordinal="7" />
+        <xs:element name="growthPercent" type="xs:string" minOccurs="0" msdata:Ordinal="8" />
+        <xs:element name="growthType" type="xs:string" minOccurs="0" msdata:Ordinal="9" />
+        <xs:element name="maxVolumes" type="xs:string" minOccurs="0" msdata:Ordinal="10" />
+        <xs:element name="minVolumes" type="xs:string" minOccurs="0" msdata:Ordinal="11" />
+        <xs:element name="normalForm" type="xs:string" minOccurs="0" msdata:Ordinal="12" />
+        <xs:element ref="engineerTo" minOccurs="0" maxOccurs="unbounded" />
+        <xs:element name="attributes" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Attribute" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="createdBy" type="xs:string" minOccurs="0" msdata:Ordinal="0" />
+                    <xs:element name="createdTime" type="xs:string" minOccurs="0" msdata:Ordinal="1" />
+                    <xs:element name="generatorID" type="xs:string" minOccurs="0" msdata:Ordinal="2" />
+                    <xs:element name="ownerDesignName" type="xs:string" minOccurs="0" msdata:Ordinal="3" />
+                    <xs:element name="nullsAllowed" type="xs:string" minOccurs="0" msdata:Ordinal="5" />
+                    <xs:element name="referedAttribute" type="xs:string" minOccurs="0" msdata:Ordinal="6" />
+                    <xs:element name="use" type="xs:string" minOccurs="0" msdata:Ordinal="7" />
+                    <xs:element name="logicalDatatype" type="xs:string" minOccurs="0" msdata:Ordinal="8" />
+                    <xs:element name="domain" type="xs:string" minOccurs="0" msdata:Ordinal="9" />
+                    <xs:element ref="engineerTo" minOccurs="0" maxOccurs="unbounded" />
+                  </xs:sequence>
+                  <xs:attribute name="name" type="xs:string" />
+                  <xs:attribute name="id" type="xs:string" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="itemClass" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="identifiers" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="identifier" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="createdBy" type="xs:string" minOccurs="0" msdata:Ordinal="0" />
+                    <xs:element name="createdTime" type="xs:string" minOccurs="0" msdata:Ordinal="1" />
+                    <xs:element name="generatorID" type="xs:string" minOccurs="0" msdata:Ordinal="2" />
+                    <xs:element name="ownerDesignName" type="xs:string" minOccurs="0" msdata:Ordinal="3" />
+                    <xs:element name="pk" type="xs:string" minOccurs="0" msdata:Ordinal="5" />
+                    <xs:element ref="engineerTo" minOccurs="0" maxOccurs="unbounded" />
+                    <xs:element name="usedAttributes" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="attributeRef" type="xs:string" minOccurs="0" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="id" type="xs:string" />
+                  <xs:attribute name="name" type="xs:string" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="itemClass" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="class" type="xs:string" />
+      <xs:attribute name="directorySegmentName" type="xs:string" />
+      <xs:attribute name="id" type="xs:string" />
+      <xs:attribute name="name" type="xs:string" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="engineerTo" />
+        <xs:element ref="Entity" />
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

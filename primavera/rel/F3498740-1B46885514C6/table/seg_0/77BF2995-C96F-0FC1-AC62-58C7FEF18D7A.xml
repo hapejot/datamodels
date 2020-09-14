@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="77BF2995-C96F-0FC1-AC62-58C7FEF18D7A" name="SHIFTPER">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>SHIFTPER</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:13 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<schemaObject>91F3E89B-168D-624B-6BAA-117B6452746E</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="shift_period_id" id="3C456AA8-E3A4-A4C5-264C-87B952737BAF">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>SHIFTPER</sourceObjSchema>
+<sourceObjName>shift_period_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:13 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="shift_id" id="285597F2-1795-734B-E25E-7A860EA3397F">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>SHIFTPER</sourceObjSchema>
+<sourceObjName>shift_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:13 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<delegate>0A589845-01A9-2B74-C7C2-BF945DBE46B7</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="74A3FC05-2258-6A1D-1979-D9DB38B5403E" referredColumn="0A589845-01A9-2B74-C7C2-BF945DBE46B7"/>
+</associations>
+</Column>
+<Column name="shift_start_hr_num" id="87DDB869-CF3D-2B40-8C7E-AC307B8161F6">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>SHIFTPER</sourceObjSchema>
+<sourceObjName>shift_start_hr_num</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:13 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>9</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A34A5E89-E42C-5CF7-6951-F9F5B66B983A" name="SHIFTPER_PK">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>pk_shiftper</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:13 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C456AA8-E3A4-A4C5-264C-87B952737BAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D52260F9-668E-D2EC-B761-8DE915152E00" name="ndx_shiftper_shift">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>ndx_shiftper_shift</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:13 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="285597F2-1795-734B-E25E-7A860EA3397F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D40870D9-3935-F6E7-C152-83805F12B8C6" name="ndx_shiftper_shift_start">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>ndx_shiftper_shift_start</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:13 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="285597F2-1795-734B-E25E-7A860EA3397F"/>
+<colUsage columnID="87DDB869-CF3D-2B40-8C7E-AC307B8161F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="40B16A73-DA6D-1554-21EF-31A0464C7FE5" name="fk_shiftper_shift">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:30 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="285597F2-1795-734B-E25E-7A860EA3397F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

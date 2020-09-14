@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="D046E9BC-9C65-18F3-4E8C-2DE1A9BEAB47" directorySegmentName="seg_0" name="CATEGORIES_TAB">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-20 16:11:38 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2008-11-20 16:11:38 UTC</changedTime>
+   <ownerDesignName>OE_Sample</ownerDesignName>
+   <basedOnStructuredType>474D6FCB-A77F-4356-E491-2C454AD2E444</basedOnStructuredType>
+   <schemaObject>AB99E18F-10A1-579F-F11A-EFD5EB37B0D7</schemaObject>
+   <pkName>SYS_C005389</pkName>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Oid" id="14055247-E6D8-F383-E040-9E8CAEF4FE97">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:38 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:38 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <oid>true</oid>
+         <use>1</use>
+         <logicalDatatype>LOGDT032</logicalDatatype>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CATEGORY_NAME" id="6C5EE9CE-6F7F-C2DB-D94D-7FCB44F2A082">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:38 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:38 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <structAttributeID>56C9C83B-375D-3789-B9D3-080B9C0F2DFD</structAttributeID>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>50</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CATEGORY_DESCRIPTION" id="5837E653-3F6D-FF15-ED4C-885E05719362">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:38 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:38 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <structAttributeID>F2A0FB4B-E363-66CC-8F74-48C98DCA30ED</structAttributeID>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>1000</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CATEGORY_ID" id="AD11B6FD-3DA1-97B6-DC18-F31413C50ABF">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:38 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:38 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <structAttributeID>3D760C24-A630-2C59-89E3-6B6C85464B63</structAttributeID>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>2</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>0</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="PARENT_CATEGORY_ID" id="44C7E811-04C3-A532-F148-03D77EF88A34">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:38 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:38 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <structAttributeID>D3A0F57B-4528-75D4-F7BB-7D21DC54EBB6</structAttributeID>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>2</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>0</dataTypeSize>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="ED0F5F5C-8E75-D686-D2E8-FE55F1C8C370" name="SYS_C005389">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:38 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:38 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <pk>true</pk>
+         <indexState>Primary Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="AD11B6FD-3DA1-97B6-DC18-F31413C50ABF"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>

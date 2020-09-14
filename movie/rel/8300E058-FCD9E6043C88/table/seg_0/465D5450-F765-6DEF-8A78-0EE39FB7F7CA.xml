@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="465D5450-F765-6DEF-8A78-0EE39FB7F7CA" name="VIDEO_FILE">
+<createdBy>peter</createdBy>
+<createdTime>2015-11-13 07:07:48 UTC</createdTime>
+<ownerDesignName>movie</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Video_Video_ID" id="69040CE3-75FB-8E18-B58B-280B0C1426BB">
+<createdBy>peter</createdBy>
+<createdTime>2015-11-13 07:07:48 UTC</createdTime>
+<ownerDesignName>movie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>78E66BBA-FF33-CF99-48C2-A9C2EEB57B66</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7ADC742C-75C6-AC63-AB0C-1933F54B19EA" referredColumn="78E66BBA-FF33-CF99-48C2-A9C2EEB57B66"/>
+</associations>
+</Column>
+<Column name="File_File_ID" id="51191DFE-9984-8726-8C03-0A4E5836D122">
+<createdBy>peter</createdBy>
+<createdTime>2015-11-13 07:07:48 UTC</createdTime>
+<ownerDesignName>movie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>F388C249-8F63-70F8-E1A8-F1584DB66D16</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="30BAAEE7-593E-7193-CB6C-1D392A263DB4" referredColumn="F388C249-8F63-70F8-E1A8-F1584DB66D16"/>
+</associations>
+</Column>
+<Column name="Duration" id="A9AF541A-BF02-ADDF-8D01-B14E636DD18F">
+<createdBy>peter</createdBy>
+<createdTime>2015-11-13 07:07:48 UTC</createdTime>
+<generatorID>F3B59144-2DC8-9BCE-F24D-C5F9A142E25C</generatorID>
+<ownerDesignName>movie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+<Column name="StartTime" id="4116B0B8-2AA0-F511-F4DB-9C8CAF24D5E7">
+<createdBy>peter</createdBy>
+<createdTime>2015-11-13 07:07:48 UTC</createdTime>
+<generatorID>91B262C3-A0D4-C49D-5D3C-C0B1D656C4C5</generatorID>
+<ownerDesignName>movie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+<Column name="Quality" id="1037B028-6213-7662-7451-F467B838A276">
+<createdBy>peter</createdBy>
+<createdTime>2015-11-13 07:07:48 UTC</createdTime>
+<generatorID>D3D42413-94B8-F3A4-E6F9-3AE4B0AFC057</generatorID>
+<ownerDesignName>movie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0300DA83-17CA-6608-53F8-DB77636FBE3D" name="VIDEO_FILE_PK">
+<createdBy>peter</createdBy>
+<createdTime>2015-11-13 07:07:48 UTC</createdTime>
+<ownerDesignName>movie</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69040CE3-75FB-8E18-B58B-280B0C1426BB"/>
+<colUsage columnID="51191DFE-9984-8726-8C03-0A4E5836D122"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FDC8A318-6579-7815-6B5C-6821760742F3" name="FK_ASS_1">
+<createdBy>peter</createdBy>
+<createdTime>2015-11-13 07:07:48 UTC</createdTime>
+<generatorID>F0D12F44-2A23-81A8-F3F9-FB01431A4FCC</generatorID>
+<ownerDesignName>movie</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69040CE3-75FB-8E18-B58B-280B0C1426BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="02D257D2-4A9C-140E-0ACE-4BD0CEF9E430" name="FK_ASS_2">
+<createdBy>peter</createdBy>
+<createdTime>2015-11-13 07:07:48 UTC</createdTime>
+<generatorID>F0D12F44-2A23-81A8-F3F9-FB01431A4FCC</generatorID>
+<ownerDesignName>movie</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51191DFE-9984-8726-8C03-0A4E5836D122"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

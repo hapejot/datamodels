@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="14232D7D-9F21-F0FD-B81C-550F8D9CA0DB" name="Requirement" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="1A392797-72B8-C91C-94E7-7432E5B0EB97" name="Party" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="2F2542A1-D70F-784E-8CE7-30D3E7F20F55" name="InternalRequirement" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="325C189B-7E03-01FB-E170-FEAB19858206" name="Deliverable" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="32ACD03B-DA68-9ECD-37AF-C8B913D14166" name="DeliverableType" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="6130173D-0BEB-816D-E2A2-4A744623EBEC" name="WorkRequirement" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="989C1E05-CD3B-1944-19D2-8C04F9B0C9AA" name="ProductRequirement" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="9C7BEFAF-B6E6-3B70-949A-7BDF06C7F019" name="CustomerRequirement" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="B2D37C09-E455-8CA0-B4AD-FE8F0808B125" name="Product" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="DC9AB4AE-E4A7-5EE7-751E-2C9EA7B48D16" name="RequirementRole" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="EA75423A-3047-EB60-ABF6-A5BEA4D49A17" name="FixedAsset" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="EEE7C87A-7B55-F3E3-5813-6B7495DDDD1F" name="RequirementRoleType" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="F2DD79C4-7D0D-4873-391D-EB805B9DBCEA" name="RequirementType" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="08BC8977-0139-8966-0F20-AB325B1F6430" name="RequirementRole RequirementRoleType FK" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="3888FE3F-8A81-84EE-61CF-A2913A634AEC" name="WorkRequirement Deliverable FK" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="4024684F-30DA-2E3B-9F3C-F528FEBC1816" name="Requirement Requirement FK" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="5B71A239-E3F2-E3FE-E952-3E8CBA058312" name="RequirementRole Requirement FK" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="65C16CD9-6BA0-EA89-72BC-615635EBC8DC" name="WorkRequirement FixedAsset FK" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="6B90CF7B-0233-265E-EBE2-46F42618902D" name="Deliverable DeliverableType FK" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="6F4B5C88-6261-DDAA-8D0B-EA91A8269011" name="Requirement RequirementType FK" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="8AAAAA13-0EA1-91DA-B54B-8627BB80A616" name="RequirementRole Party FK" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="B966A5E9-8D45-3AA3-63E0-57FFD6E39D2D" name="WorkRequirement Product FK" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Hierarchy relation" objectID="51037364-5CF0-81AE-D7DB-3C0B16F303F0" name="Hierarchy_3" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Hierarchy relation" objectID="F3527EB3-2BA6-199D-AC94-54685D8482B6" name="Hierarchy_4" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Hierarchy relation" objectID="FBEFA084-7614-951A-7AEF-52939A8088B2" name="Hierarchy_1" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Hierarchy relation" objectID="FC7ABF66-6405-4348-F427-63474EA67045" name="Hierarchy_2" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Arc" objectID="BC89300E-BC99-EFF9-EA78-731AAB5FD499" name="Arc_2" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Arc" objectID="E6F03644-B306-2C5E-B81A-CB0BBDDBE93B" name="Arc_1" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

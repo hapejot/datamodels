@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C93DB556-9630-864B-2A06-518ED3386DA3" name="PRPFOLIO">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>PRPFOLIO</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:21 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<schemaObject>91F3E89B-168D-624B-6BAA-117B6452746E</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pfolio_id" id="8A4110D4-EC31-FD85-6085-42FC344566BB">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>PRPFOLIO</sourceObjSchema>
+<sourceObjName>pfolio_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:21 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<delegate>4322E336-E8BE-1B05-E2B3-209E14CFA97F</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE1344D6-1322-6093-8A5D-298713AA1354" referredColumn="4322E336-E8BE-1B05-E2B3-209E14CFA97F"/>
+</associations>
+</Column>
+<Column name="wbs_id" id="DC7C2416-2881-F37B-BEE9-CC9239F583E0">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>PRPFOLIO</sourceObjSchema>
+<sourceObjName>wbs_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:21 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<delegate>D9124DC0-89E6-5AC1-2127-F06DAF424297</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="36401831-696F-DE3F-F910-AA7D4FCCF6CF" referredColumn="D9124DC0-89E6-5AC1-2127-F06DAF424297"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CA6D0E94-2C46-DF9E-644F-942519361CB6" name="PRPFOLIO_PK">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>pk_prpfolio</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:21 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A4110D4-EC31-FD85-6085-42FC344566BB"/>
+<colUsage columnID="DC7C2416-2881-F37B-BEE9-CC9239F583E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F8497DA6-C2EB-AE17-D8D7-A85065B9B438" name="ndx_prpfolio_projwbs">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>ndx_prpfolio_projwbs</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:21 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC7C2416-2881-F37B-BEE9-CC9239F583E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB311B61-731B-6107-060E-99C7E84C9400" name="fk_prpfolio_pfolio">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:32 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A4110D4-EC31-FD85-6085-42FC344566BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="678CC71D-8FC3-7339-E505-D280EEEE5747" name="fk_prpfolio_projwbs">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:32 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC7C2416-2881-F37B-BEE9-CC9239F583E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

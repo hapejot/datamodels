@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="455EE808-B654-7411-B7B7-574A370BFF56" name="RISKCTRL">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>RISKCTRL</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:23 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<schemaObject>91F3E89B-168D-624B-6BAA-117B6452746E</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="risk_id" id="967716CB-E185-41FE-D2CC-766C4F1D5BE6">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>RISKCTRL</sourceObjSchema>
+<sourceObjName>risk_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:23 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<delegate>F3A3C6FA-9884-9260-BACE-2D0EB934686C</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1E4F102F-83E4-59DF-DCCB-F7491BD27DF2" referredColumn="F3A3C6FA-9884-9260-BACE-2D0EB934686C"/>
+</associations>
+</Column>
+<Column name="proj_id" id="2AF27B28-7D32-A2B8-FE81-BFAB48CB0B93">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>RISKCTRL</sourceObjSchema>
+<sourceObjName>proj_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:23 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<delegate>64D7971B-0A14-9847-B846-139193AF42A3</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B29FD9E4-26AC-B548-B470-0D7415DBEA3B" referredColumn="64D7971B-0A14-9847-B846-139193AF42A3"/>
+</associations>
+</Column>
+<Column name="risk_control" id="FAFFC0FE-0581-E0FC-D6E2-BEC86A3BAB96">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>RISKCTRL</sourceObjSchema>
+<sourceObjName>risk_control</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:23 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeSize>16</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="473C6221-B888-1E7B-F59D-8752C53B360F" name="RISKCTRL_PK">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>pk_riskctrl</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:23 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="967716CB-E185-41FE-D2CC-766C4F1D5BE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45955BCF-6283-2182-CA95-4B4CEA018E14" name="ndx_riskctrl_1">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>ndx_riskctrl_1</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:23 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2AF27B28-7D32-A2B8-FE81-BFAB48CB0B93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E0B8175A-E3C1-D7C6-D938-D5B43EB1739A" name="fk_riskctrl_project">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:32 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2AF27B28-7D32-A2B8-FE81-BFAB48CB0B93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F2052A3-FC97-5479-4A39-0C01802D06A5" name="fk_riskctrl_projrisk">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:32 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="967716CB-E185-41FE-D2CC-766C4F1D5BE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

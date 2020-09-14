@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="31EDEEA4-CD5D-496D-6B17-BAC17DC1A63B" name="Requirement" seqName="seg_0"/>
+   <object objectType="Table" objectID="32121751-0FF1-413C-9C7F-9B1D7D1552B3" name="Release" seqName="seg_0"/>
+   <object objectType="Table" objectID="45B60307-5E8F-1CB6-5410-D5341ECEBA1E" name="Feature" seqName="seg_0"/>
+   <object objectType="Table" objectID="473B72F0-85F1-DEC2-84AF-59278AFFF36B" name="Bug" seqName="seg_0"/>
+   <object objectType="Table" objectID="8C935DD8-7979-4E9C-4555-3FDD3BC8EFE5" name="RequirementRealisedByFeature" seqName="seg_0"/>
+   <object objectType="Table" objectID="A90B48B5-3060-1C12-8106-9E230D9FCC77" name="Incident" seqName="seg_0"/>
+   <object objectType="Table" objectID="E840A6F6-057B-C86C-BE44-7499E50979BC" name="cfg" seqName="seg_0"/>
+   <object objectType="Table" objectID="FE0AE8CB-0571-1788-AD48-ED033476E031" name="Product" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="1C780943-6BED-E098-CB90-BE23142C588E" name="Release_Product_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="383E8BF5-01F1-AF24-0214-653F6DB95E3A" name="Incident_Bug_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="469C22EC-03C3-D622-B8E7-EDE3D6527F91" name="FK_ASS_3" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="99095944-E98F-FADD-168F-99338B1990F2" name="Bug_Release_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="B6037759-DCDB-BC46-39A2-E0FEC685EA86" name="BugFoundInRelease" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="CA23B4BA-F2D9-4C7E-74DA-CC7B93EF1054" name="Feature_Release_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="D8BA6C2A-B100-8C80-BC6F-597C759CB031" name="FK_ASS_2" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="32121751-0FF1-413C-9C7F-9B1D7D1552B3" name="Release">
+<createdBy>peja0065</createdBy>
+<createdTime>2013-05-30 22:12:16 UTC</createdTime>
+<generatorID>9C0B8C67-957A-E329-3FBA-D1ACFBB6A5E1</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="12A52098-7D03-9587-BC7C-00534C8293CB">
+<createdBy>peja0065</createdBy>
+<createdTime>2013-05-30 22:12:16 UTC</createdTime>
+<generatorID>EF4838F1-9D49-7AEA-32D5-052B1450D55A</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>448DB7AB-CEB0-9FEB-C28B-2A0B70A01351</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Title" id="146F3E63-4CDB-1D10-1131-EC5A2298A48E">
+<createdBy>peja0065</createdBy>
+<createdTime>2013-05-30 22:12:16 UTC</createdTime>
+<generatorID>88E5D0F0-7093-04B2-E948-08A46BE18F18</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>3B511681-8CBA-1775-BE07-8A10880B6B09</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ProductID" id="19769445-7E54-5E0F-67DA-7047389ADBF5">
+<createdBy>peja0065</createdBy>
+<createdTime>2013-05-30 22:12:16 UTC</createdTime>
+<generatorID>939F3187-81ED-8288-F784-90FAA27BE728</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>448DB7AB-CEB0-9FEB-C28B-2A0B70A01351</domain>
+<delegate>2F4E6B15-700C-11AD-67E1-511791FB727A</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C780943-6BED-E098-CB90-BE23142C588E" referredColumn="2F4E6B15-700C-11AD-67E1-511791FB727A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="893E397A-B79D-F0B2-BC4B-560741442707" name="Release_PK">
+<createdBy>peja0065</createdBy>
+<createdTime>2013-05-30 22:12:16 UTC</createdTime>
+<generatorID>A63CCB3B-9185-D3BD-384E-E9FC5150CE80</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12A52098-7D03-9587-BC7C-00534C8293CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C12ADCF-B261-5C8F-8799-3080A7AC92D2" name="Release_Product_FK">
+<createdBy>peja0065</createdBy>
+<createdTime>2013-05-30 22:12:16 UTC</createdTime>
+<generatorID>3050F8F2-C2B1-022C-4E14-320A56BC207B</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19769445-7E54-5E0F-67DA-7047389ADBF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

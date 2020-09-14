@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StructuredType class="oracle.dbtools.crest.model.design.datatypes.StructuredType" name="CATEGORY_TYP" id="474D6FCB-A77F-4356-E491-2C454AD2E444" directorySegmentName="seg_0">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-20 16:11:34 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2008-11-20 16:11:35 UTC</changedTime>
+   <ownerDesignName>OE_Sample</ownerDesignName>
+   <predefined>false</predefined>
+   <final>false</final>
+   <instantiable>false</instantiable>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16777056</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Method</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Instantiable</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Mandatory</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+   </fonts>
+   <attributes>
+      <Attribute class="oracle.dbtools.crest.model.design.datatypes.TypeElement" name="CATEGORY_NAME" id="56C9C83B-375D-3789-B9D3-080B9C0F2DFD">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:35 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:35 UTC</changedTime>
+         <ownerDesignName>525_OE</ownerDesignName>
+         <mandatory>false</mandatory>
+         <precision>0</precision>
+         <reference>false</reference>
+         <scale>0</scale>
+         <size>50</size>
+         <type>LOGDT024</type>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.datatypes.TypeElement" name="CATEGORY_DESCRIPTION" id="F2A0FB4B-E363-66CC-8F74-48C98DCA30ED">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:35 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:35 UTC</changedTime>
+         <ownerDesignName>525_OE</ownerDesignName>
+         <mandatory>false</mandatory>
+         <precision>0</precision>
+         <reference>false</reference>
+         <scale>0</scale>
+         <size>1000</size>
+         <type>LOGDT024</type>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.datatypes.TypeElement" name="CATEGORY_ID" id="3D760C24-A630-2C59-89E3-6B6C85464B63">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:35 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:35 UTC</changedTime>
+         <ownerDesignName>525_OE</ownerDesignName>
+         <mandatory>false</mandatory>
+         <precision>2</precision>
+         <reference>false</reference>
+         <scale>0</scale>
+         <size>0</size>
+         <type>LOGDT019</type>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.datatypes.TypeElement" name="PARENT_CATEGORY_ID" id="D3A0F57B-4528-75D4-F7BB-7D21DC54EBB6">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:35 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:35 UTC</changedTime>
+         <ownerDesignName>525_OE</ownerDesignName>
+         <mandatory>false</mandatory>
+         <precision>2</precision>
+         <reference>false</reference>
+         <scale>0</scale>
+         <size>0</size>
+         <type>LOGDT019</type>
+      </Attribute>
+   </attributes>
+   <methods>
+      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="CATEGORY_DESCRIBE" id="6828B3F8-077B-97DE-7DFF-3A3BAEE517F0">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:35 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:35 UTC</changedTime>
+         <ownerDesignName>525_OE</ownerDesignName>
+         <number>0</number>
+         <returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CATEGORY_DESCRIBE" id="null">
+            <precision>0</precision>
+            <reference>false</reference>
+            <scale>0</scale>
+            <size>0</size>
+            <typeID>LOGDT024</typeID>
+         </returnValue>
+      </Method>
+   </methods>
+</StructuredType>

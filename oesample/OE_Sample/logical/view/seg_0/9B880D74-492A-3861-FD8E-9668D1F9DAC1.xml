@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" id="9B880D74-492A-3861-FD8E-9668D1F9DAC1" directorySegmentName="seg_0" name="SYDNEY_INVENTORY">
+   <createdBy>meyoung</createdBy>
+   <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+   <changedBy>meyoung</changedBy>
+   <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+   <generatorID>F817D4CD-97FA-2ABD-E84E-C725FAEDDFF5</generatorID>
+   <ownerDesignName>OE_Sample</ownerDesignName>
+   <userDefined>true</userDefined>
+   <userDefinedSQL>CREATE OR REPLACE VIEW SYDNEY_INVENTORY&amp;lt;br&amp;gt;AS &amp;lt;br&amp;gt;SELECT p.product_id&amp;lt;br&amp;gt;,      p.product_name&amp;lt;br&amp;gt;,      i.quantity_on_hand&amp;lt;br&amp;gt;FROM   inventories i&amp;lt;br&amp;gt;,      warehouses  w&amp;lt;br&amp;gt;,      products    p&amp;lt;br&amp;gt;WHERE  p.product_id = i.product_id&amp;lt;br&amp;gt;AND    i.warehouse_id = w.warehouse_id&amp;lt;br&amp;gt;AND    w.warehouse_name = &amp;apos;Sydney&amp;apos;</userDefinedSQL>
+   <viewType>EntityView</viewType>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+   </fonts>
+   <viewElements>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="PRODUCT_ID" id="BEDD18B6-B020-5BE1-038A-60562C39B6A4">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <generatorID>8F7F5C20-EAC6-3A47-ED9E-1993413F8BFC</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>PRODUCT_ID</alias>
+         <dataType>NUMBER (6)</dataType>
+         <reference>false</reference>
+         <viewID>9B880D74-492A-3861-FD8E-9668D1F9DAC1</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="PRODUCT_NAME" id="8B4F087C-E38B-A3B5-FB8F-23C0EBF9F90A">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <generatorID>988020FA-B286-4D60-5502-A950677EF58B</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>PRODUCT_NAME</alias>
+         <dataType>NVARCHAR2 (250)</dataType>
+         <reference>false</reference>
+         <viewID>9B880D74-492A-3861-FD8E-9668D1F9DAC1</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="QUANTITY_ON_HAND" id="D2F102FD-B45A-2EEB-A154-B21F247E22FB">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <generatorID>3729DA4E-EFE3-AC32-2CDD-DC7FF7F5A40C</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>QUANTITY_ON_HAND</alias>
+         <dataType>NUMBER (8)</dataType>
+         <reference>false</reference>
+         <viewID>9B880D74-492A-3861-FD8E-9668D1F9DAC1</viewID>
+      </viewElement>
+   </viewElements>
+</EntityView>

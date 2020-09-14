@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" id="8023755B-D539-3A80-BB4F-5FCECDED1194" directorySegmentName="seg_0" name="OC_ORDERS">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-20 16:11:40 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2008-11-20 16:11:40 UTC</changedTime>
+   <ownerDesignName>OE_Sample</ownerDesignName>
+   <basedOnStructuredType>AF86A7C1-86DC-CCBA-7B26-E0557495BC68</basedOnStructuredType>
+   <schemaObject>AB99E18F-10A1-579F-F11A-EFD5EB37B0D7</schemaObject>
+   <userDefined>false</userDefined>
+   <userDefinedSQL>CREATE VIEW OC_ORDERS&amp;lt;br&amp;gt;  ( ORDER_ID,&amp;lt;br&amp;gt;    ORDER_MODE,&amp;lt;br&amp;gt;    CUSTOMER_REF,&amp;lt;br&amp;gt;    ORDER_STATUS,&amp;lt;br&amp;gt;    ORDER_TOTAL,&amp;lt;br&amp;gt;    SALES_REP_ID,&amp;lt;br&amp;gt;    ORDER_ITEM_LIST )&amp;lt;br&amp;gt; AS SELECT&amp;lt;br&amp;gt;    ORDER_ID ORDER_ID,&amp;lt;br&amp;gt;    ORDER_MODE ORDER_MODE,&amp;lt;br&amp;gt;    CUSTOMER_REF CUSTOMER_REF,&amp;lt;br&amp;gt;    ORDER_STATUS ORDER_STATUS,&amp;lt;br&amp;gt;    ORDER_TOTAL ORDER_TOTAL,&amp;lt;br&amp;gt;    SALES_REP_ID SALES_REP_ID,&amp;lt;br&amp;gt;    ORDER_ITEM_LIST ORDER_ITEM_LIST;</userDefinedSQL>
+   <oidText>order_id</oidText>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+   </fonts>
+   <viewElements>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ORDER_ID" id="B33B5779-66FB-0263-456E-12209DF0A36A">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:40 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:40 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <structAttributeID>D9BBB1D7-747D-1E5E-AF4C-877D3B7B1C70</structAttributeID>
+         <alias>ORDER_ID</alias>
+         <dataType>NUMERIC (12)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ORDER_MODE" id="6C1DDF20-1B73-81ED-E69E-DDD8FF8D0FCC">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:40 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:40 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <structAttributeID>76446D1B-0088-31E1-2C2F-F7983009A736</structAttributeID>
+         <alias>ORDER_MODE</alias>
+         <dataType>VARCHAR (8)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="CUSTOMER_REF" id="F858716F-E16A-2421-FA98-6C6398B577CD">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:40 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:40 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <structAttributeID>891A07F3-A8F4-FE4D-06A8-E2D986E07005</structAttributeID>
+         <structuredType>D9FE7F6F-49DE-FB61-374E-C33A516674A6</structuredType>
+         <alias>CUSTOMER_REF</alias>
+         <dataType>REF CUSTOMER_TYP</dataType>
+         <reference>true</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ORDER_STATUS" id="CC5DA25A-7858-D5E1-52E4-5C69A16FE80E">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:40 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:40 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <structAttributeID>CC51DEF5-D274-BD93-7F34-688399D089DA</structAttributeID>
+         <alias>ORDER_STATUS</alias>
+         <dataType>NUMERIC (2)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ORDER_TOTAL" id="1D46B576-89B3-28AB-45A8-3E53B319AE74">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:40 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:40 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <structAttributeID>43883139-8CE7-E46F-6A2D-5C5C0905A9B1</structAttributeID>
+         <alias>ORDER_TOTAL</alias>
+         <dataType>NUMERIC (8, 2)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="SALES_REP_ID" id="38F39C43-254F-8DC7-072C-FCA835E45DEB">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:40 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:40 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <structAttributeID>8769F10A-2713-DDAD-B8CA-2354FE62D102</structAttributeID>
+         <alias>SALES_REP_ID</alias>
+         <dataType>NUMERIC (6)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ORDER_ITEM_LIST" id="96A306C0-B824-C492-6809-BB9C50EC5B49">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-20 16:11:40 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-20 16:11:40 UTC</changedTime>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <structAttributeID>AAF9D4C4-61FB-C99E-0768-E7C877FD5275</structAttributeID>
+         <alias>ORDER_ITEM_LIST</alias>
+         <dataType>ORDER_ITEM_LIST_TYP</dataType>
+         <reference>false</reference>
+      </viewElement>
+   </viewElements>
+</TableView>

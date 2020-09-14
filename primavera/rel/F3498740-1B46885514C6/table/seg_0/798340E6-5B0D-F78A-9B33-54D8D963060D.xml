@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="798340E6-5B0D-F78A-9B33-54D8D963060D" name="ROLFOLIO">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>ROLFOLIO</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:25 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<schemaObject>91F3E89B-168D-624B-6BAA-117B6452746E</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rlfolio_id" id="BDAC70A1-DB82-1BA6-2E5A-0E2509BC9C3D">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>ROLFOLIO</sourceObjSchema>
+<sourceObjName>rlfolio_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:25 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<delegate>ABBED0DE-78E1-21FE-8397-BAF625CB759B</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="820F9BD1-B402-4DB2-36A5-5727101CEDAB" referredColumn="ABBED0DE-78E1-21FE-8397-BAF625CB759B"/>
+</associations>
+</Column>
+<Column name="role_id" id="AA1505E6-9568-9561-9B0A-669A8AEB9416">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>ROLFOLIO</sourceObjSchema>
+<sourceObjName>role_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:25 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<delegate>9CBCA4CC-740F-B2B2-FE8B-E2849105173D</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4563781A-8252-E28A-A8D8-3E1ED33693B9" referredColumn="9CBCA4CC-740F-B2B2-FE8B-E2849105173D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2ED4B2FE-7DEE-1E6C-A202-5CE0A38A5E60" name="ROLFOLIO_PK">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>pk_rolfolio</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:25 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BDAC70A1-DB82-1BA6-2E5A-0E2509BC9C3D"/>
+<colUsage columnID="AA1505E6-9568-9561-9B0A-669A8AEB9416"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6FFE3054-13D6-FF5C-002F-14EB1FA09E5A" name="ndx_rolfolio_role">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>ndx_rolfolio_role</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:25 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA1505E6-9568-9561-9B0A-669A8AEB9416"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="72625921-3BD8-BE4F-564C-5112986FC3EB" name="fk_rolfolio_rlfolio">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:32 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BDAC70A1-DB82-1BA6-2E5A-0E2509BC9C3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="188EE797-8153-2C99-F75D-97CC185A1D8C" name="fk_rolfolio_role">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:32 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA1505E6-9568-9561-9B0A-669A8AEB9416"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

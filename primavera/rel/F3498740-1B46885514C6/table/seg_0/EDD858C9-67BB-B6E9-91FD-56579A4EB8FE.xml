@@ -1,0 +1,419 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EDD858C9-67BB-B6E9-91FD-56579A4EB8FE" name="DOCUMENT">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>DOCUMENT</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:16 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<schemaObject>91F3E89B-168D-624B-6BAA-117B6452746E</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="doc_id" id="6AC2BDF7-C066-C19D-2EC9-4409B9822BBA">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>DOCUMENT</sourceObjSchema>
+<sourceObjName>doc_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:16 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="doc_seq_num" id="9498847C-D19F-7E4F-425B-349EA4A62645">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>DOCUMENT</sourceObjSchema>
+<sourceObjName>doc_seq_num</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:16 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="deliv_flag" id="20B08E3B-0CE5-4A92-1706-DB541186706C">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>DOCUMENT</sourceObjSchema>
+<sourceObjName>deliv_flag</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:16 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="doc_name" id="901A70A8-1A91-1637-E891-FD2ECA5BC888">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>DOCUMENT</sourceObjSchema>
+<sourceObjName>doc_name</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:16 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>120</dataTypePrecision>
+<dataTypeSize>120</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="parent_doc_id" id="26A84AD2-CA7A-FA2E-9C92-ADAD928062C3">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>DOCUMENT</sourceObjSchema>
+<sourceObjName>parent_doc_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:16 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="proj_id" id="28CF6B0B-47CF-2D19-BCCE-30CBFAFA3827">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>DOCUMENT</sourceObjSchema>
+<sourceObjName>proj_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:16 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<delegate>64D7971B-0A14-9847-B846-139193AF42A3</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0304F695-67CA-8E59-FE8C-FF81D9900B0E" referredColumn="64D7971B-0A14-9847-B846-139193AF42A3"/>
+</associations>
+</Column>
+<Column name="doc_status_id" id="A3D97B7D-3B8F-BF36-5260-930B6A590858">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>DOCUMENT</sourceObjSchema>
+<sourceObjName>doc_status_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:16 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<delegate>3A47A466-CB65-7587-2B8D-B985EE863672</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A557C1A-D80E-00A6-1B27-7F0EF19046CC" referredColumn="3A47A466-CB65-7587-2B8D-B985EE863672"/>
+</associations>
+</Column>
+<Column name="doc_catg_id" id="0459D9F0-0C81-2C6E-E878-D2CAE9E1BE78">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>DOCUMENT</sourceObjSchema>
+<sourceObjName>doc_catg_id</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:16 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>4</dataTypeSize>
+<delegate>D5CAFC98-AA02-2630-A26E-CDF9FC6911A0</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C588404-2E74-5255-019C-9733E237DB30" referredColumn="D5CAFC98-AA02-2630-A26E-CDF9FC6911A0"/>
+</associations>
+</Column>
+<Column name="doc_date" id="E35FEEB7-54CF-4029-6C24-DB7F13F30E05">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>DOCUMENT</sourceObjSchema>
+<sourceObjName>doc_date</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:16 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<dataTypePrecision>23</dataTypePrecision>
+<dataTypeSize>8</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="version_name" id="89D3814D-845B-1FF6-474E-D5585B8D261C">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>DOCUMENT</sourceObjSchema>
+<sourceObjName>version_name</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:16 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeSize>20</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="guid" id="253FCD3A-98C0-5BFD-C085-187802F1630D">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>DOCUMENT</sourceObjSchema>
+<sourceObjName>guid</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:16 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>22</dataTypePrecision>
+<dataTypeSize>22</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tmpl_guid" id="26783419-BC9F-0544-D2F9-44141027CEEA">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>DOCUMENT</sourceObjSchema>
+<sourceObjName>tmpl_guid</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:16 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>22</dataTypePrecision>
+<dataTypeSize>22</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="doc_short_name" id="C5286426-2FC9-28F2-93D3-D2E8F88DCFC4">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>DOCUMENT</sourceObjSchema>
+<sourceObjName>doc_short_name</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:16 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>32</dataTypePrecision>
+<dataTypeSize>32</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="author_name" id="0232483C-B2DD-AD95-0D74-3BB532871C28">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>DOCUMENT</sourceObjSchema>
+<sourceObjName>author_name</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:16 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>100</dataTypePrecision>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="private_loc" id="F6FF75E5-A55D-3E5A-23F3-DD04C106CF5F">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>DOCUMENT</sourceObjSchema>
+<sourceObjName>private_loc</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:16 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>200</dataTypePrecision>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="public_loc" id="5238BCE5-6D7F-7007-D40C-8EAF6AC8E33E">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>DOCUMENT</sourceObjSchema>
+<sourceObjName>public_loc</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:16 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>200</dataTypePrecision>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="doc_content" id="28697D21-B710-BB75-8621-A158555A942A">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>DOCUMENT</sourceObjSchema>
+<sourceObjName>doc_content</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:16 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeSize>16</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ABCCA6E8-B3D5-33F8-77FA-C12B001868D7" name="DOCUMENT_PK">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>pk_document</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:16 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6AC2BDF7-C066-C19D-2EC9-4409B9822BBA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E53466EF-BA22-D9D6-4730-8E6F0B80D63D" name="ndx_document_1">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>ndx_document_1</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:16 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28CF6B0B-47CF-2D19-BCCE-30CBFAFA3827"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="882D90C3-5533-DF2C-92A3-870EBC9B3646" name="ndx_document_doccatg">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>ndx_document_doccatg</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:16 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0459D9F0-0C81-2C6E-E878-D2CAE9E1BE78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8688836-4ADB-FBAC-8EAF-84985742D0AE" name="ndx_document_docstat">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>ndx_document_docstat</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:16 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3D97B7D-3B8F-BF36-5260-930B6A590858"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0956DF1A-9AA6-776B-7D7B-A76EDE8706A2" name="ndx_document_parent_doc">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>ndx_document_parent_doc</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:16 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26A84AD2-CA7A-FA2E-9C92-ADAD928062C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7636A66-9BBB-6839-E9D8-86E4B6DFF4DD" name="fk_document_doccatg">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:31 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0459D9F0-0C81-2C6E-E878-D2CAE9E1BE78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="71666194-CCD2-B1E2-EEDE-AF629D41F6C8" name="fk_document_project">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:31 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28CF6B0B-47CF-2D19-BCCE-30CBFAFA3827"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D72FA883-CFCF-B8A4-04F2-333A19583C1B" name="fk_document_docstat">
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:31 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3D97B7D-3B8F-BF36-5260-930B6A590858"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints>
+<tableCheckConstraint class="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint" name="ck_document_deliv_flag" directorySegmentName="seg_0" id="CF2637F5-1CCC-F5F7-316D-3787BB0E2496">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>ck_document_deliv_flag</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:16 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<rule>[deliv_flag]=&apos;N&apos; OR [deliv_flag]=&apos;Y&apos;</rule>
+</tableCheckConstraint>
+<tableCheckConstraint class="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint" name="DF__DOCUMENT__deliv___20C1E124" directorySegmentName="seg_0" id="4226E396-3240-DAB8-BEB2-116013B64C8D">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>dbo</sourceObjSchema>
+<sourceObjName>DF__DOCUMENT__deliv___20C1E124</sourceObjName>
+<createdBy>administrator</createdBy>
+<createdTime>2013-06-01 11:22:16 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>primavera</ownerDesignName>
+<rule>&apos;N&apos;</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

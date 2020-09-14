@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="45B60307-5E8F-1CB6-5410-D5341ECEBA1E" name="Feature">
+<createdBy>peja0065</createdBy>
+<createdTime>2013-05-30 22:12:16 UTC</createdTime>
+<generatorID>BC52B147-856E-9AA1-DDEA-54C6154CAC5F</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="A13056EC-1AF2-05F5-921E-A8260BF675F1">
+<createdBy>peja0065</createdBy>
+<createdTime>2013-05-30 22:12:16 UTC</createdTime>
+<generatorID>688E3161-889F-19F2-2DBC-6A2D5A060836</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>448DB7AB-CEB0-9FEB-C28B-2A0B70A01351</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Title" id="BE3382FE-A6A3-B77D-CCDA-7727254443E1">
+<createdBy>peja0065</createdBy>
+<createdTime>2013-05-30 22:12:16 UTC</createdTime>
+<generatorID>EB5BC506-FC92-D87A-78FE-23AD1D97E397</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>3B511681-8CBA-1775-BE07-8A10880B6B09</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RealisedInReleaseID" id="3BDFA198-0B66-B655-6C47-CDEB75161B8A">
+<createdBy>peja0065</createdBy>
+<createdTime>2013-05-30 22:12:16 UTC</createdTime>
+<generatorID>BCEC6628-232B-1B26-1551-5941D6B83D1E</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>448DB7AB-CEB0-9FEB-C28B-2A0B70A01351</domain>
+<delegate>12A52098-7D03-9587-BC7C-00534C8293CB</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CA23B4BA-F2D9-4C7E-74DA-CC7B93EF1054" referredColumn="12A52098-7D03-9587-BC7C-00534C8293CB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FFA1F9D3-317D-4FCC-68E1-DE07D4404160" name="Feature_PK">
+<createdBy>peja0065</createdBy>
+<createdTime>2013-05-30 22:12:16 UTC</createdTime>
+<generatorID>332DF3B3-1080-7FD7-F79A-09735DC16482</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A13056EC-1AF2-05F5-921E-A8260BF675F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE61BE6A-FAD5-5278-06C1-BE6E2276BC52" name="Feature_Release_FK">
+<createdBy>peja0065</createdBy>
+<createdTime>2013-05-30 22:12:16 UTC</createdTime>
+<generatorID>F83C691F-14AD-689C-043A-F7C4F11DC141</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BDFA198-0B66-B655-6C47-CDEB75161B8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

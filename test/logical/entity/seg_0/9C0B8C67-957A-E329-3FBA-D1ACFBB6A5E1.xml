@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9C0B8C67-957A-E329-3FBA-D1ACFBB6A5E1" name="Release">
+<createdBy>peja0065</createdBy>
+<createdTime>2013-05-30 20:54:54 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2730163C-FF5D-4C96-2C32-CF2EC30018BC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="EF4838F1-9D49-7AEA-32D5-052B1450D55A">
+<createdBy>peja0065</createdBy>
+<createdTime>2013-05-30 21:06:49 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2730163C-FF5D-4C96-2C32-CF2EC30018BC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>448DB7AB-CEB0-9FEB-C28B-2A0B70A01351</domain>
+</Attribute>
+<Attribute name="Title" id="88E5D0F0-7093-04B2-E948-08A46BE18F18">
+<createdBy>peja0065</createdBy>
+<createdTime>2013-05-30 21:06:34 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2730163C-FF5D-4C96-2C32-CF2EC30018BC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>3B511681-8CBA-1775-BE07-8A10880B6B09</domain>
+</Attribute>
+<Attribute name="ProductID" id="939F3187-81ED-8288-F784-90FAA27BE728">
+<createdBy>peja0065</createdBy>
+<createdTime>2013-05-30 22:02:41 UTC</createdTime>
+<generatorID>3050F8F2-C2B1-022C-4E14-320A56BC207B</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2730163C-FF5D-4C96-2C32-CF2EC30018BC" value="true"/>
+</engineerTo>
+<referedAttribute>B3C9FB66-D044-EF33-5F3F-9A9CE96A71EF</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>448DB7AB-CEB0-9FEB-C28B-2A0B70A01351</domain>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A63CCB3B-9185-D3BD-384E-E9FC5150CE80" name="Release PK">
+<createdBy>peja0065</createdBy>
+<createdTime>2013-05-30 21:07:06 UTC</createdTime>
+<generatorID>Benutzergeneriert</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2730163C-FF5D-4C96-2C32-CF2EC30018BC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EF4838F1-9D49-7AEA-32D5-052B1450D55A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" id="6AAFD0FB-479E-0DC0-149F-444908C6BF55" directorySegmentName="seg_0" name="PRODUCT_PRICES">
+   <createdBy>meyoung</createdBy>
+   <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+   <changedBy>meyoung</changedBy>
+   <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+   <generatorID>02951D5A-58BC-36FD-39B8-E8172173CF97</generatorID>
+   <ownerDesignName>OE_Sample</ownerDesignName>
+   <userDefined>true</userDefined>
+   <userDefinedSQL>CREATE OR REPLACE VIEW PRODUCT_PRICES&amp;lt;br&amp;gt;AS &amp;lt;br&amp;gt;SELECT category_id&amp;lt;br&amp;gt;,      COUNT(*)        as &amp;quot;#_OF_PRODUCTS&amp;quot;&amp;lt;br&amp;gt;,      MIN(list_price) as low_price&amp;lt;br&amp;gt;,      MAX(list_price) as high_price&amp;lt;br&amp;gt;FROM   product_information&amp;lt;br&amp;gt;GROUP BY category_id</userDefinedSQL>
+   <viewType>EntityView</viewType>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+   </fonts>
+   <viewElements>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="CATEGORY_ID" id="A295E476-AA9C-E766-155B-3A8AF38F9A02">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <generatorID>99B5C261-2C3F-2550-955F-F3222B1E5994</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>CATEGORY_ID</alias>
+         <dataType>NUMBER (2)</dataType>
+         <reference>false</reference>
+         <viewID>6AAFD0FB-479E-0DC0-149F-444908C6BF55</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="#_OF_PRODUCTS" id="EF3969B0-4BEB-F25A-D6BB-F5CF07633191">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <generatorID>1F50B6C0-A13B-CD34-3CA8-6737CB3AB95C</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>#_OF_PRODUCTS</alias>
+         <dataType>NUMBER</dataType>
+         <reference>false</reference>
+         <viewID>6AAFD0FB-479E-0DC0-149F-444908C6BF55</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="LOW_PRICE" id="82DCE137-B6F7-1388-E859-61A4E7486AD8">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <generatorID>81EB008B-FD1E-3F8B-8048-C15E8649EBE8</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>LOW_PRICE</alias>
+         <dataType>NUMBER</dataType>
+         <reference>false</reference>
+         <viewID>6AAFD0FB-479E-0DC0-149F-444908C6BF55</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="HIGH_PRICE" id="2362228F-7B99-D9DD-3D59-857E9E28A4DB">
+         <createdBy>meyoung</createdBy>
+         <createdTime>2011-06-16 14:41:04 UTC</createdTime>
+         <changedBy>meyoung</changedBy>
+         <changedTime>2011-06-16 14:41:04 UTC</changedTime>
+         <generatorID>F44AF3AC-014C-CA07-E8AC-E5AD40B2624A</generatorID>
+         <ownerDesignName>OE_Sample</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>HIGH_PRICE</alias>
+         <dataType>NUMBER</dataType>
+         <reference>false</reference>
+         <viewID>6AAFD0FB-479E-0DC0-149F-444908C6BF55</viewID>
+      </viewElement>
+   </viewElements>
+</EntityView>
